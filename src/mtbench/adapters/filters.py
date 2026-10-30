@@ -56,7 +56,9 @@ def check_complete(
 
 
 def station_of(json_file: Path) -> str:
-    """Entity from an existing MTBench file name: <station>_<k or date>.json."""
+    """Entity from an existing MTBench file name: <station>_<k>.json, or <station>_<date>[_ctrl].json in noaa_ folders."""
+    if json_file.parent.name.startswith("noaa_"):
+        return json_file.stem.split("_")[0]
     return json_file.stem.rsplit("_", 1)[0]
 
 

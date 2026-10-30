@@ -37,12 +37,16 @@ class SampleFilter:
         expected_out: Optional[int] = None,
         keep_event_extends_into_target: bool = False,
         dedup: Optional[filters.TextDeduper] = None,
+        dedup_by: Optional[Callable[[dict], str]] = None,
     ):
         self.mtbench_windows = mtbench_windows or {}
         self.expected_in = expected_in
         self.expected_out = expected_out
         self.keep_event_extends_into_target = keep_event_extends_into_target
         self.dedup = dedup or filters.TextDeduper()
+        self.dedup_by = dedup_by  # e.g. lambda s: entity id -> a separate deduper per key instead of a global one
+        self._dedups: dict[str, filters.TextDeduper] = {}
+        self.last_report = ""
         self.extra: list[tuple[str, Callable[[dict], bool]]] = []
         self.kept = 0
         self.dropped: Counter = Counter()
@@ -71,7 +75,8 @@ class SampleFilter:
         for reason, drop_if in self.extra:
             if drop_if(sample):
                 return reason
-        return self.dedup.check(sample["text"])
+        dedup = self.dedup if self.dedup_by is None else self._dedups.setdefault(self.dedup_by(sample), filters.TextDeduper())
+        return dedup.check(sample["text"])
 
     def apply(self, sample: dict) -> bool:
         reason = self.reason(sample)
@@ -90,6 +95,7 @@ class SampleFilter:
         lines += [f"{r:<{width}}  {n:>7}  {pct(n)}" for r, n in rows]
         lines += ["-" * (width + 17), f"{'total':<{width}}  {total:>7}"]
         text = "\n".join(lines)
+        self.last_report = text
         print(text)
         return text
 

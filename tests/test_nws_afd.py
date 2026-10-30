@@ -83,7 +83,7 @@ def test_parse_afd_file_issue_time():
 
 
 class FakeAdapter(NwsAfdAdapter):
-    """Adapter on synthetic data: one station, hourly temperature, AFDs every 6h at xx:30 UTC."""
+    """Adapter on synthetic data: one station, hourly temperature, AFDs every 3h at xx:30 UTC."""
 
     def __init__(self, setting, afd_hours=None, **kw):
         super().__init__(setting=setting, start_year=2022, end_year=2022, check_overlap=False, **kw)
@@ -98,7 +98,7 @@ class FakeAdapter(NwsAfdAdapter):
         return {"STN1": (vals, pd.Series(True, index=idx))}
 
     def load_text(self):
-        times = pd.date_range("2021-12-30", "2023-01-02", freq="6h") + pd.Timedelta(minutes=30)
+        times = pd.date_range("2021-12-30", "2023-01-02", freq="3h") + pd.Timedelta(minutes=30)
         if self.afd_hours is not None:
             times = times[times.hour.isin(self.afd_hours)]
         recs = [{"wfo": "DMX", "issue_utc": t.to_pydatetime(), "text": f".DISCUSSION...\nHighs in the 40s {t}.",
@@ -130,7 +130,7 @@ def test_no_afd_after_input_end(samples):
     for s in out:
         m = s["meta"]
         assert pd.Timestamp(m["issue_time"]) <= pd.Timestamp(s["input_timestamps"][-1])
-        assert 0 <= m["afd_gap_hours"] <= 6
+        assert 0 <= m["afd_gap_hours"] <= 4
         assert validate_sample(s) == []
 
 
@@ -148,11 +148,25 @@ def test_anchor_spacing_at_least_48h():
     assert all(b - a >= timedelta(hours=48) for a, b in zip(ends, ends[1:]))
 
 
-def test_gap_over_6h_is_skipped():
-    adapter = FakeAdapter("short", afd_hours=[0])  # AFDs only at 00:30 UTC = 18:30 local -> 4.5h before 23:00
+def test_gap_over_max_is_skipped():
+    adapter = FakeAdapter("short", afd_hours=[3])  # AFDs only at 03:30 UTC = 21:30 local -> 1.5h before 23:00
     adapter.sample_filter()
     assert adapter.make_samples()
     adapter = FakeAdapter("short", afd_hours=[12])  # 12:30 UTC = 06:30 local -> 16.5h gap
     flt = adapter.sample_filter()
     assert adapter.make_samples() == []
-    assert flt.dropped["afd_gap_gt_6h"] > 0
+    assert flt.dropped["afd_gap_gt_4h"] > 0
+
+
+def test_gap_between_4_and_6h_is_now_skipped():
+    adapter = FakeAdapter("short", afd_hours=[0])  # 00:30 UTC = 18:30 local -> 4.5h
+    flt = adapter.sample_filter()
+    assert adapter.make_samples() == []
+    assert flt.dropped["afd_gap_gt_4h"] > 0
+
+
+def test_season_and_distance_meta(samples):
+    out, _, _ = samples
+    for s in out:
+        assert s["meta"]["season"] in ("DJF", "MAM", "JJA", "SON")
+        assert "dist_to_wfo_km" in s["meta"] and isinstance(s["meta"]["far_from_wfo"], bool)

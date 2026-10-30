@@ -8,6 +8,7 @@ that moment (gap <= MAX_TEXT_GAP_H), and the output window follows hourly. All s
 import bisect
 import csv
 import json
+import math
 import random
 import re
 import time
@@ -31,11 +32,14 @@ GHCNH_URL = (
     "https://www.ncei.noaa.gov/oa/global-historical-climatology-network/hourly/access/"
     "by-year/{year}/parquet/GHCNh_{station}_{year}.parquet"
 )
+SEASONS = {12: "DJF", 1: "DJF", 2: "DJF", 3: "MAM", 4: "MAM", 5: "MAM", 6: "JJA", 7: "JJA", 8: "JJA",
+           9: "SON", 10: "SON", 11: "SON"}  # meteorological season of the anchor (input end) month
 SETTINGS = {"short": (7, 1), "long": (14, 3)}  # name -> (input days, output days)
-MAX_TEXT_GAP_H = 6
+MAX_TEXT_GAP_H = 4  # was 6; 16% of the first release sat at 5-6 h
+FAR_FROM_WFO_KM = 150  # stations farther than this from their office center are flagged, not dropped
 MIN_ANCHOR_SPACING_H = 48
 BAD_QC = {"2", "3", "6", "7"}  # GHCNh suspect / erroneous quality codes
-SIZE_GATE_BYTES = 2 * 1024**3
+SIZE_GATE_BYTES = 10 * 1024**3  # raised from 2 GB at the user's request
 EST_AFD_MONTH_BYTES = 1_500_000  # one WFO-month of AFDs (subset months were 1.0-1.6 MB)
 MIN_COVERED_HOURS = 6  # a section counts as covering the output window with >= this overlap
 
@@ -161,7 +165,7 @@ class NwsAfdAdapter(SourceAdapter):
         setting: str = "short",
         stations: Optional[list] = None,
         start_year: int = 2019,
-        end_year: int = 2023,
+        end_year: int = 2025,
         anchor_hour: int = 23,
         seed: int = 0,
         subset: bool = False,
@@ -279,6 +283,20 @@ class NwsAfdAdapter(SourceAdapter):
                 w.writerows({k: r[k] for k in w.fieldnames} for r in all_rows.values())
         return rows
 
+    def wfo_centers(self) -> dict:
+        """wfo -> (lat, lon) of the office, from wfo_centers.csv (IEM WFO network; fetch logged in MANIFEST.md)."""
+        path = self.raw_dir / "wfo_centers.csv"
+        if not path.exists():
+            return {}
+        with open(path, newline="") as f:
+            return {r["wfo"]: (float(r["lat"]), float(r["lon"])) for r in csv.DictReader(f)}
+
+    @staticmethod
+    def distance_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+        p = math.pi / 180
+        a = math.sin((lat2 - lat1) * p / 2) ** 2 + math.cos(lat1 * p) * math.cos(lat2 * p) * math.sin((lon2 - lon1) * p / 2) ** 2
+        return 6371 * 2 * math.asin(math.sqrt(a))
+
     # download
     def plan(self, stations: dict) -> dict:
         wfos = sorted({v["wfo"] for v in stations.values()})
@@ -295,14 +313,14 @@ class NwsAfdAdapter(SourceAdapter):
             "afd_requests": len(afd_missing), "ghcnh_files_missing": len(ghcnh_missing),
             "estimated_bytes": total,
         }
-        print(json.dumps(info, indent=2), "->", "OVER the 2 GB gate" if total > SIZE_GATE_BYTES else "under 2 GB")
+        print(json.dumps(info, indent=2), "->", "OVER the 10 GB gate" if total > SIZE_GATE_BYTES else "under 10 GB")
         return info
 
     def download(self, allow_large: bool = False) -> None:
         stations = self.resolve_stations()
         info = self.plan(stations)
         if info["estimated_bytes"] > SIZE_GATE_BYTES and not allow_large:
-            raise SystemExit("Planned download is over 2 GB; get the user's OK, then pass allow_large.")
+            raise SystemExit("Planned download is over 10 GB; get the user's OK, then pass allow_large.")
         self.afd_dir.mkdir(parents=True, exist_ok=True)
         for wfo in sorted({v["wfo"] for v in stations.values()}):
             for y, m in self.months():
@@ -345,8 +363,12 @@ class NwsAfdAdapter(SourceAdapter):
             )
             df = df[df["temperature"].notna() & ~df["temperature_Quality_Code"].astype(str).isin(BAD_QC)]
             local = pd.to_datetime(df["DATE"], utc=True).dt.tz_localize(None) + pd.Timedelta(hours=info["offset_h"])
-            # nearest-hour bucketing: a METAR at 00:53 is the observation for the 01:00 hour
-            hourly = df["temperature"].groupby(local.dt.round("h")).mean()
+            # causal hour bucketing: an observation at t is the value for ceil(t) and only if it is at most 30 min
+            # before that hour (a METAR at 00:53 -> 01:00); one at 01:10 is dropped, so the value labelled H
+            # never contains readings taken after H
+            label = local.dt.ceil("h")
+            keep = (label - local) <= pd.Timedelta(minutes=30)
+            hourly = df.loc[keep, "temperature"].groupby(label[keep]).mean()
             index = pd.date_range(f"{min(years)}-01-01", f"{max(years)}-12-31 23:00", freq="h")
             hourly = hourly.reindex(index)
             out[s] = (hourly.interpolate(limit=3, limit_area="inside"), hourly.notna())
@@ -402,12 +424,13 @@ class NwsAfdAdapter(SourceAdapter):
                     continue
                 gap_h = (end.to_pydatetime() - offset - issues[i]).total_seconds() / 3600
                 if gap_h > MAX_TEXT_GAP_H:
-                    self._drop("afd_gap_gt_6h")
+                    self._drop(f"afd_gap_gt_{MAX_TEXT_GAP_H}h")
                     continue
                 yield s, info, end, recs[i], gap_h, in_idx, out_idx, series, observed
 
     def make_samples(self) -> list[dict]:
         samples = []
+        centers = self.wfo_centers()
         for s, info, end, afd, gap_h, in_idx, out_idx, series, observed in self.align(self.load_ts(), self.load_text()):
             issue_local = pd.Timestamp(afd["issue_utc"]) + pd.Timedelta(hours=info["offset_h"])
             stamps = lambda idx: idx.strftime("%Y-%m-%d %H:%M:%S").tolist()  # noqa: E731
@@ -415,6 +438,8 @@ class NwsAfdAdapter(SourceAdapter):
             start_h = (out_idx[0] - issue_local).total_seconds() / 3600
             end_h = (out_idx[-1] - issue_local).total_seconds() / 3600
             out_ts = stamps(out_idx)
+            c = centers.get(info["wfo"])
+            dist = round(self.distance_km(float(info["lat"]), float(info["lon"]), *c), 1) if c else None
             meta = make_meta(
                 source=self.name,
                 domain=self.domain,
@@ -431,6 +456,8 @@ class NwsAfdAdapter(SourceAdapter):
                 obs_frac_in=round(float(observed.loc[in_idx].mean()), 3),
                 obs_frac_out=round(float(observed.loc[out_idx].mean()), 3),
                 variable="temperature_c", freq="1h", setting=self.setting,
+                season=SEASONS[end.month], dist_to_wfo_km=dist,
+                far_from_wfo=bool(dist is not None and dist > FAR_FROM_WFO_KM),
             )
             samples.append({
                 "text": afd["text"],
@@ -443,11 +470,26 @@ class NwsAfdAdapter(SourceAdapter):
         return samples
 
     def sample_filter(self) -> SampleFilter:
-        windows = filters.load_mtbench_windows([resolve_weather_data_dir()]) if self.check_overlap else {}
-        flt = SampleFilter(mtbench_windows=windows, expected_in=24 * self.in_days, expected_out=24 * self.out_days)
+        # the noaa_* folders are part of the existing weather set too, so they count as windows to avoid
+        windows = (
+            filters.load_mtbench_windows([resolve_weather_data_dir()], skip_prefixes=()) if self.check_overlap else {}
+        )
+        # text dedup is per station: a global one left stations that share an office with almost no samples.
+        # Stations of one office still share texts, so splits must use split_group (the office).
+        flt = SampleFilter(
+            mtbench_windows=windows, expected_in=24 * self.in_days, expected_out=24 * self.out_days,
+            dedup_by=lambda s: s["meta"]["entity_id"],
+        )
         has_nan = lambda w: any(v is None or not np.isfinite(v) for v in w)  # noqa: E731
         flt.register("ts_has_gaps", lambda s: has_nan(s["input_window"]) or has_nan(s["output_window"]))
         flt.register("ts_low_coverage", lambda s: s["meta"]["obs_frac_in"] < 0.9 or s["meta"]["obs_frac_out"] < 20 / 24)
         flt.register("flat_output", lambda s: np.ptp(s["output_window"]) == 0)
         self.flt = flt
+        return flt
+
+    def run(self) -> SampleFilter:
+        flt = super().run()
+        report = self.out_dir.parent / f"report_{self.out_subdir}.txt"
+        report.parent.mkdir(parents=True, exist_ok=True)
+        report.write_text(flt.last_report + "\n")
         return flt

@@ -282,3 +282,49 @@ def dump_review_sheet(samples: list[dict], n: int = 40, path="review_sheet.csv",
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(path, index=False)
     return df
+
+
+def naive_comparison(samples: list[dict]) -> dict:
+    """Proxy errors next to naive baselines on mean(output), in the series' units, for all samples and
+    split by `meta.has_numeric_forecast` ("numeric" vs "rest").
+
+    Last-value persistence is a weak reference when the series has a daily cycle and the input ends at a
+    fixed phase (nws_afd ends at 23:00 local, so mean(output) sits above the last value on average). Read
+    the text proxy against the best naive baseline and the TS-only proxy, not against persistence alone.
+    The proxies are fit once on all samples (grouped CV) and scored per subset, so a text gain that is the
+    same in "numeric" and "rest" is not caused by the explicit numbers. `const_median_shift` uses the
+    median shift of all samples (one parameter, fitted in-sample).
+    """
+    text, ts = text_only_proxy(samples), ts_only_proxy(samples)
+    n = len(samples)
+    last, mean_out, period_mean, scale = (np.full(n, np.nan) for _ in range(4))
+    for i, s in enumerate(samples):
+        x, y = _arr(s["input_window"]), _arr(s["output_window"])
+        finite = x[np.isfinite(x)]
+        if not finite.size or not np.isfinite(y).any():
+            continue
+        period = min(len(x), infer_season_length(s["input_timestamps"]))
+        last[i], mean_out[i] = finite[-1], np.nanmean(y)
+        period_mean[i], scale[i] = np.nanmean(x[-period:]), max(np.std(finite), EPS)
+    shift = mean_out - last
+    const = np.abs(shift - np.nanmedian(shift))
+    flag = np.array([bool(s["meta"]["has_numeric_forecast"]) for s in samples])
+    columns = {
+        "persistence_last": np.abs(shift),
+        "persistence_last_period_mean": np.abs(mean_out - period_mean),
+        "const_median_shift": const,
+        "ts_only": ts["oof_error"] * scale,
+        "text_only": text["oof_error"] * scale,
+    }
+    out = {}
+    for name, mask in (("all", np.ones(n, bool)), ("numeric", flag), ("rest", ~flag)):
+        ok = mask & np.isfinite(mean_out)
+        row = {"n": int(ok.sum())}
+        row.update({k: float(np.nanmean(v[ok])) if ok.any() else float("nan") for k, v in columns.items()})
+        if ok.any():
+            best_naive = min(row["persistence_last_period_mean"], row["const_median_shift"])
+            row["text_over_persistence"] = row["text_only"] / max(row["persistence_last"], EPS)
+            row["text_over_best_naive"] = row["text_only"] / max(best_naive, EPS)
+            row["text_over_ts_only"] = row["text_only"] / max(row["ts_only"], EPS)
+        out[name] = row
+    return out

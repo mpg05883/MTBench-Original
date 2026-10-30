@@ -103,6 +103,7 @@ audit.persistence_baseline(samples)            # last-value and seasonal-naive M
 audit.text_only_proxy(samples)                 # TF-IDF + ridge, grouped CV by split_group
 audit.ts_only_proxy(samples)                   # same target, TS summary features
 audit.joint_headroom(samples)                  # text_helps_frac, ts_helps_frac (rough indicator)
+audit.naive_comparison(samples)                # proxies vs last-value, period-mean and constant-shift baselines, split by has_numeric_forecast
 audit.length_stats(samples)                    # tokens, lengths, missingness, per-group counts
 audit.dump_review_sheet(samples, n=40, path="review.csv")
 ```
@@ -111,6 +112,9 @@ audit.dump_review_sheet(samples, n=40, path="review.csv")
 - They need at least two distinct `split_group` values and use `min(5, n_groups)` folds.
 - `joint_headroom` reads the two out-of-fold errors: `text_helps_frac` is the share of samples where the TS-only error is above its median and the text-only error is lower, and `ts_helps_frac` is the reverse. It is a heuristic, not an estimate of what a joint model gains.
 - `persistence_baseline` infers the seasonal period from the timestamp step (24 for hourly, 8 for 3-hourly, 7 for daily, 52 for weekly, 12 for monthly). Pass `season_length` to override it.
+- Last-value persistence can be a weak reference (daily cycle, fixed input end). Use `naive_comparison` and read the text proxy against the best naive baseline and the TS-only proxy.
+- `mtbench.splits.split_samples` gives group-safe splits on `split_group`; splitting by entity or season generally shares groups.
+- `SampleFilter(dedup_by=lambda s: s["meta"]["entity_id"])` dedups per entity instead of globally.
 - The default leakage patterns look for numbers with units, percent chances and "will rise to N" phrasing. They are a starting point; pass your own for each source.
 - The review sheet is a seeded round-robin over `split_group` and `text_kind`, with the text cut to 600 characters. Read it before trusting any number.
 
