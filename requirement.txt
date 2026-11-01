@@ -11,8 +11,3 @@ matplotlib==3.9.0
 scikit-learn==1.5.0
 transformers
 torch
-pathlib
-json
-datetime
-argparse
-re
