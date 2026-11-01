@@ -17,7 +17,7 @@ How to plug a new (time series, aligned text) source into MTBench with the share
 1. Create `scripts/sources/<source>.py` with a subclass of `SourceAdapter` and a short README section.
 2. Set `name` (the folder under `data/raw/` and `data/processed/`), `domain`, and `out_subdir` (for example `aligned_in7days_out1days`). Raw files go in `data/raw/<name>/`, output in `data/processed/<name>/<out_subdir>/`.
 3. Implement the five steps:
-   - `download()`: the only method that may use the network. Call `log_fetch(self.name, url)` for every URL; it appends to `data/raw/<name>/MANIFEST.md` with key values redacted. Ask before downloading more than 2 GB.
+   - `download()`: the only method that may use the network. Call `log_fetch(self.name, url)` for every URL; it appends to `data/raw/<name>/MANIFEST.md` with key values redacted. Ask before downloading more than 10 GB.
    - `load_ts()`, `load_text()`: read the raw files into whatever structure `align()` needs.
    - `align()`: pair each text with its entity's series and cut the input and output windows.
    - `make_samples()`: return a list of schema dicts (below). Use `make_meta(...)` for `meta`.

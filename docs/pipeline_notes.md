@@ -93,7 +93,7 @@ Output horizons in the current benchmark are short (1–3 days weather, 1–7 da
 
 - **Download:** AFDs at `https://api.weather.gov/products/types/AFD` (**V**: the page documents the `products/types/{type}` pattern for other products and requires a User-Agent header; it does not document an AFD archive, and `/alerts` is limited to 7 days). For history, the Iowa Environmental Mesonet AFOS text archive (**U**). GHCNh bulk files (PSV or Parquet, by year or location) from `https://www.ncei.noaa.gov/oa/global-historical-climatology-network/index.html#hourly/` and the station list `https://www.ncei.noaa.gov/oa/global-historical-climatology-network/hourly/doc/ghcnh-station-list.txt` (**V**; individual file paths **U**).
 - **Auth:** none; User-Agent header required for api.weather.gov (**V**).
-- **Size:** AFD text roughly 0.5–1 GB per year across all offices (my estimate); GHCNh is small per station but large in total, so restrict to a station list and ask before exceeding 2 GB.
+- **Size:** AFD text roughly 0.5–1 GB per year across all offices (my estimate); GHCNh is small per station but large in total, so restrict to a station list and ask before exceeding 10 GB.
 - **Update:** AFDs several times a day per office; GHCNh hourly observations, refresh cadence not stated on the page.
 - **Doesn't fit:**
   - One office covers many stations (1:N), so a text maps to several samples and needs an office→station map.
@@ -176,7 +176,6 @@ Output horizons in the current benchmark are short (1–3 days weather, 1–7 da
 
 - **Download:** EIA API v2 `https://api.eia.gov/v2/` with route `/electricity/rto` for the EIA-930 style regional data (**V**). The page does not document a STEO route. Bulk `https://www.eia.gov/opendata/bulk/EBA.zip` (**U**). STEO PDFs at `eia.gov/outlooks/steo/archives` (**U**). DOE OE-417 annual spreadsheets (**U**). ISO notices and prices from ERCOT, CAISO OASIS, PJM Data Miner (**U**).
 - **Auth:** EIA key, passed in the URL, not a header (**V**); PJM needs a key (**U**).
-- **Size:** EBA bulk may exceed 2 GB; ask before downloading.
 - **Update:** STEO monthly; EIA-930 hourly; alerts irregular.
 - **Doesn't fit:**
   - Mixed frequencies: monthly prices and stocks, hourly demand, 5-minute ISO prices.
@@ -190,7 +189,6 @@ Output horizons in the current benchmark are short (1–3 days weather, 1–7 da
 
 - **Download:** advisories on `https://www.fly.faa.gov/adv/` (archive depth **U**). Delay data from BTS On-Time Performance (flight-level, includes TaxiOut/TaxiIn) or FAA ASPM/OPSNET (**U**).
 - **Auth:** ASPM and OPSNET need registration (**U**); BTS none.
-- **Size:** BTS around 200 MB or more per month as CSV (**U**), so several years exceed 2 GB; ask first.
 - **Update:** advisories in real time; BTS monthly.
 - **Doesn't fit:**
   - No public 15-minute airport delay series; it would have to be derived from flight-level records.

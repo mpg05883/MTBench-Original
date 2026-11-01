@@ -39,7 +39,7 @@ MAX_TEXT_GAP_H = 4  # was 6; 16% of the first release sat at 5-6 h
 FAR_FROM_WFO_KM = 150  # stations farther than this from their office center are flagged, not dropped
 MIN_ANCHOR_SPACING_H = 48
 BAD_QC = {"2", "3", "6", "7"}  # GHCNh suspect / erroneous quality codes
-SIZE_GATE_BYTES = 10 * 1024**3  # raised from 2 GB at the user's request
+SIZE_GATE_BYTES = 10 * 1024**3
 EST_AFD_MONTH_BYTES = 1_500_000  # one WFO-month of AFDs (subset months were 1.0-1.6 MB)
 MIN_COVERED_HOURS = 6  # a section counts as covering the output window with >= this overlap
 
