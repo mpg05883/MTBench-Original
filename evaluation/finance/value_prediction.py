@@ -30,6 +30,7 @@ from evaluation.utils import (
 )
 
 from evaluation.subsets import dataset_files
+from evaluation.batch import add_batch_args, batch_answers, take
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--subset_file", help="JSON filename list from make_parity_subsets.py")
@@ -43,6 +44,7 @@ parser.add_argument(
     default="combined",
     help="choose from timeseries_only, text_only, combined",
 )
+add_batch_args(parser)
 args = parser.parse_args()
 
 save_path = Path(args.save_path)
@@ -77,59 +79,72 @@ print(f"Evaluating {tot_samples} samples...")
 
 epoch_results = []
 cumulative_mse, cumulative_mae, cumulative_rmse, cumulative_mape = [], [], [], []
-for idx, sample in enumerate(data_list):
-    
-    try:
-        datetime_list = [
-            datetime.fromtimestamp(s).strftime("%Y-%m-%d %H:%M:%S")
-            for s in sample["input_timestamps"]
-        ]
-        text = sample["text"]
-        input_ts = sample["input_window"]
-        
-        
 
-        granularity_string = format_time_difference(
-            sample["input_timestamps"][1] - sample["input_timestamps"][0]
+
+def build_prompt(sample):
+    """Return the prompt and the ground-truth series of a sample."""
+    datetime_list = [
+        datetime.fromtimestamp(s).strftime("%Y-%m-%d %H:%M:%S")
+        for s in sample["input_timestamps"]
+    ]
+    text = sample["text"]
+    input_ts = sample["input_window"]
+
+    granularity_string = format_time_difference(
+        sample["input_timestamps"][1] - sample["input_timestamps"][0]
+    )
+    if args.indicator == "macd":
+        output_ts = sample["out_macd"]
+        designed_prompt = finance_macd_metaprompt_generation(
+            text=text,
+            prices=input_ts,
+            start_datetime=datetime_list[0],
+            end_datetime=datetime_list[-1],
+            pred_end_datetime=output_ts[-1],
+            granularity=granularity_string,
+            prediction_length=len(output_ts),
+            mode=args.mode,
         )
-        if args.indicator == "macd":
-            output_ts = sample["out_macd"]
-            designed_prompt = finance_macd_metaprompt_generation(
-                text=text,
-                prices=input_ts,
-                start_datetime=datetime_list[0],
-                end_datetime=datetime_list[-1],
-                pred_end_datetime=output_ts[-1],
-                granularity=granularity_string,
-                prediction_length=len(output_ts),
-                mode=args.mode,
-            )
-        elif args.indicator == "bb":
-            output_ts = sample["out_upper_bb"]
-            designed_prompt = finance_bb_metaprompt_generation(
-                text=text,
-                prices=input_ts,
-                start_datetime=datetime_list[0],
-                end_datetime=datetime_list[-1],
-                pred_end_datetime=output_ts[-1],
-                granularity=granularity_string,
-                prediction_length=len(output_ts),
-                mode=args.mode,
-            )
-        elif args.indicator == "time":
-            output_ts = sample["output_window"]
-            designed_prompt = finance_mse_metaprompt_generation(
-                text=text,
-                prices=input_ts,
-                start_datetime=datetime_list[0],
-                end_datetime=datetime_list[-1],
-                pred_end_datetime=output_ts[-1],
-                granularity=granularity_string,
-                prediction_length=len(output_ts),
-                mode=args.mode,
-            )   
+    elif args.indicator == "bb":
+        output_ts = sample["out_upper_bb"]
+        designed_prompt = finance_bb_metaprompt_generation(
+            text=text,
+            prices=input_ts,
+            start_datetime=datetime_list[0],
+            end_datetime=datetime_list[-1],
+            pred_end_datetime=output_ts[-1],
+            granularity=granularity_string,
+            prediction_length=len(output_ts),
+            mode=args.mode,
+        )
+    elif args.indicator == "time":
+        output_ts = sample["output_window"]
+        designed_prompt = finance_mse_metaprompt_generation(
+            text=text,
+            prices=input_ts,
+            start_datetime=datetime_list[0],
+            end_datetime=datetime_list[-1],
+            pred_end_datetime=output_ts[-1],
+            granularity=granularity_string,
+            prediction_length=len(output_ts),
+            mode=args.mode,
+        )
+    return designed_prompt, output_ts
 
-        if args.model in ["gpt-4o", "gpt-5.1"]:
+
+batched = batch_answers(
+    args, data_list, lambda sample: build_prompt(sample)[0], args.save_path
+)
+
+for idx, sample in enumerate(data_list):
+
+    try:
+        input_ts = sample["input_window"]
+        designed_prompt, output_ts = build_prompt(sample)
+
+        if batched is not None:
+            answer = take(batched[idx])
+        elif args.model in ["gpt-4o", "gpt-5.1"]:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":

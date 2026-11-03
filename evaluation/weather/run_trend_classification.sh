@@ -22,6 +22,8 @@ cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"
 SUBSETS_DIR="${SUBSETS_DIR:-../../subsets}"
 
 API_NAME="gpt-5.1"
+# Set BATCH_FLAGS="--batch --wait" to use the Batch API (see evaluation/batch.py).
+BATCH_FLAGS="${BATCH_FLAGS:-}"
 MODE="combined" # select from ["timeseries_only", "combined"]
 PAST_FUTURE="past" # select from ["past", "future"]
 
@@ -36,7 +38,7 @@ python trend_classification.py \
     --subset_file="${SUBSETS_DIR}/weather_trend_${PAST_FUTURE}_${SETTING}.json" \
     --dataset_folder="../../data/processed/weather/aligned_in${IN_DAYS}days_out${OUT_DAYS}days" \
     --save_path="../../results/weather/trend_classification_in${IN_DAYS}_out${OUT_DAYS}/${API_NAME}/${MODE}" \
-    --model=$API_NAME \
+    --model=$API_NAME $BATCH_FLAGS \
     --mode=$MODE \
     --in_days=$IN_DAYS \
     --out_days=$OUT_DAYS \

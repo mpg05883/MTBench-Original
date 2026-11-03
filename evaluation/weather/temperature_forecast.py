@@ -27,6 +27,7 @@ from evaluation.utils import (
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 from evaluation.subsets import dataset_files
+from evaluation.batch import add_batch_args, batch_answers, take
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--subset_file", help="JSON filename list from make_parity_subsets.py")
@@ -36,6 +37,7 @@ parser.add_argument("--model", type=str, default="gpt-4o", help="API model")
 parser.add_argument("--mode", type=str, default="combined", help="choose from timeseries_only, text_only, combined")
 parser.add_argument("--in_days", type=int, default=7, help="Input days")
 parser.add_argument("--out_days", type=int, default=1, help="Output days")
+add_batch_args(parser)
 args = parser.parse_args()
 
 save_path = Path(args.save_path)
@@ -65,21 +67,31 @@ print(f"Evaluating {tot_samples} samples...")
 
 epoch_results = []
 cumulative_mse, cumulative_mae, cumulative_rmse = [], [], []
+
+
+def build_prompt(sample):
+    return temperature_forecast_metaprompt_generation(
+        text=sample["text"],
+        temperatures=sample["input_window"],
+        start_datetime=sample["input_timestamps"][0],
+        end_datetime=sample["input_timestamps"][-1],
+        granularity="hourly",
+        prediction_length=len(sample["output_window"]),
+        mode=args.mode,
+    )
+
+
+batched = batch_answers(args, data_list, build_prompt, args.save_path)
+
 for idx, sample in enumerate(data_list):
     try:
         filename = sample["filename"]
         output_ts = sample["output_window"]
-        designed_prompt = temperature_forecast_metaprompt_generation(
-            text=sample["text"],
-            temperatures=sample["input_window"],
-            start_datetime=sample["input_timestamps"][0],
-            end_datetime=sample["input_timestamps"][-1],
-            granularity="hourly",
-            prediction_length=len(sample["output_window"]),
-            mode=args.mode,
-        )   
+        designed_prompt = build_prompt(sample)
 
-        if args.model in ["gpt-4o", "gpt-5.1"]:
+        if batched is not None:
+            answer = take(batched[idx])
+        elif args.model in ["gpt-4o", "gpt-5.1"]:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":

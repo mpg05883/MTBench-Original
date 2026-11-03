@@ -21,6 +21,7 @@ from evaluation.api_call import (
 )
 
 from evaluation.subsets import dataset_files
+from evaluation.batch import add_batch_args, batch_answers, take
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--subset_file", help="JSON filename list from make_parity_subsets.py")
@@ -40,6 +41,7 @@ parser.add_argument(
     default="combined",
     help="choose from timeseries_only, text_only, combined",
 )
+add_batch_args(parser)
 args = parser.parse_args()
 
 directory_path = Path(args.dataset_folder)
@@ -84,22 +86,31 @@ result_list = []
 tot_samples = len(data_list)
 print("Evaluating {} samples......".format(tot_samples))
 
-for idx, sample in enumerate(data_list):
+
+def build_prompt(sample):
     datetime_list = [
         datetime.fromtimestamp(s).strftime('%Y-%m-%d %H:%M:%S') for s in sample['input_timestamps']
     ]
-    
+
     text = sample['text']
     prices = sample['input_window']
-    
-    designed_prompt = finance_classification_metaprompt_generation(
+
+    return finance_classification_metaprompt_generation(
         text=text,
         timestamps=datetime_list,
         prices=prices,
         mode=args.mode
     )
+
+
+batched = batch_answers(args, data_list, build_prompt, args.save_path)
+
+for idx, sample in enumerate(data_list):
+    designed_prompt = build_prompt(sample)
     try:
-        if args.model in ["gpt-4o", "gpt-4o-mini", "gpt-5.1"]:
+        if batched is not None:
+            answer = take(batched[idx])
+        elif args.model in ["gpt-4o", "gpt-4o-mini", "gpt-5.1"]:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":

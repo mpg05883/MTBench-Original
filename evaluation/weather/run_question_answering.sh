@@ -22,11 +22,13 @@ cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"
 SUBSETS_DIR="${SUBSETS_DIR:-../../subsets}"
 
 API_NAME="gpt-5.1"
+# Set BATCH_FLAGS="--batch --wait" to use the Batch API (see evaluation/batch.py).
+BATCH_FLAGS="${BATCH_FLAGS:-}"
 SETTING="${SETTING:-long}" # select from ["long", "short"]
 
 python mcqa.py \
     --subset_file="${SUBSETS_DIR}/weather_mcqa_${SETTING}.json" \
     --dataset_folder="../../data/processed/weather/QA${SETTING}" \
     --save_path="../../results/weather/question_answering_${SETTING}/${API_NAME}" \
-    --model=$API_NAME \
+    --model=$API_NAME $BATCH_FLAGS \
     --setting=$SETTING

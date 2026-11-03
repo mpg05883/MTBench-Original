@@ -22,18 +22,20 @@ cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"
 SUBSETS_DIR="${SUBSETS_DIR:-../../subsets}"
 
 API_NAME="gpt-5.1"
+# Set BATCH_FLAGS="--batch --wait" to use the Batch API (see evaluation/batch.py).
+BATCH_FLAGS="${BATCH_FLAGS:-}"
 SETTING="${SETTING:-long}"
 
 python correlation_prediction.py \
     --subset_file="${SUBSETS_DIR}/finance_correlation_${SETTING}.json" \
     --dataset_folder="../../data/processed/finance/QA${SETTING}" \
     --save_path="../../results/finance/correlation_${SETTING}/${API_NAME}" \
-    --model=$API_NAME
+    --model=$API_NAME $BATCH_FLAGS
     
 
 python mcqa.py \
     --subset_file="${SUBSETS_DIR}/finance_mcqa_${SETTING}.json" \
     --dataset_folder="../../data/processed/finance/QA${SETTING}" \
     --save_path="../../results/finance/mcqa_${SETTING}/${API_NAME}" \
-    --model=$API_NAME
+    --model=$API_NAME $BATCH_FLAGS
 

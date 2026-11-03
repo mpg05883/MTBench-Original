@@ -21,6 +21,7 @@ from evaluation.api_call import (
 import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from evaluation.subsets import dataset_files
+from evaluation.batch import add_batch_args, batch_answers, take
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--subset_file", help="JSON filename list from make_parity_subsets.py")
@@ -42,6 +43,7 @@ parser.add_argument(
 )
 parser.add_argument("--in_days", type=int, default=7, help="Input days")
 parser.add_argument("--out_days", type=int, default=1, help="Output days")
+add_batch_args(parser)
 
 args = parser.parse_args()
 
@@ -82,11 +84,10 @@ print("Evaluating {} samples......".format(tot_samples))
 metric_dict = {"diff": {"mse": [], "mae": []},
                "max": {"mse": [], "mae": []},
                "min": {"mse": [], "mae": []}}
-for idx, sample in enumerate(data_list):
-    filename = sample["filename"]
-    output_ts = sample["output_window"]
-    
-    designed_prompt = temperature_indicator_metaprompt_generation(
+
+
+def build_prompt(sample):
+    return temperature_indicator_metaprompt_generation(
         text=sample["text"],
         past_temperatures=sample["input_window"],
         start_datetime=sample["input_timestamps"][0],
@@ -94,8 +95,19 @@ for idx, sample in enumerate(data_list):
         granularity="hourly",
         past_days=args.in_days,
         mode=args.mode)
+
+
+batched = batch_answers(args, data_list, build_prompt, args.save_path)
+
+for idx, sample in enumerate(data_list):
+    filename = sample["filename"]
+    output_ts = sample["output_window"]
+
+    designed_prompt = build_prompt(sample)
     try:
-        if args.model in ["gpt-4o", "gpt-5.1"]:
+        if batched is not None:
+            answer = take(batched[idx])
+        elif args.model in ["gpt-4o", "gpt-5.1"]:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":

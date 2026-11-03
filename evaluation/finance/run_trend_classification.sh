@@ -22,6 +22,8 @@ cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"
 SUBSETS_DIR="${SUBSETS_DIR:-../../subsets}"
 
 API_NAME="gpt-5.1"
+# Set BATCH_FLAGS="--batch --wait" to use the Batch API (see evaluation/batch.py).
+BATCH_FLAGS="${BATCH_FLAGS:-}"
 MODE="combined" # select from ["timeseries_only", "combined"]
 SETTING="${SETTING:-long}" # select from ["short", "long"]
 case "$SETTING" in
@@ -36,5 +38,5 @@ python trend_classification.py \
     --subset_file="${SUBSETS_DIR}/finance_trend_${SETTING}.json" \
     --dataset_folder="${CONVERTED_DIR}/${SETTING}" \
     --save_path="../../results/finance/trend_classification_in${IN_DAYS}_out${OUT_DAYS}/${API_NAME}/${MODE}" \
-    --model=$API_NAME \
+    --model=$API_NAME $BATCH_FLAGS \
     --mode=$MODE

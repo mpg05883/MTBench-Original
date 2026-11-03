@@ -22,6 +22,8 @@ cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"
 SUBSETS_DIR="${SUBSETS_DIR:-../../subsets}"
 
 API_NAME="gpt-5.1"
+# Set BATCH_FLAGS="--batch --wait" to use the Batch API (see evaluation/batch.py).
+BATCH_FLAGS="${BATCH_FLAGS:-}"
 MODE="combined" # select from ["timeseries_only", "combined"]
 INDICATOR_TYPE="time" # select from ["macd", "bb", "time"]
 SETTING="${SETTING:-long}" # select from ["short", "long"]
@@ -38,5 +40,5 @@ python value_prediction.py \
     --dataset_folder="${CONVERTED_DIR}/${SETTING}" \
     --save_path="../../results/finance/pred_${INDICATOR_TYPE}_in${IN_DAYS}_out${OUT_DAYS}/${API_NAME}/${MODE}" \
     --indicator=$INDICATOR_TYPE \
-    --model=$API_NAME \
+    --model=$API_NAME $BATCH_FLAGS \
     --mode=$MODE
