@@ -23,7 +23,7 @@ set). Strata:
 
 This only reads the data. The Hub ships the finance aligned pairs as a parquet
 table, so they must first be converted to one JSON file per pair with
-scripts/data/convert_finance_parquet.py of the refactored repository
+evaluation/convert_finance_parquet.py
 (--finance-converted-dir holds the short/ and long/ outputs). Both
 repositories must read the same converted folder, as the draws depend on the
 file names. --dry-run prints the sizes without writing.

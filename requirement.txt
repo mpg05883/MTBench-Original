@@ -1,8 +1,11 @@
 pandas==1.5.3
+pyarrow
+fastparquet
 gdown==5.2.0
 huggingface-hub==0.29.0
 anthropic==0.43.1
 openai==1.59.7
+python-dotenv
 google==3.0.0
 google-auth==2.38.0
 google-genai==1.2.0

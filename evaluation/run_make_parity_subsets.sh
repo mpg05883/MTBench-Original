@@ -12,8 +12,8 @@
 # with evaluation/make_parity_subsets.py. Writes subsets/<cell>.json and
 # manifest.json in the repository root (unless --output-dir is given).
 #
-# Convert the finance pairs first with convert_finance_parquet.py of the
-# refactored MTBench repository, and use the same converted folder there.
+# Convert the finance pairs first with evaluation/run_convert_finance_parquet.sh,
+# and use the same converted folder in the refactored repository.
 #
 # Run from the repository root (extra flags are passed to the script):
 #   sbatch evaluation/run_make_parity_subsets.sh --dry-run

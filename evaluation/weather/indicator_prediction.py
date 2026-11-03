@@ -20,7 +20,10 @@ from evaluation.api_call import (
 )
 import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error
+from evaluation.subsets import dataset_files
+
 parser = argparse.ArgumentParser()
+parser.add_argument("--subset_file", help="JSON filename list from make_parity_subsets.py")
 parser.add_argument(
     "--dataset_folder", type=str, default="", help=""
 )
@@ -57,7 +60,7 @@ if args.model == "llama":
     )
 
 # Loop through all JSON files in the directory
-for json_file in directory_path.glob("*.json"):
+for json_file in dataset_files(directory_path, args.subset_file):
     with open(json_file, 'r') as file:
         data = json.load(file)
         
@@ -92,8 +95,8 @@ for idx, sample in enumerate(data_list):
         past_days=args.in_days,
         mode=args.mode)
     try:
-        if args.model == "gpt-4o":
-            response = send_to_openai_chatgpt(designed_prompt, model="gpt-4o", max_tokens=None)
+        if args.model in ["gpt-4o", "gpt-5.1"]:
+            response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":
             response = send_to_anthropic_claude(designed_prompt)

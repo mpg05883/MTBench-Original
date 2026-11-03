@@ -1,24 +1,38 @@
+import os
+
 import google.generativeai as genai
-from openai import OpenAI
+from dotenv import load_dotenv
+from openai import OpenAI, AzureOpenAI
 import anthropic
 
+load_dotenv()
+
 # Add your own API keys here
-OPENAI_API_KEY=""
 ANTHROPIC_API_KEY=""
 GOOGLE_GEMINI_API = ""
 DEEPSEEK_API = ""
 
 
+def _azure_client():
+    return AzureOpenAI(
+        api_key=os.environ["AZURE_FOUNDRY_API_KEY"],
+        azure_endpoint=os.environ["OPENAI_BASE_URL"],
+        api_version=os.environ.get("AZURE_OPENAI_API_VERSION", "2024-12-01-preview"),
+    )
 
 def send_to_openai_chatgpt(content, model="gpt-4", max_tokens=100, temperature=0.7, timeout=30):
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    # On Azure, `model` is the deployment name; the caller's model/temperature
+    # are ignored since GPT-5.x only supports the default temperature.
+    client = _azure_client()
 
+    kwargs = {}
+    if max_tokens is not None:
+        kwargs["max_completion_tokens"] = max_tokens
     response = client.chat.completions.create(
-        model=model,
+        model=os.environ["AZURE_DEPLOYMENT_GPT_5_1"],
         messages=[{"role": "user", "content": content}],
-        max_tokens=max_tokens,
-        temperature=temperature,
-        timeout=timeout
+        timeout=timeout,
+        **kwargs
     )
     return response.choices[0].message
 
@@ -75,10 +89,10 @@ def send_to_deepseek_r1(content):
     return response.choices[0].message.content
 
 def send_to_openai_o1(content):
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = _azure_client()
     # Prepare the request
     response = client.chat.completions.create(
-        model="o1",
+        model=os.environ["AZURE_DEPLOYMENT_GPT_5_1"],
         messages=[{"role": "user", "content": content}],
         timeout=30
     )

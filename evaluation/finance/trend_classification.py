@@ -20,7 +20,10 @@ from evaluation.api_call import (
     send_to_llama
 )
 
+from evaluation.subsets import dataset_files
+
 parser = argparse.ArgumentParser()
+parser.add_argument("--subset_file", help="JSON filename list from make_parity_subsets.py")
 parser.add_argument(
     "--dataset_folder", type=str, default="", help=""
 )
@@ -54,7 +57,7 @@ if args.model == "llama":
     )
 
 # Loop through all JSON files in the directory
-for json_file in directory_path.glob("*.json"):
+for json_file in dataset_files(directory_path, args.subset_file):
     with open(json_file, 'r') as file:
         data = json.load(file)
         if isinstance(data.get('trend').get('output_bin_label'), str) is False:
@@ -96,7 +99,7 @@ for idx, sample in enumerate(data_list):
         mode=args.mode
     )
     try:
-        if args.model in ["gpt-4o", "gpt-4o-mini"]:
+        if args.model in ["gpt-4o", "gpt-4o-mini", "gpt-5.1"]:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":
