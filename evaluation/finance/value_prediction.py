@@ -14,6 +14,7 @@ from meta_prompt import (
 )
 
 from evaluation.api_call import (
+    AZURE_CHAT_MODELS,
     send_to_openai_chatgpt,
     send_to_openai_o1,
     send_to_deepseek,
@@ -44,6 +45,10 @@ parser.add_argument(
     default="combined",
     help="choose from timeseries_only, text_only, combined",
 )
+parser.add_argument(
+    "--limit", type=int, default=None,
+    help="Evaluate only the first N samples (for a quick smoke test)",
+)
 add_batch_args(parser)
 args = parser.parse_args()
 
@@ -71,7 +76,8 @@ for json_file in dataset_files(directory_path, args.subset_file):
         }
         data_list.append(extracted_data)
 
-# data_list = data_list[:10]  # for testing 
+if args.limit is not None:
+    data_list = data_list[:args.limit]
 
 result_list = []
 tot_samples = len(data_list)
@@ -144,7 +150,7 @@ for idx, sample in enumerate(data_list):
 
         if batched is not None:
             answer = take(batched[idx])
-        elif args.model in ["gpt-4o", "gpt-5.1"]:
+        elif args.model in AZURE_CHAT_MODELS:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":
@@ -198,7 +204,7 @@ for idx, sample in enumerate(data_list):
         mape = calculate_mape(output_ts, predict_ts)
         
         if args.indicator == "macd" and mse > 10:
-            print(f"{sample["filename"]} failed mse ", mse)
+            print(f"{sample['filename']} failed mse ", mse)
             epoch_results.append({
                 "filename": sample["filename"],
                 "failed": True,
@@ -211,7 +217,7 @@ for idx, sample in enumerate(data_list):
             continue
         
         if args.indicator == "time" and mse > 100:
-            print(f"{sample["filename"]} failed mse ", mse)
+            print(f"{sample['filename']} failed mse ", mse)
             epoch_results.append({
                 "filename": sample["filename"],
                 "failed": True,
@@ -263,7 +269,7 @@ for idx, sample in enumerate(data_list):
         
         # import pdb; pdb.set_trace()
     except Exception as e:
-        print(f"Skipping {idx} due to error: {e}")
+        print(f"Skipping {idx} due to error: {type(e).__name__}: {e}")
 
 
 # Compute final statistics

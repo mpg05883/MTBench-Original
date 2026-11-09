@@ -8,8 +8,8 @@ error) per sample, in sample order.
 
 Ported from the `mtbench.models.batch` module of the refactored MTBench repo,
 trimmed to the Azure backend. Request settings match `send_to_openai_chatgpt`
-(GPT-5.1 with no token limit and no seed), so a batch answers like the
-synchronous call does.
+(GPT-5.1 with no token limit, and a seed only when AZURE_SEED is set), so a
+batch answers like the synchronous call does.
 """
 
 import hashlib
@@ -56,10 +56,14 @@ def batch_body(prompt):
         os.environ.get("AZURE_BATCH_DEPLOYMENT_GPT_5_1")
         or "gpt-5.1-global-batch"
     )
-    return {
+    body = {
         "model": deployment,
         "messages": [{"role": "user", "content": prompt}],
     }
+    seed = os.environ.get("AZURE_SEED")
+    if seed:
+        body["seed"] = int(seed)
+    return body
 
 
 class AzureBatchBackend:

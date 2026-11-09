@@ -10,21 +10,18 @@
 
 # Submit from this script's directory (paths below are relative to it):
 #   cd evaluation/finance && sbatch run_indicator_prediction.sh
-
-module load miniconda
-eval "$(conda shell.bash hook)"
-conda activate MTBench
+# Run locally (e.g. Git Bash on Windows), with options from the environment
+# (see evaluation/setup_env.sh); the optional argument limits the samples:
+#   cd evaluation/finance && API_NAME=gpt-5.4-mini MODE=timeseries_only bash run_indicator_prediction.sh 3
 
 cd "${SLURM_SUBMIT_DIR:-$(dirname "$0")}"
+ALLOWED_MODES="timeseries_only text_only combined"
+. ../setup_env.sh
 
 # Generate lists first with evaluation/run_make_parity_subsets.sh.
 # Override SUBSETS_DIR to use a custom --output-dir (relative to this directory).
 SUBSETS_DIR="${SUBSETS_DIR:-../../subsets}"
 
-API_NAME="gpt-5.1"
-# Set BATCH_FLAGS="--batch --wait" to use the Batch API (see evaluation/batch.py).
-BATCH_FLAGS="${BATCH_FLAGS:-}"
-MODE="combined" # select from ["timeseries_only", "combined"]
 INDICATOR_TYPE="macd" # select from ["macd", "bb", "time"]
 SETTING="${SETTING:-long}" # select from ["short", "long"]
 case "$SETTING" in
@@ -38,7 +35,7 @@ CONVERTED_DIR="${CONVERTED_DIR:-../../data/processed/finance_converted}"
 python value_prediction.py \
     --subset_file="${SUBSETS_DIR}/finance_forecast_${INDICATOR_TYPE}_${SETTING}.json" \
     --dataset_folder="${CONVERTED_DIR}/${SETTING}" \
-    --save_path="../../results/finance/pred_${INDICATOR_TYPE}_in${IN_DAYS}_out${OUT_DAYS}/${API_NAME}/${MODE}" \
+    --save_path="../../results/finance/pred_${INDICATOR_TYPE}_in${IN_DAYS}_out${OUT_DAYS}/${API_NAME}/${MODE}${LIMIT_SUFFIX}" \
     --indicator=$INDICATOR_TYPE \
-    --model=$API_NAME $BATCH_FLAGS \
+    --model=$API_NAME $BATCH_FLAGS $LIMIT_FLAGS \
     --mode=$MODE

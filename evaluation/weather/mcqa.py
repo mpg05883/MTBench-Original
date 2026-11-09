@@ -11,6 +11,7 @@ from evaluation.utils import (
     calculate_mcqa_acc
 )
 from evaluation.api_call import (
+    AZURE_CHAT_MODELS,
     send_to_openai_chatgpt,
     send_to_openai_o1,
     send_to_deepseek,
@@ -36,6 +37,15 @@ parser.add_argument(
     "--model",  type=str, default="gpt-4o", help=""
 )
 parser.add_argument("--setting", type=str, default="long", help="weather_mcqa")
+parser.add_argument(
+    "--mode", type=str, default="combined",
+    choices=["timeseries_only", "combined"],
+    help="timeseries_only leaves the news out of the prompt",
+)
+parser.add_argument(
+    "--limit", type=int, default=None,
+    help="Evaluate only the first N samples (for a quick smoke test)",
+)
 add_batch_args(parser)
 args = parser.parse_args()
 args.in_days = 14 if args.setting == "long" else 7
@@ -68,7 +78,8 @@ for json_file in dataset_files(directory_path, args.subset_file):
         }
         data_list.append(extracted_data)
 
-# data_list = data_list[:10]  # for testing
+if args.limit is not None:
+    data_list = data_list[:args.limit]
 
 os.makedirs(Path(args.save_path).parent, exist_ok=True)
 result_list = []
@@ -83,7 +94,8 @@ def build_prompt(sample):
         end_datetime=sample["input_timestamps"][-1],
         past_temperatures=sample["input_window"],
         news=sample["text"],
-        question=sample["question"]
+        question=sample["question"],
+        mode=args.mode
     )
 
 
@@ -96,7 +108,7 @@ for idx, sample in enumerate(data_list):
     try:
         if batched is not None:
             answer = take(batched[idx])
-        elif args.model in ["gpt-4o", "gpt-5.1"]:
+        elif args.model in AZURE_CHAT_MODELS:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":
@@ -131,15 +143,18 @@ for idx, sample in enumerate(data_list):
 
     except Exception as e:
         # Handle the exception and print the error message
-        print(f"An error occurred: {e}")
+        print(f"An error occurred: {type(e).__name__}: {e}")
     
     if (idx +1) % 20 == 0:
         save_to_json(result_list, save_path=f"{args.save_path}/results.json")
 
 
 save_to_json(result_list, save_path=f"{args.save_path}/results.json")
-accuracy = calculate_mcqa_acc(result_list)
-print(f"Accuracy: {accuracy}%")
+if result_list:
+    accuracy = calculate_mcqa_acc(result_list)
+    print(f"Accuracy: {accuracy}%")
+else:
+    print("No sample was answered; see the errors above.")
 print(f"Processing complete. Results saved to {args.save_path}/results.json")
 
 

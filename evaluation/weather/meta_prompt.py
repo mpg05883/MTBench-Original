@@ -204,16 +204,27 @@ def weather_mcqa_metaprompt_generation(
     end_datetime: str,
     past_temperatures: List[float],
     news: str,
-    question: str
+    question: str,
+    mode: str = "combined"
 ) -> str:
+    """mode="timeseries_only" leaves the weather event report out of the
+    prompt."""
+    if mode == "combined":
+        system_prompt =f"You have a {past_days}-day temperature time series, a weather event report published on the last day of time series. Answer the questions, return your answer in single letter (A, B, C, D) without other words."
 
-    system_prompt =f"You have a {past_days}-day temperature time series, a weather event report published on the last day of time series. Answer the questions, return your answer in single letter (A, B, C, D) without other words."
-        
-    query = f"{past_days}-day temperature time series between{start_datetime} to {end_datetime}, time interval is 1 hour:\
+        query = f"{past_days}-day temperature time series between{start_datetime} to {end_datetime}, time interval is 1 hour:\
             {past_temperatures}\
             weather event report: \
             {news}\
             {question} Answer:"
+    elif mode == "timeseries_only":
+        system_prompt =f"You have a {past_days}-day temperature time series. Answer the questions, return your answer in single letter (A, B, C, D) without other words."
+
+        query = f"{past_days}-day temperature time series between{start_datetime} to {end_datetime}, time interval is 1 hour:\
+            {past_temperatures}\
+            {question} Answer:"
+    else:
+        raise ValueError("Invalid mode. Choose from 'timeseries_only' or 'combined'.")
     prompt = f"{system_prompt}\n\n{query}"
     return prompt
 

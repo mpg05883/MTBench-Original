@@ -10,6 +10,7 @@ from evaluation.utils import (
     save_to_json, get_temperature_diff_max_min
 )
 from evaluation.api_call import (
+    AZURE_CHAT_MODELS,
     send_to_openai_chatgpt,
     send_to_openai_o1,
     send_to_deepseek,
@@ -43,6 +44,10 @@ parser.add_argument(
 )
 parser.add_argument("--in_days", type=int, default=7, help="Input days")
 parser.add_argument("--out_days", type=int, default=1, help="Output days")
+parser.add_argument(
+    "--limit", type=int, default=None,
+    help="Evaluate only the first N samples (for a quick smoke test)",
+)
 add_batch_args(parser)
 
 args = parser.parse_args()
@@ -75,7 +80,8 @@ for json_file in dataset_files(directory_path, args.subset_file):
         }
         data_list.append(extracted_data)
 
-# data_list = data_list[:10]  # for testing
+if args.limit is not None:
+    data_list = data_list[:args.limit]
 
 os.makedirs(Path(args.save_path).parent, exist_ok=True)
 result_list = []
@@ -107,7 +113,7 @@ for idx, sample in enumerate(data_list):
     try:
         if batched is not None:
             answer = take(batched[idx])
-        elif args.model in ["gpt-4o", "gpt-5.1"]:
+        elif args.model in AZURE_CHAT_MODELS:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":
@@ -157,7 +163,7 @@ for idx, sample in enumerate(data_list):
         metric_dict["min"]["mae"].append(mean_absolute_error([gt["min"]], [prediction["min"]]))
     except Exception as e:
         # Handle the exception and print the error message
-        print(f"An error occurred: {e}")
+        print(f"An error occurred: {type(e).__name__}: {e}")
     
     if (idx +1) % 20 == 0:
         save_to_json(result_list, save_path=f"{args.save_path}/results.json")

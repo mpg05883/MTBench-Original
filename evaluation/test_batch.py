@@ -5,10 +5,12 @@ Run from the repo root: python -m unittest evaluation.test_batch
 
 import argparse
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
+from unittest import mock
 
 from evaluation.batch import (
     STATE_FILE,
@@ -17,6 +19,7 @@ from evaluation.batch import (
     BatchPending,
     add_batch_args,
     batch_answers,
+    batch_body,
     run_batch,
     take,
 )
@@ -154,6 +157,27 @@ class BatchAnswersTest(unittest.TestCase):
                     backend=AzureBatchBackend(client),
                 )
         self.assertEqual(cm.exception.code, 0)
+
+
+class SeedAndDeploymentTest(unittest.TestCase):
+    def test_batch_body_has_no_seed_by_default(self):
+        with mock.patch.dict(os.environ, {"AZURE_SEED": ""}):
+            self.assertNotIn("seed", batch_body("p"))
+
+    def test_batch_body_sends_seed(self):
+        with mock.patch.dict(os.environ, {"AZURE_SEED": "42"}):
+            self.assertEqual(batch_body("p")["seed"], 42)
+
+    def test_deployment_per_model(self):
+        from evaluation.api_call import _azure_deployment
+        env = {
+            "AZURE_DEPLOYMENT_GPT_5_1": "dep-5.1",
+            "AZURE_DEPLOYMENT_GPT_5_4_MINI": "dep-mini",
+        }
+        with mock.patch.dict(os.environ, env):
+            self.assertEqual(_azure_deployment("gpt-5.4-mini"), "dep-mini")
+            self.assertEqual(_azure_deployment("gpt-5.1"), "dep-5.1")
+            self.assertEqual(_azure_deployment("gpt-4o"), "dep-5.1")
 
 
 if __name__ == "__main__":

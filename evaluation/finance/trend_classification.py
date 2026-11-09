@@ -11,6 +11,7 @@ from evaluation.utils import (
     calculate_acc
 )
 from evaluation.api_call import (
+    AZURE_CHAT_MODELS,
     send_to_openai_chatgpt,
     send_to_openai_o1,
     send_to_deepseek,
@@ -115,7 +116,7 @@ for idx, sample in enumerate(data_list):
     try:
         if batched is not None:
             answer = take(batched[idx])
-        elif args.model in ["gpt-4o", "gpt-4o-mini", "gpt-5.1", "gpt-5.4-mini"]:
+        elif args.model in AZURE_CHAT_MODELS:
             response = send_to_openai_chatgpt(designed_prompt, model=args.model, max_tokens=None)
             answer = response.content.strip().replace('"', '')
         elif args.model == "sonnet":

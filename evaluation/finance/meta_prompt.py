@@ -283,37 +283,57 @@ def parse_cls_response(answer):
 
 
 
-def finance_correlation_metaprompt_generation(setting, sticker, time1, time2, in_price, news, time_news):
-    
+def _check_qa_mode(mode):
+    if mode not in ("timeseries_only", "combined"):
+        raise ValueError("Invalid mode. Choose from 'timeseries_only' or 'combined'.")
+
+
+def finance_correlation_metaprompt_generation(setting, sticker, time1, time2, in_price, news, time_news, mode="combined"):
+    """mode="timeseries_only" leaves the analysis out of the prompt; the model
+    still predicts the correlation, from the price series alone."""
+    _check_qa_mode(mode)
     time_interval = "1 hour" if setting == "long" else "5 minutes"
-    
-    if setting == "long":
-        system_prompt ="You are an expert in finance and stock market analysis. Based on the given 30-day historical stock price time series and a financial analysis published at the last timestamp of the time series, your task is to predict the correlation between the stock's price fluctuations in the next 7 days and the analysis sentiment (positive correlation indicates that positive analysis leads to price increase and negative analysis leads to price decrease). Take into account external factors or market conditions that might affect stock price movement."
+    in_days, out_days = ("30", "7") if setting == "long" else ("7", "1")
+    out_period = f"{out_days} days" if setting == "long" else f"{out_days} day"
+
+    if mode == "combined":
+        system_prompt = f"You are an expert in finance and stock market analysis. Based on the given {in_days}-day historical stock price time series and a financial analysis published at the last timestamp of the time series, your task is to predict the correlation between the stock's price fluctuations in the next {out_period} and the analysis sentiment (positive correlation indicates that positive analysis leads to price increase and negative analysis leads to price decrease). Take into account external factors or market conditions that might affect stock price movement."
     else:
-        system_prompt = "You are an expert in finance and stock market analysis. Based on the given 7-day historical stock price time series and a financial analysis published at the last timestamp of the time series, your task is to predict the correlation between the stock's price fluctuations in the next 1 day and the analysis sentiment (positive correlation indicates that positive analysis leads to price increase and negative analysis leads to price decrease). Take into account external factors or market conditions that might affect stock price movement."
+        system_prompt = f"You are an expert in finance and stock market analysis. A financial analysis about the stock was published at the last timestamp of the given {in_days}-day historical stock price time series, but its content is not provided. Based on the time series alone, your task is to predict the correlation between the stock's price fluctuations in the next {out_period} and the analysis sentiment (positive correlation indicates that positive analysis leads to price increase and negative analysis leads to price decrease). Take into account external factors or market conditions that might affect stock price movement."
     question = "Return your answer in one of the following without any other words: Strong Positive Correlation, Moderate Positive Correlation, No Correlation, Moderate Negative Correlation, Strong Negative Correlation."
-    query = f"stock price of {sticker} between {time1} to {time2}, time interval is {time_interval}: \
+    if mode == "combined":
+        query = f"stock price of {sticker} between {time1} to {time2}, time interval is {time_interval}: \
             {in_price}\
             News published at {time_news}: \
             {news}\
             {question} Answer:"
+    else:
+        query = f"stock price of {sticker} between {time1} to {time2}, time interval is {time_interval}: \
+            {in_price}\
+            {question} Answer:"
     prompt = f"{system_prompt}\n\n{query}"
-    
+
     return prompt
 
 
 
 
-def finance_mcqa_metaprompt_generation(setting, sticker, time1, time2, in_price, news, time_news, question):
+def finance_mcqa_metaprompt_generation(setting, sticker, time1, time2, in_price, news, time_news, question, mode="combined"):
+    """mode="timeseries_only" leaves the analysis out of the prompt."""
+    _check_qa_mode(mode)
     time_interval = "1 hour" if setting == "long" else "5 minutes"
-    if setting  == "long":
-        system_prompt ="You are an expert in finance and stock market analysis. Your task is to answer the question based on the given 30-day historical stock price time series and a financial analysis published at the last timestamp of the time series. Return your answer only in the letter (A, B, C, or D). "
-    else:
-        system_prompt ="You are an expert in finance and stock market analysis. Your task is to answer the question based on the given 7-day historical stock price time series and a financial analysis published at the last timestamp of the time series. Return your answer only in the letter (A, B, C, or D). "
-    query = f"stock price of {sticker} between {time1} to {time2}, time interval is {time_interval}: \
+    in_days = "30" if setting == "long" else "7"
+    if mode == "combined":
+        system_prompt = f"You are an expert in finance and stock market analysis. Your task is to answer the question based on the given {in_days}-day historical stock price time series and a financial analysis published at the last timestamp of the time series. Return your answer only in the letter (A, B, C, or D). "
+        query = f"stock price of {sticker} between {time1} to {time2}, time interval is {time_interval}: \
             {in_price}\
             News published at {time_news}: \
             {news}\
+            Question: {question}. Give your answer in the letter (A, B, C, or D) without any other words. Answer:"
+    else:
+        system_prompt = f"You are an expert in finance and stock market analysis. Your task is to answer the question based on the given {in_days}-day historical stock price time series. Return your answer only in the letter (A, B, C, or D). "
+        query = f"stock price of {sticker} between {time1} to {time2}, time interval is {time_interval}: \
+            {in_price}\
             Question: {question}. Give your answer in the letter (A, B, C, or D) without any other words. Answer:"
     prompt = f"{system_prompt}\n\n{query}"
     return prompt
