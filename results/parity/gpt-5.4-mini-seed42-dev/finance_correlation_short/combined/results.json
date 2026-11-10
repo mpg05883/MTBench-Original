@@ -1,0 +1,20 @@
+[
+    {
+        "cnt": 0,
+        "filename": "1010_RIG.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 1,
+        "filename": "10148_ITT.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 2,
+        "filename": "10152_NVDA.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Negative Correlation"
+    }
+]

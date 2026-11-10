@@ -1,0 +1,2402 @@
+[
+    {
+        "cnt": 0,
+        "filename": "USW00003017_15.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 1.0
+    },
+    {
+        "cnt": 1,
+        "filename": "USW00003017_17.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.5
+    },
+    {
+        "cnt": 2,
+        "filename": "USW00003017_20.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 3,
+        "filename": "USW00003017_22.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.75
+    },
+    {
+        "cnt": 4,
+        "filename": "USW00003017_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.8
+    },
+    {
+        "cnt": 5,
+        "filename": "USW00003017_27.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 6,
+        "filename": "USW00003017_3.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7142857142857143
+    },
+    {
+        "cnt": 7,
+        "filename": "USW00003017_39.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.75
+    },
+    {
+        "cnt": 8,
+        "filename": "USW00003017_5.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7777777777777778
+    },
+    {
+        "cnt": 9,
+        "filename": "USW00003927_10.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7
+    },
+    {
+        "cnt": 10,
+        "filename": "USW00003927_14.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7272727272727273
+    },
+    {
+        "cnt": 11,
+        "filename": "USW00003927_15.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 12,
+        "filename": "USW00003927_17.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6923076923076923
+    },
+    {
+        "cnt": 13,
+        "filename": "USW00003927_29.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7142857142857143
+    },
+    {
+        "cnt": 14,
+        "filename": "USW00003927_6.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 15,
+        "filename": "USW00003927_7.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.625
+    },
+    {
+        "cnt": 16,
+        "filename": "USW00003947_0.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.5882352941176471
+    },
+    {
+        "cnt": 17,
+        "filename": "USW00003947_16.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.5555555555555556
+    },
+    {
+        "cnt": 18,
+        "filename": "USW00003947_34.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.5263157894736842
+    },
+    {
+        "cnt": 19,
+        "filename": "USW00003947_39.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.5
+    },
+    {
+        "cnt": 20,
+        "filename": "USW00003947_8.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.5238095238095238
+    },
+    {
+        "cnt": 21,
+        "filename": "USW00012815_23.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.5454545454545454
+    },
+    {
+        "cnt": 22,
+        "filename": "USW00012815_29.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.5652173913043478
+    },
+    {
+        "cnt": 23,
+        "filename": "USW00012815_5.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.5833333333333334
+    },
+    {
+        "cnt": 24,
+        "filename": "USW00012839_14.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6
+    },
+    {
+        "cnt": 25,
+        "filename": "USW00012839_17.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6153846153846154
+    },
+    {
+        "cnt": 26,
+        "filename": "USW00012839_24.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6296296296296297
+    },
+    {
+        "cnt": 27,
+        "filename": "USW00012839_32.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6428571428571429
+    },
+    {
+        "cnt": 28,
+        "filename": "USW00012842_14.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6551724137931034
+    },
+    {
+        "cnt": 29,
+        "filename": "USW00012842_15.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 30,
+        "filename": "USW00012842_2.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6774193548387096
+    },
+    {
+        "cnt": 31,
+        "filename": "USW00012842_23.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.65625
+    },
+    {
+        "cnt": 32,
+        "filename": "USW00012842_31.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 33,
+        "filename": "USW00012842_33.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6764705882352942
+    },
+    {
+        "cnt": 34,
+        "filename": "USW00012842_34.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6857142857142857
+    },
+    {
+        "cnt": 35,
+        "filename": "USW00012842_36.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6944444444444444
+    },
+    {
+        "cnt": 36,
+        "filename": "USW00012844_1.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7027027027027027
+    },
+    {
+        "cnt": 37,
+        "filename": "USW00012844_11.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7105263157894737
+    },
+    {
+        "cnt": 38,
+        "filename": "USW00012844_12.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.717948717948718
+    },
+    {
+        "cnt": 39,
+        "filename": "USW00012844_18.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.725
+    },
+    {
+        "cnt": 40,
+        "filename": "USW00012844_22.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7317073170731707
+    },
+    {
+        "cnt": 41,
+        "filename": "USW00012844_23.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7380952380952381
+    },
+    {
+        "cnt": 42,
+        "filename": "USW00012844_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7441860465116279
+    },
+    {
+        "cnt": 43,
+        "filename": "USW00012849_11.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7272727272727273
+    },
+    {
+        "cnt": 44,
+        "filename": "USW00012849_21.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7111111111111111
+    },
+    {
+        "cnt": 45,
+        "filename": "USW00012849_25.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.717391304347826
+    },
+    {
+        "cnt": 46,
+        "filename": "USW00012849_31.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7021276595744681
+    },
+    {
+        "cnt": 47,
+        "filename": "USW00012894_23.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7083333333333334
+    },
+    {
+        "cnt": 48,
+        "filename": "USW00012894_30.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7142857142857143
+    },
+    {
+        "cnt": 49,
+        "filename": "USW00012916_18.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.72
+    },
+    {
+        "cnt": 50,
+        "filename": "USW00012916_19.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7254901960784313
+    },
+    {
+        "cnt": 51,
+        "filename": "USW00012916_24.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7307692307692307
+    },
+    {
+        "cnt": 52,
+        "filename": "USW00012916_32.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7169811320754716
+    },
+    {
+        "cnt": 53,
+        "filename": "USW00012916_35.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7222222222222222
+    },
+    {
+        "cnt": 54,
+        "filename": "USW00012916_39.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.7090909090909091
+    },
+    {
+        "cnt": 55,
+        "filename": "USW00012916_5.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7142857142857143
+    },
+    {
+        "cnt": 56,
+        "filename": "USW00012918_14.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7017543859649122
+    },
+    {
+        "cnt": 57,
+        "filename": "USW00012918_20.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7068965517241379
+    },
+    {
+        "cnt": 58,
+        "filename": "USW00012918_22.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.711864406779661
+    },
+    {
+        "cnt": 59,
+        "filename": "USW00012918_37.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7166666666666667
+    },
+    {
+        "cnt": 60,
+        "filename": "USW00012918_38.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7213114754098361
+    },
+    {
+        "cnt": 61,
+        "filename": "USW00012921_24.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7258064516129032
+    },
+    {
+        "cnt": 62,
+        "filename": "USW00012921_31.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7142857142857143
+    },
+    {
+        "cnt": 63,
+        "filename": "USW00012921_4.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.703125
+    },
+    {
+        "cnt": 64,
+        "filename": "USW00012960_1.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6923076923076923
+    },
+    {
+        "cnt": 65,
+        "filename": "USW00012960_11.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6818181818181818
+    },
+    {
+        "cnt": 66,
+        "filename": "USW00012960_2.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6865671641791045
+    },
+    {
+        "cnt": 67,
+        "filename": "USW00012960_20.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6911764705882353
+    },
+    {
+        "cnt": 68,
+        "filename": "USW00012960_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6956521739130435
+    },
+    {
+        "cnt": 69,
+        "filename": "USW00012960_38.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7
+    },
+    {
+        "cnt": 70,
+        "filename": "USW00012960_6.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.704225352112676
+    },
+    {
+        "cnt": 71,
+        "filename": "USW00012960_7.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7083333333333334
+    },
+    {
+        "cnt": 72,
+        "filename": "USW00012960_8.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6986301369863014
+    },
+    {
+        "cnt": 73,
+        "filename": "USW00013722_0.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6891891891891891
+    },
+    {
+        "cnt": 74,
+        "filename": "USW00013722_2.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6933333333333334
+    },
+    {
+        "cnt": 75,
+        "filename": "USW00013722_23.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6842105263157895
+    },
+    {
+        "cnt": 76,
+        "filename": "USW00013722_24.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6883116883116883
+    },
+    {
+        "cnt": 77,
+        "filename": "USW00013722_30.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6923076923076923
+    },
+    {
+        "cnt": 78,
+        "filename": "USW00013722_34.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6962025316455697
+    },
+    {
+        "cnt": 79,
+        "filename": "USW00013722_7.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6875
+    },
+    {
+        "cnt": 80,
+        "filename": "USW00013739_21.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.691358024691358
+    },
+    {
+        "cnt": 81,
+        "filename": "USW00013739_24.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6951219512195121
+    },
+    {
+        "cnt": 82,
+        "filename": "USW00013739_33.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6987951807228916
+    },
+    {
+        "cnt": 83,
+        "filename": "USW00013739_39.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6904761904761905
+    },
+    {
+        "cnt": 84,
+        "filename": "USW00013739_4.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6823529411764706
+    },
+    {
+        "cnt": 85,
+        "filename": "USW00013743_12.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6744186046511628
+    },
+    {
+        "cnt": 86,
+        "filename": "USW00013743_13.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6781609195402298
+    },
+    {
+        "cnt": 87,
+        "filename": "USW00013743_30.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6818181818181818
+    },
+    {
+        "cnt": 88,
+        "filename": "USW00013874_12.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6741573033707865
+    },
+    {
+        "cnt": 89,
+        "filename": "USW00013874_13.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6777777777777778
+    },
+    {
+        "cnt": 90,
+        "filename": "USW00013874_14.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6813186813186813
+    },
+    {
+        "cnt": 91,
+        "filename": "USW00013874_21.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6847826086956522
+    },
+    {
+        "cnt": 92,
+        "filename": "USW00013874_22.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6881720430107527
+    },
+    {
+        "cnt": 93,
+        "filename": "USW00013874_9.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6808510638297872
+    },
+    {
+        "cnt": 94,
+        "filename": "USW00013881_17.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6842105263157895
+    },
+    {
+        "cnt": 95,
+        "filename": "USW00013881_19.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6770833333333334
+    },
+    {
+        "cnt": 96,
+        "filename": "USW00013881_39.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6701030927835051
+    },
+    {
+        "cnt": 97,
+        "filename": "USW00013881_6.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6632653061224489
+    },
+    {
+        "cnt": 98,
+        "filename": "USW00013881_8.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6565656565656566
+    },
+    {
+        "cnt": 99,
+        "filename": "USW00013897_14.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.66
+    },
+    {
+        "cnt": 100,
+        "filename": "USW00013897_22.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6633663366336634
+    },
+    {
+        "cnt": 101,
+        "filename": "USW00013897_27.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6568627450980392
+    },
+    {
+        "cnt": 102,
+        "filename": "USW00013897_29.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6504854368932039
+    },
+    {
+        "cnt": 103,
+        "filename": "USW00013897_31.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6538461538461539
+    },
+    {
+        "cnt": 104,
+        "filename": "USW00013897_32.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6476190476190476
+    },
+    {
+        "cnt": 105,
+        "filename": "USW00013897_38.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6509433962264151
+    },
+    {
+        "cnt": 106,
+        "filename": "USW00013897_4.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6542056074766355
+    },
+    {
+        "cnt": 107,
+        "filename": "USW00013904_21.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6574074074074074
+    },
+    {
+        "cnt": 108,
+        "filename": "USW00013904_25.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6605504587155964
+    },
+    {
+        "cnt": 109,
+        "filename": "USW00013904_39.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6636363636363637
+    },
+    {
+        "cnt": 110,
+        "filename": "USW00013904_4.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 111,
+        "filename": "USW00013904_7.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6696428571428571
+    },
+    {
+        "cnt": 112,
+        "filename": "USW00013960_1.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.672566371681416
+    },
+    {
+        "cnt": 113,
+        "filename": "USW00013960_12.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6754385964912281
+    },
+    {
+        "cnt": 114,
+        "filename": "USW00013960_15.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6782608695652174
+    },
+    {
+        "cnt": 115,
+        "filename": "USW00013960_18.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6810344827586207
+    },
+    {
+        "cnt": 116,
+        "filename": "USW00013960_22.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6752136752136753
+    },
+    {
+        "cnt": 117,
+        "filename": "USW00013960_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6779661016949152
+    },
+    {
+        "cnt": 118,
+        "filename": "USW00013960_28.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6722689075630253
+    },
+    {
+        "cnt": 119,
+        "filename": "USW00013960_3.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 120,
+        "filename": "USW00013960_39.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6694214876033058
+    },
+    {
+        "cnt": 121,
+        "filename": "USW00013994_10.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6721311475409836
+    },
+    {
+        "cnt": 122,
+        "filename": "USW00013994_19.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6747967479674797
+    },
+    {
+        "cnt": 123,
+        "filename": "USW00013994_20.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6693548387096774
+    },
+    {
+        "cnt": 124,
+        "filename": "USW00013994_22.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.664
+    },
+    {
+        "cnt": 125,
+        "filename": "USW00013994_23.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 126,
+        "filename": "USW00013994_25.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6614173228346457
+    },
+    {
+        "cnt": 127,
+        "filename": "USW00013994_26.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.65625
+    },
+    {
+        "cnt": 128,
+        "filename": "USW00013994_27.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6511627906976745
+    },
+    {
+        "cnt": 129,
+        "filename": "USW00013994_36.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6461538461538462
+    },
+    {
+        "cnt": 130,
+        "filename": "USW00013994_39.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6412213740458015
+    },
+    {
+        "cnt": 131,
+        "filename": "USW00014732_0.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6363636363636364
+    },
+    {
+        "cnt": 132,
+        "filename": "USW00014732_12.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.631578947368421
+    },
+    {
+        "cnt": 133,
+        "filename": "USW00014732_26.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6343283582089553
+    },
+    {
+        "cnt": 134,
+        "filename": "USW00014732_30.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6296296296296297
+    },
+    {
+        "cnt": 135,
+        "filename": "USW00014732_31.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6323529411764706
+    },
+    {
+        "cnt": 136,
+        "filename": "USW00014732_33.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.635036496350365
+    },
+    {
+        "cnt": 137,
+        "filename": "USW00014732_34.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6376811594202898
+    },
+    {
+        "cnt": 138,
+        "filename": "USW00014732_36.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6402877697841727
+    },
+    {
+        "cnt": 139,
+        "filename": "USW00014732_9.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6428571428571429
+    },
+    {
+        "cnt": 140,
+        "filename": "USW00014734_1.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6453900709219859
+    },
+    {
+        "cnt": 141,
+        "filename": "USW00014734_11.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.647887323943662
+    },
+    {
+        "cnt": 142,
+        "filename": "USW00014734_16.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6433566433566433
+    },
+    {
+        "cnt": 143,
+        "filename": "USW00014734_18.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6458333333333334
+    },
+    {
+        "cnt": 144,
+        "filename": "USW00014734_28.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6482758620689655
+    },
+    {
+        "cnt": 145,
+        "filename": "USW00014734_31.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6506849315068494
+    },
+    {
+        "cnt": 146,
+        "filename": "USW00014734_32.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6530612244897959
+    },
+    {
+        "cnt": 147,
+        "filename": "USW00014734_36.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6554054054054054
+    },
+    {
+        "cnt": 148,
+        "filename": "USW00014734_39.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6577181208053692
+    },
+    {
+        "cnt": 149,
+        "filename": "USW00014734_8.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6533333333333333
+    },
+    {
+        "cnt": 150,
+        "filename": "USW00014739_2.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6556291390728477
+    },
+    {
+        "cnt": 151,
+        "filename": "USW00014739_20.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6513157894736842
+    },
+    {
+        "cnt": 152,
+        "filename": "USW00014739_29.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6535947712418301
+    },
+    {
+        "cnt": 153,
+        "filename": "USW00014739_5.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6493506493506493
+    },
+    {
+        "cnt": 154,
+        "filename": "USW00014739_6.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6516129032258065
+    },
+    {
+        "cnt": 155,
+        "filename": "USW00014819_13.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6538461538461539
+    },
+    {
+        "cnt": 156,
+        "filename": "USW00014819_24.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6560509554140127
+    },
+    {
+        "cnt": 157,
+        "filename": "USW00014819_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6582278481012658
+    },
+    {
+        "cnt": 158,
+        "filename": "USW00014819_28.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.660377358490566
+    },
+    {
+        "cnt": 159,
+        "filename": "USW00014819_32.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6625
+    },
+    {
+        "cnt": 160,
+        "filename": "USW00014819_9.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6645962732919255
+    },
+    {
+        "cnt": 161,
+        "filename": "USW00014820_1.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 162,
+        "filename": "USW00014820_13.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6687116564417178
+    },
+    {
+        "cnt": 163,
+        "filename": "USW00014820_15.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6707317073170732
+    },
+    {
+        "cnt": 164,
+        "filename": "USW00014820_29.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 165,
+        "filename": "USW00014820_34.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6686746987951807
+    },
+    {
+        "cnt": 166,
+        "filename": "USW00014820_4.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6646706586826348
+    },
+    {
+        "cnt": 167,
+        "filename": "USW00014820_6.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6607142857142857
+    },
+    {
+        "cnt": 168,
+        "filename": "USW00014821_11.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6627218934911243
+    },
+    {
+        "cnt": 169,
+        "filename": "USW00014821_28.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6647058823529411
+    },
+    {
+        "cnt": 170,
+        "filename": "USW00014821_3.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6608187134502924
+    },
+    {
+        "cnt": 171,
+        "filename": "USW00014821_30.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6627906976744186
+    },
+    {
+        "cnt": 172,
+        "filename": "USW00014821_39.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6589595375722543
+    },
+    {
+        "cnt": 173,
+        "filename": "USW00014922_23.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6609195402298851
+    },
+    {
+        "cnt": 174,
+        "filename": "USW00014922_26.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6571428571428571
+    },
+    {
+        "cnt": 175,
+        "filename": "USW00014922_28.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6534090909090909
+    },
+    {
+        "cnt": 176,
+        "filename": "USW00014922_29.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.655367231638418
+    },
+    {
+        "cnt": 177,
+        "filename": "USW00014922_3.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.651685393258427
+    },
+    {
+        "cnt": 178,
+        "filename": "USW00014922_30.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6536312849162011
+    },
+    {
+        "cnt": 179,
+        "filename": "USW00014922_32.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6555555555555556
+    },
+    {
+        "cnt": 180,
+        "filename": "USW00014922_35.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6574585635359116
+    },
+    {
+        "cnt": 181,
+        "filename": "USW00014922_37.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6538461538461539
+    },
+    {
+        "cnt": 182,
+        "filename": "USW00022521_1.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6502732240437158
+    },
+    {
+        "cnt": 183,
+        "filename": "USW00022521_10.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6521739130434783
+    },
+    {
+        "cnt": 184,
+        "filename": "USW00022521_12.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.654054054054054
+    },
+    {
+        "cnt": 185,
+        "filename": "USW00022521_16.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6559139784946236
+    },
+    {
+        "cnt": 186,
+        "filename": "USW00022521_17.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6577540106951871
+    },
+    {
+        "cnt": 187,
+        "filename": "USW00022521_20.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6595744680851063
+    },
+    {
+        "cnt": 188,
+        "filename": "USW00022521_23.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6613756613756614
+    },
+    {
+        "cnt": 189,
+        "filename": "USW00022521_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6631578947368421
+    },
+    {
+        "cnt": 190,
+        "filename": "USW00022521_27.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6596858638743456
+    },
+    {
+        "cnt": 191,
+        "filename": "USW00022521_36.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6614583333333334
+    },
+    {
+        "cnt": 192,
+        "filename": "USW00023169_0.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6632124352331606
+    },
+    {
+        "cnt": 193,
+        "filename": "USW00023174_14.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6649484536082474
+    },
+    {
+        "cnt": 194,
+        "filename": "USW00023174_16.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 195,
+        "filename": "USW00023174_22.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6683673469387755
+    },
+    {
+        "cnt": 196,
+        "filename": "USW00023174_24.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6649746192893401
+    },
+    {
+        "cnt": 197,
+        "filename": "USW00023174_25.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 198,
+        "filename": "USW00023174_26.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6633165829145728
+    },
+    {
+        "cnt": 199,
+        "filename": "USW00023174_29.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.665
+    },
+    {
+        "cnt": 200,
+        "filename": "USW00023174_3.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 201,
+        "filename": "USW00023174_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6683168316831684
+    },
+    {
+        "cnt": 202,
+        "filename": "USW00023174_36.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6699507389162561
+    },
+    {
+        "cnt": 203,
+        "filename": "USW00023174_6.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6715686274509803
+    },
+    {
+        "cnt": 204,
+        "filename": "USW00023183_18.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6682926829268293
+    },
+    {
+        "cnt": 205,
+        "filename": "USW00023183_27.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6650485436893204
+    },
+    {
+        "cnt": 206,
+        "filename": "USW00023183_30.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6666666666666666
+    },
+    {
+        "cnt": 207,
+        "filename": "USW00023188_9.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6682692307692307
+    },
+    {
+        "cnt": 208,
+        "filename": "USW00023234_18.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6698564593301436
+    },
+    {
+        "cnt": 209,
+        "filename": "USW00023234_28.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6714285714285714
+    },
+    {
+        "cnt": 210,
+        "filename": "USW00023234_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6729857819905213
+    },
+    {
+        "cnt": 211,
+        "filename": "USW00023234_38.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6745283018867925
+    },
+    {
+        "cnt": 212,
+        "filename": "USW00023293_10.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.676056338028169
+    },
+    {
+        "cnt": 213,
+        "filename": "USW00023293_11.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.677570093457944
+    },
+    {
+        "cnt": 214,
+        "filename": "USW00023293_13.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6790697674418604
+    },
+    {
+        "cnt": 215,
+        "filename": "USW00023293_14.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6805555555555556
+    },
+    {
+        "cnt": 216,
+        "filename": "USW00023293_16.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6820276497695853
+    },
+    {
+        "cnt": 217,
+        "filename": "USW00023293_2.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6788990825688074
+    },
+    {
+        "cnt": 218,
+        "filename": "USW00023293_29.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.680365296803653
+    },
+    {
+        "cnt": 219,
+        "filename": "USW00023293_34.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6818181818181818
+    },
+    {
+        "cnt": 220,
+        "filename": "USW00023293_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6832579185520362
+    },
+    {
+        "cnt": 221,
+        "filename": "USW00024127_10.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6801801801801802
+    },
+    {
+        "cnt": 222,
+        "filename": "USW00024127_36.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6816143497757847
+    },
+    {
+        "cnt": 223,
+        "filename": "USW00024127_5.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6830357142857143
+    },
+    {
+        "cnt": 224,
+        "filename": "USW00024127_9.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6844444444444444
+    },
+    {
+        "cnt": 225,
+        "filename": "USW00024229_0.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6858407079646017
+    },
+    {
+        "cnt": 226,
+        "filename": "USW00024229_14.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6872246696035242
+    },
+    {
+        "cnt": 227,
+        "filename": "USW00024229_21.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6885964912280702
+    },
+    {
+        "cnt": 228,
+        "filename": "USW00024229_25.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6899563318777293
+    },
+    {
+        "cnt": 229,
+        "filename": "USW00024229_5.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.691304347826087
+    },
+    {
+        "cnt": 230,
+        "filename": "USW00024233_0.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6926406926406926
+    },
+    {
+        "cnt": 231,
+        "filename": "USW00024233_2.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6939655172413793
+    },
+    {
+        "cnt": 232,
+        "filename": "USW00024233_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6952789699570815
+    },
+    {
+        "cnt": 233,
+        "filename": "USW00024233_27.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6965811965811965
+    },
+    {
+        "cnt": 234,
+        "filename": "USW00024233_33.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6978723404255319
+    },
+    {
+        "cnt": 235,
+        "filename": "USW00024233_34.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6991525423728814
+    },
+    {
+        "cnt": 236,
+        "filename": "USW00024233_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.70042194092827
+    },
+    {
+        "cnt": 237,
+        "filename": "USW00024233_38.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6974789915966386
+    },
+    {
+        "cnt": 238,
+        "filename": "USW00093184_24.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.698744769874477
+    },
+    {
+        "cnt": 239,
+        "filename": "USW00093184_26.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7
+    },
+    {
+        "cnt": 240,
+        "filename": "USW00093184_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.7012448132780082
+    },
+    {
+        "cnt": 241,
+        "filename": "USW00093184_9.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6983471074380165
+    },
+    {
+        "cnt": 242,
+        "filename": "USW00093225_1.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6995884773662552
+    },
+    {
+        "cnt": 243,
+        "filename": "USW00093225_11.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6967213114754098
+    },
+    {
+        "cnt": 244,
+        "filename": "USW00093225_12.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6979591836734694
+    },
+    {
+        "cnt": 245,
+        "filename": "USW00093225_25.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6991869918699187
+    },
+    {
+        "cnt": 246,
+        "filename": "USW00093225_4.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.7004048582995951
+    },
+    {
+        "cnt": 247,
+        "filename": "USW00093721_12.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6975806451612904
+    },
+    {
+        "cnt": 248,
+        "filename": "USW00093721_31.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6987951807228916
+    },
+    {
+        "cnt": 249,
+        "filename": "USW00093721_33.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.696
+    },
+    {
+        "cnt": 250,
+        "filename": "USW00093721_34.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6972111553784861
+    },
+    {
+        "cnt": 251,
+        "filename": "USW00093721_35.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6944444444444444
+    },
+    {
+        "cnt": 252,
+        "filename": "USW00093721_9.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.691699604743083
+    },
+    {
+        "cnt": 253,
+        "filename": "USW00093738_13.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6929133858267716
+    },
+    {
+        "cnt": 254,
+        "filename": "USW00093738_15.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6901960784313725
+    },
+    {
+        "cnt": 255,
+        "filename": "USW00093738_24.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.69140625
+    },
+    {
+        "cnt": 256,
+        "filename": "USW00093738_27.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6926070038910506
+    },
+    {
+        "cnt": 257,
+        "filename": "USW00093738_28.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.689922480620155
+    },
+    {
+        "cnt": 258,
+        "filename": "USW00093738_29.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6911196911196911
+    },
+    {
+        "cnt": 259,
+        "filename": "USW00093738_3.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6923076923076923
+    },
+    {
+        "cnt": 260,
+        "filename": "USW00093738_30.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6896551724137931
+    },
+    {
+        "cnt": 261,
+        "filename": "USW00093738_33.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6908396946564885
+    },
+    {
+        "cnt": 262,
+        "filename": "USW00093738_35.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6920152091254753
+    },
+    {
+        "cnt": 263,
+        "filename": "USW00093738_7.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6931818181818182
+    },
+    {
+        "cnt": 264,
+        "filename": "USW00093814_2.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6943396226415094
+    },
+    {
+        "cnt": 265,
+        "filename": "USW00093814_26.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6954887218045113
+    },
+    {
+        "cnt": 266,
+        "filename": "USW00093814_28.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6928838951310862
+    },
+    {
+        "cnt": 267,
+        "filename": "USW00093814_29.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6940298507462687
+    },
+    {
+        "cnt": 268,
+        "filename": "USW00093814_35.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6951672862453532
+    },
+    {
+        "cnt": 269,
+        "filename": "USW00093819_17.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6925925925925925
+    },
+    {
+        "cnt": 270,
+        "filename": "USW00093819_18.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6900369003690037
+    },
+    {
+        "cnt": 271,
+        "filename": "USW00093819_37.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6875
+    },
+    {
+        "cnt": 272,
+        "filename": "USW00093819_6.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6886446886446886
+    },
+    {
+        "cnt": 273,
+        "filename": "USW00093819_8.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6861313868613139
+    },
+    {
+        "cnt": 274,
+        "filename": "USW00094789_10.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6872727272727273
+    },
+    {
+        "cnt": 275,
+        "filename": "USW00094789_19.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6884057971014492
+    },
+    {
+        "cnt": 276,
+        "filename": "USW00094789_34.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6895306859205776
+    },
+    {
+        "cnt": 277,
+        "filename": "USW00094823_10.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6870503597122302
+    },
+    {
+        "cnt": 278,
+        "filename": "USW00094823_15.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6881720430107527
+    },
+    {
+        "cnt": 279,
+        "filename": "USW00094823_19.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6857142857142857
+    },
+    {
+        "cnt": 280,
+        "filename": "USW00094823_23.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6868327402135231
+    },
+    {
+        "cnt": 281,
+        "filename": "USW00094823_24.json",
+        "ground_truth": "stable",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6843971631205674
+    },
+    {
+        "cnt": 282,
+        "filename": "USW00094823_27.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6855123674911661
+    },
+    {
+        "cnt": 283,
+        "filename": "USW00094823_33.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6866197183098591
+    },
+    {
+        "cnt": 284,
+        "filename": "USW00094823_8.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6877192982456141
+    },
+    {
+        "cnt": 285,
+        "filename": "USW00094823_9.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6888111888111889
+    },
+    {
+        "cnt": 286,
+        "filename": "USW00094846_11.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.686411149825784
+    },
+    {
+        "cnt": 287,
+        "filename": "USW00094846_15.json",
+        "ground_truth": "increasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6840277777777778
+    },
+    {
+        "cnt": 288,
+        "filename": "USW00094846_20.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6851211072664359
+    },
+    {
+        "cnt": 289,
+        "filename": "USW00094846_29.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6862068965517242
+    },
+    {
+        "cnt": 290,
+        "filename": "USW00094846_31.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6838487972508591
+    },
+    {
+        "cnt": 291,
+        "filename": "USW00094846_33.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.684931506849315
+    },
+    {
+        "cnt": 292,
+        "filename": "USW00094846_34.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6860068259385665
+    },
+    {
+        "cnt": 293,
+        "filename": "USW00094846_38.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6836734693877551
+    },
+    {
+        "cnt": 294,
+        "filename": "USW00094847_13.json",
+        "ground_truth": "stable",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6847457627118644
+    },
+    {
+        "cnt": 295,
+        "filename": "USW00094847_24.json",
+        "ground_truth": "increasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.6824324324324325
+    },
+    {
+        "cnt": 296,
+        "filename": "USW00094847_25.json",
+        "ground_truth": "decreasing",
+        "predict": "decreasing",
+        "answer": "decreasing",
+        "accumulated_acc": 0.6835016835016835
+    },
+    {
+        "cnt": 297,
+        "filename": "USW00094847_31.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6845637583892618
+    },
+    {
+        "cnt": 298,
+        "filename": "USW00094847_38.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.68561872909699
+    },
+    {
+        "cnt": 299,
+        "filename": "USW00094847_39.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.6833333333333333
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "cnt": 0,
+        "filename": "USW00003017_29.json",
+        "ground_truth": "decreasing",
+        "predict": "stable",
+        "answer": "stable",
+        "accumulated_acc": 0.0
+    },
+    {
+        "cnt": 1,
+        "filename": "USW00003017_30.json",
+        "ground_truth": "increasing",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.5
+    },
+    {
+        "cnt": 2,
+        "filename": "USW00003017_35.json",
+        "ground_truth": "stable",
+        "predict": "increasing",
+        "answer": "increasing",
+        "accumulated_acc": 0.3333333333333333
+    }
+]

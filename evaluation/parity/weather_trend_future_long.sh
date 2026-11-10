@@ -19,7 +19,7 @@
 #SBATCH --output=./logs/parity/%x/%A/out/%a.out
 #SBATCH --error=./logs/parity/%x/%A/err/%a.err
 #SBATCH --mail-user=mike.gee@yale.edu
-#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=BEGIN,END,FAIL
 
 cell="weather_trend_future_long"
 conditions=(timeseries_only combined)

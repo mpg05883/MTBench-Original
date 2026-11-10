@@ -1,0 +1,29 @@
+[
+    {
+        "cnt": 0,
+        "filename": "0_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ -4%",
+        "answer": "The price series shows a clear downtrend over the month: it starts around the low 80s and steadily deteriorates into the mid-50s, with only brief rebounds. The most recent values are still near the lower end of the range, suggesting weak momentum and no strong reversal signal.\n\nThe news is mixed but slightly supportive fundamentally: it highlights ongoing regulatory approvals and revenue growth expectations, which are positive for the longer term. However, the article also emphasizes that the stock is trading near its 52-week low and still faces near-term uncertainty around U.S. FDA authorization timing. In the short run, that kind of news is not strong enough to overpower the bearish technical trend.\n\nCombining both, the technical weakness dominates, but the supportive news prevents me from expecting a sharp additional collapse immediately. So the most likely near-term move is a modest decline rather than a large drop.\n\n^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 1.0
+    },
+    {
+        "cnt": 1,
+        "filename": "101_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "The time-series shows a clear downtrend from the low 90s into the low 70s, with recent prices stabilizing around 72\u201373 after a rebound from the mid/low 60s. That suggests the stock has likely found short-term support, but momentum is still weak and not yet showing a strong reversal.\n\nThe news is moderately positive: it highlights strong growth attributes, upward earnings estimate revisions, and a favorable Zacks ranking. This should help offset some bearish price action, but the news appears more like a supportive fundamental catalyst than an immediate sharp rally signal.\n\nPutting both together, the recent stabilization plus constructive news points to a modest near-term rebound rather than a large move.\n\n^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.5
+    },
+    {
+        "cnt": 2,
+        "filename": "102_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "The time-series shows a clear **downtrend into the latest readings**: the stock moved from the mid-230s/240s earlier in the month to around **218\u2013219** at the end, with weaker momentum and repeated lower highs/lows. That suggests short-term bearish pressure remains.\n\nThe news is **slightly negative to mixed**: the stock underperformed the broader market, has fallen about **5.77% over the past month**, analyst estimate revisions were lower, and the industry rank is weak. However, upcoming earnings expectations are still positive, which helps limit downside. Overall, the news supports weakness, but not a severe crash signal.\n\nCombining both, the most likely outcome is a **modest further decline rather than a sharp move**.\n\n^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.3333333333333333
+    }
+]

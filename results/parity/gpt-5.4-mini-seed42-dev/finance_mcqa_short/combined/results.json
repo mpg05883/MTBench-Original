@@ -1,0 +1,23 @@
+[
+    {
+        "cnt": 0,
+        "filename": "1003_RHI.json",
+        "question": "Which of the following statements about RHI's stock price and the given financial analysis is correct?\nA. Since the stock price reflected a consistent downtrend after the news, it can be inferred that the market is bearish on Robert Half's performance for the upcoming quarters.\nB. The stock price drop from $112.15 on 2021-10-25 before the news to $111.93 after suggests that investors are losing confidence in Robert Half, despite the positive earnings forecast.\nC. The stock price trend after the news publication indicates sustained upward momentum, highlighting investor confidence as it moved from $113.66 to a peak of $114.85 in just over a day.\nD. The sudden rise in prices after the news can be attributed solely to speculative trading rather than the growth stock's fundamental strengths, undermining the validity of the Zacks Rank.",
+        "ground_truth": "C",
+        "predict": "C"
+    },
+    {
+        "cnt": 1,
+        "filename": "10091_OC.json",
+        "question": "Which of the following statements about OC's stock price and the given financial analysis is incorrect?\nA. With the lower average price target, it is likely that investor confidence will increase significantly, resulting in a bullish trend in the following weeks.\nB. Following the publication of the news, the stock price stayed relatively stable, hovering around $91, indicating a lack of strong market reaction to the analyst opinions.\nC. The analysts' previous price target of $100.75 was significantly higher than the current average, suggesting increased caution among analysts regarding Owens-Corning's future stock performance.\nD. Analyst ratings indicate a 12-month price target with a mean of $91.22, which is close to the stock price observed just after the news was published, suggesting that the market may have priced in analyst expectations.",
+        "ground_truth": "A",
+        "predict": "A"
+    },
+    {
+        "cnt": 2,
+        "filename": "10136_GME.json",
+        "question": "Which of the following statements about GME's stock price and the given financial analysis is incorrect?\nA. The analysis indicates that the GME stock is due for a major correction based on its previous month's gain of 15.84%, which is unusual for a stock with a Zacks Rank of #3 (Hold).\nB. The stock price of GameStop (GME) experienced a notable uptrend before the news publication, attaining a peak of $32.4943 just two hours prior to the publication at 2022-02-16 20:55:00.\nC. Following the news publication, GameStop's stock price showed a stable trend with minimal fluctuations, hovering around a range between $31.6925 and $32.6013, indicating sustained market interest despite the earnings report expectations.\nD. The upcoming earnings report, projected to show a decline of 42.54% year-over-year, may likely lead investors to reassess their valuation metrics, especially considering GME\u2019s exceptionally high Forward P/E ratio of 8410.67 mentioned in the news.",
+        "ground_truth": "A",
+        "predict": "A"
+    }
+]

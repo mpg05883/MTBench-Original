@@ -1,0 +1,1802 @@
+[
+    {
+        "cnt": 0,
+        "filename": "1010_RIG.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 1,
+        "filename": "10148_ITT.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 2,
+        "filename": "10152_NVDA.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 3,
+        "filename": "10153_TFX.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 4,
+        "filename": "10186_SHW.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 5,
+        "filename": "10237_STT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Strong Negative Correlation"
+    },
+    {
+        "cnt": 6,
+        "filename": "10289_STM.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 7,
+        "filename": "10371_LULU.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 8,
+        "filename": "1042_CSX.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 9,
+        "filename": "10539_ABBV.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 10,
+        "filename": "10547_HPQ.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 11,
+        "filename": "10580_LZB.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 12,
+        "filename": "10581_PGR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 13,
+        "filename": "10585_EW.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 14,
+        "filename": "10638_NVDA.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 15,
+        "filename": "10655_SNA.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 16,
+        "filename": "10682_F.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Strong Negative Correlation"
+    },
+    {
+        "cnt": 17,
+        "filename": "10683_NAT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 18,
+        "filename": "1113_GPRE.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 19,
+        "filename": "1145_JWN.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 20,
+        "filename": "1183_CERS.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 21,
+        "filename": "1197_RAD.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 22,
+        "filename": "121_MYGN.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 23,
+        "filename": "1254_TDG.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 24,
+        "filename": "1270_ENPH.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 25,
+        "filename": "1281_GM.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 26,
+        "filename": "1365_SPY.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 27,
+        "filename": "151_SPY.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 28,
+        "filename": "1543_ALEX.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 29,
+        "filename": "1616_LVS.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 30,
+        "filename": "1637_TSM.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 31,
+        "filename": "163_WTFC.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 32,
+        "filename": "1643_MU.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 33,
+        "filename": "1648_DG.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 34,
+        "filename": "1703_TXN.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 35,
+        "filename": "1769_TTMI.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 36,
+        "filename": "1836_AGCO.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 37,
+        "filename": "1890_AMZN.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 38,
+        "filename": "189_NFLX.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 39,
+        "filename": "18_MMM.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 40,
+        "filename": "2002_VMC.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 41,
+        "filename": "2013_PSA.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 42,
+        "filename": "2015_JCI.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 43,
+        "filename": "2051_AA.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 44,
+        "filename": "2119_CMG.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 45,
+        "filename": "2122_EL.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Strong Negative Correlation"
+    },
+    {
+        "cnt": 46,
+        "filename": "2147_TGT.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 47,
+        "filename": "2181_JPM.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 48,
+        "filename": "2183_FLS.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 49,
+        "filename": "2191_APO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 50,
+        "filename": "2196_WLK.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 51,
+        "filename": "2202_VIPS.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 52,
+        "filename": "2229_WMT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 53,
+        "filename": "222_ACGL.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 54,
+        "filename": "2232_HRB.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 55,
+        "filename": "2253_FNF.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 56,
+        "filename": "2267_EPD.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 57,
+        "filename": "2295_DG.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 58,
+        "filename": "2311_BK.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 59,
+        "filename": "2445_NDAQ.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 60,
+        "filename": "2486_RJF.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 61,
+        "filename": "2493_TRGP.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 62,
+        "filename": "2514_CASY.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 63,
+        "filename": "2523_MRO.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 64,
+        "filename": "2549_NVDA.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 65,
+        "filename": "2572_CIEN.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 66,
+        "filename": "2600_CLH.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 67,
+        "filename": "2629_MU.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 68,
+        "filename": "2733_NXPI.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 69,
+        "filename": "2736_SPY.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 70,
+        "filename": "2769_ARCC.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 71,
+        "filename": "2797_MCHP.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 72,
+        "filename": "2804_GNRC.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 73,
+        "filename": "281_SPR.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 74,
+        "filename": "2858_VZ.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 75,
+        "filename": "2868_EXPD.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 76,
+        "filename": "2895_AMD.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 77,
+        "filename": "2897_AAPL.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 78,
+        "filename": "2901_NOW.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 79,
+        "filename": "290_TEL.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 80,
+        "filename": "3015_HST.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 81,
+        "filename": "303_ADM.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 82,
+        "filename": "3057_WAL.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 83,
+        "filename": "3071_FL.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 84,
+        "filename": "3077_JBL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 85,
+        "filename": "3163_CRM.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 86,
+        "filename": "3165_LULU.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 87,
+        "filename": "320_PNNT.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 88,
+        "filename": "322_NOW.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 89,
+        "filename": "3231_AVGO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 90,
+        "filename": "3269_GIII.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 91,
+        "filename": "326_FCX.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 92,
+        "filename": "3289_BLK.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 93,
+        "filename": "3328_CCL.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 94,
+        "filename": "3334_ATR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 95,
+        "filename": "3351_HON.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 96,
+        "filename": "3424_HOMB.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 97,
+        "filename": "3457_MDT.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 98,
+        "filename": "3458_SIGI.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 99,
+        "filename": "3465_IR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 100,
+        "filename": "3514_MAIN.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 101,
+        "filename": "3571_CNQ.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 102,
+        "filename": "3583_TRGP.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 103,
+        "filename": "362_GME.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 104,
+        "filename": "3658_IWB.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 105,
+        "filename": "3673_ARCO.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 106,
+        "filename": "3682_NFLX.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 107,
+        "filename": "3689_DY.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 108,
+        "filename": "3711_LPLA.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 109,
+        "filename": "3715_CDNS.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 110,
+        "filename": "3722_PLD.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 111,
+        "filename": "374_HUM.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 112,
+        "filename": "3759_COP.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 113,
+        "filename": "3765_UPS.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 114,
+        "filename": "3774_VECO.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 115,
+        "filename": "3797_V.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 116,
+        "filename": "3863_DY.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 117,
+        "filename": "3879_MAR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 118,
+        "filename": "3889_TEL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 119,
+        "filename": "3911_PENN.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Strong Negative Correlation"
+    },
+    {
+        "cnt": 120,
+        "filename": "3967_ORCL.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 121,
+        "filename": "3991_FCF.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 122,
+        "filename": "4020_WMT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 123,
+        "filename": "4029_IFF.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 124,
+        "filename": "4083_KMB.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 125,
+        "filename": "4175_AMAT.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 126,
+        "filename": "4178_GD.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 127,
+        "filename": "4179_EMN.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 128,
+        "filename": "4202_SIG.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 129,
+        "filename": "4217_UNH.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 130,
+        "filename": "4263_NYCB.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 131,
+        "filename": "428_CMCSA.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 132,
+        "filename": "4292_DLB.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 133,
+        "filename": "4327_CROX.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 134,
+        "filename": "4346_JWN.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Strong Negative Correlation"
+    },
+    {
+        "cnt": 135,
+        "filename": "4354_LULU.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 136,
+        "filename": "4390_DG.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 137,
+        "filename": "4402_NOC.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 138,
+        "filename": "4553_OHI.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 139,
+        "filename": "4574_AEM.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 140,
+        "filename": "459_CE.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 141,
+        "filename": "4643_GILD.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 142,
+        "filename": "4756_BC.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 143,
+        "filename": "4777_NVDA.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 144,
+        "filename": "4786_ESS.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 145,
+        "filename": "4895_DIS.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 146,
+        "filename": "4900_FSLR.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 147,
+        "filename": "492_MGM.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 148,
+        "filename": "4950_SWKS.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 149,
+        "filename": "502_NYCB.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 150,
+        "filename": "5036_MHK.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 151,
+        "filename": "5064_CONN.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 152,
+        "filename": "5066_BIP.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 153,
+        "filename": "5106_RCI.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 154,
+        "filename": "5125_ENPH.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 155,
+        "filename": "5160_TGT.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 156,
+        "filename": "5172_F.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 157,
+        "filename": "5195_CHKP.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 158,
+        "filename": "5196_CHRW.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 159,
+        "filename": "5235_AAP.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 160,
+        "filename": "5301_GILD.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 161,
+        "filename": "5342_FIVE.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 162,
+        "filename": "5372_CP.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 163,
+        "filename": "5382_FCX.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 164,
+        "filename": "5452_CSX.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 165,
+        "filename": "5506_WNC.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 166,
+        "filename": "5514_CI.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 167,
+        "filename": "5529_FBP.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 168,
+        "filename": "5541_BLDR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 169,
+        "filename": "5552_KNDI.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 170,
+        "filename": "5600_AMD.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 171,
+        "filename": "5617_MMP.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 172,
+        "filename": "5690_AAPL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 173,
+        "filename": "5697_A.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 174,
+        "filename": "5702_MTZ.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 175,
+        "filename": "570_EBIX.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 176,
+        "filename": "5716_FSLR.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 177,
+        "filename": "5726_CSCO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 178,
+        "filename": "5829_LAD.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 179,
+        "filename": "5853_AMGN.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 180,
+        "filename": "5864_UAL.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 181,
+        "filename": "5902_NFLX.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 182,
+        "filename": "5934_BIG.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 183,
+        "filename": "596_CSCO.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 184,
+        "filename": "5973_NVDA.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 185,
+        "filename": "5996_INTC.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 186,
+        "filename": "6049_ATSG.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 187,
+        "filename": "6122_AMD.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 188,
+        "filename": "6128_APH.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 189,
+        "filename": "6140_C.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 190,
+        "filename": "6196_XRAY.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 191,
+        "filename": "6235_DTE.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 192,
+        "filename": "6236_BIDU.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 193,
+        "filename": "6347_CVX.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 194,
+        "filename": "6356_WIX.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 195,
+        "filename": "638_NVS.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 196,
+        "filename": "6441_COST.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 197,
+        "filename": "6445_VLO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 198,
+        "filename": "645_VDE.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 199,
+        "filename": "6476_COO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 200,
+        "filename": "6489_PACB.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 201,
+        "filename": "6539_CSCO.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 202,
+        "filename": "6586_SAIA.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 203,
+        "filename": "661_ECL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 204,
+        "filename": "670_IAG.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 205,
+        "filename": "675_RIG.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 206,
+        "filename": "681_MO.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 207,
+        "filename": "6859_AAN.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 208,
+        "filename": "6897_RRC.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 209,
+        "filename": "6941_URBN.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 210,
+        "filename": "6977_JNJ.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 211,
+        "filename": "6986_NVDA.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 212,
+        "filename": "7030_HLX.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 213,
+        "filename": "7065_MMM.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 214,
+        "filename": "7077_AWK.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 215,
+        "filename": "7109_RH.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 216,
+        "filename": "7184_FELE.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 217,
+        "filename": "7203_MMP.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 218,
+        "filename": "7232_RCI.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 219,
+        "filename": "7253_SPG.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 220,
+        "filename": "7254_WFC.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 221,
+        "filename": "7270_UNH.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 222,
+        "filename": "7310_ORLY.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 223,
+        "filename": "7326_IWM.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 224,
+        "filename": "7375_MO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 225,
+        "filename": "7402_RES.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 226,
+        "filename": "7415_MHK.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 227,
+        "filename": "7427_GE.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 228,
+        "filename": "7489_GIII.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 229,
+        "filename": "7629_AGG.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 230,
+        "filename": "7656_TGT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 231,
+        "filename": "7686_BK.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 232,
+        "filename": "7753_BDN.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 233,
+        "filename": "7773_UAL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 234,
+        "filename": "7857_SAVE.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 235,
+        "filename": "7939_ODFL.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 236,
+        "filename": "7945_CLF.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 237,
+        "filename": "7978_CASY.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 238,
+        "filename": "8034_FNF.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 239,
+        "filename": "8057_STAG.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 240,
+        "filename": "8083_X.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 241,
+        "filename": "8084_ABT.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 242,
+        "filename": "8102_HP.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 243,
+        "filename": "8116_NLY.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 244,
+        "filename": "8235_RDWR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 245,
+        "filename": "8237_PG.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 246,
+        "filename": "8255_SPY.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 247,
+        "filename": "8402_NKE.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 248,
+        "filename": "8439_TGT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 249,
+        "filename": "8512_BLDR.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 250,
+        "filename": "8542_ASML.json",
+        "ground_truth": "No Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 251,
+        "filename": "8601_RCI.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 252,
+        "filename": "8604_AMZN.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 253,
+        "filename": "8664_WNC.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 254,
+        "filename": "8696_STM.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 255,
+        "filename": "8729_CAR.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 256,
+        "filename": "8753_DUK.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 257,
+        "filename": "8772_RL.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 258,
+        "filename": "8844_MCHP.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 259,
+        "filename": "8873_EOG.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 260,
+        "filename": "8895_UNH.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 261,
+        "filename": "8949_SMTC.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 262,
+        "filename": "8979_SPY.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 263,
+        "filename": "89_HAE.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Strong Negative Correlation"
+    },
+    {
+        "cnt": 264,
+        "filename": "9056_AB.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 265,
+        "filename": "9064_PH.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 266,
+        "filename": "9088_AFG.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 267,
+        "filename": "9110_AAPL.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 268,
+        "filename": "9122_ADP.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 269,
+        "filename": "914_CSCO.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 270,
+        "filename": "9158_AMBA.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Strong Positive Correlation"
+    },
+    {
+        "cnt": 271,
+        "filename": "9164_DKS.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 272,
+        "filename": "9185_DDD.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 273,
+        "filename": "9198_ANGO.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 274,
+        "filename": "9212_CRM.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 275,
+        "filename": "9224_AVGO.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 276,
+        "filename": "9318_NFLX.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 277,
+        "filename": "9365_NJR.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 278,
+        "filename": "938_FFIV.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 279,
+        "filename": "9405_SPG.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 280,
+        "filename": "9411_AMAT.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 281,
+        "filename": "9455_MSFT.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 282,
+        "filename": "9478_CLH.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 283,
+        "filename": "9505_COST.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 284,
+        "filename": "9547_BIDU.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 285,
+        "filename": "9627_PHG.json",
+        "ground_truth": "No Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 286,
+        "filename": "9652_ASH.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 287,
+        "filename": "9697_TOL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 288,
+        "filename": "9723_TYL.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 289,
+        "filename": "9738_MTG.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 290,
+        "filename": "9760_GE.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Negative Correlation"
+    },
+    {
+        "cnt": 291,
+        "filename": "9767_EPR.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 292,
+        "filename": "9782_HRB.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 293,
+        "filename": "9838_UIS.json",
+        "ground_truth": "Strong Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 294,
+        "filename": "985_SYY.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 295,
+        "filename": "9884_RLI.json",
+        "ground_truth": "Strong Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 296,
+        "filename": "9927_BG.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "No Correlation"
+    },
+    {
+        "cnt": 297,
+        "filename": "9956_PPC.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 298,
+        "filename": "9980_LNG.json",
+        "ground_truth": "Moderate Negative Correlation",
+        "predict": "Moderate Positive Correlation"
+    },
+    {
+        "cnt": 299,
+        "filename": "998_PLD.json",
+        "ground_truth": "Moderate Positive Correlation",
+        "predict": "Moderate Positive Correlation"
+    }
+]

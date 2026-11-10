@@ -1,0 +1,23 @@
+[
+    {
+        "cnt": 0,
+        "filename": "10000_NVDA.json",
+        "question": "Which of the following statements about NVDA's stock price and the given financial analysis is incorrect?\nA. The stock price of NVDA experienced a significant decline of nearly 45% year-to-date prior to the publication of the news, indicating a potential opportunity for investors to buy at a discounted price.\nB. Following the news publication, NVDA's stock displayed some volatility, with price fluctuations indicating market uncertainty as the stock traded between 162.81 and 180.8 in the subsequent week.\nC. Analysts predict that NVDA's stock will reach $280 as stated by Motiur Rahman in the immediate next week after the news, disregarding the recent downtrend leading up to that point.\nD. Gina Sanchez's bullish outlook on NVDA suggests that the anticipated demand for semiconductors, particularly in the cloud sector, could lead to potential recovery in the stock price in the medium to long term.",
+        "ground_truth": "C",
+        "predict": "C"
+    },
+    {
+        "cnt": 1,
+        "filename": "10012_IBN.json",
+        "question": "Which of the following statements about IBN's stock price and the given financial analysis is correct?\nA. The news article's emphasis on BKEAY's improving earnings outlook relative to IBN likely contributed to investors shifting their interest away from IBN towards BKEAY.\nB. IBN's higher PEG ratio of 0.89 suggests it is a more attractive investment compared to BKEAY\u2019s PEG ratio of 0.36.\nC. The decline in IBN\u2019s stock price after the news was minimal, as it fluctuated between 19.5 and 19.65 without any significant downward trend.\nD. The stock price of IBN increased following the news publication on October 6, 2021, indicating a positive market reaction.",
+        "ground_truth": "A",
+        "predict": "A"
+    },
+    {
+        "cnt": 2,
+        "filename": "10021_VSAT.json",
+        "question": "Which of the following statements about VSAT's stock price and the given financial analysis is correct?\nA. Investors should expect a continued decline in VSAT's stock price, as the company indicated during the earnings call that it has not achieved its financial targets for the next fiscal year.\nB. Given the mixed signals from the earnings call, it is likely that VSAT's stock price will drop lower than $46 within the next week, contradicting the bullish indicators noted in the earnings call.\nC. The earnings call highlighted a 23% year-over-year growth in Q4 adjusted EBITDA, which may have positively influenced investor sentiment and contributed to the uptick in VSAT's stock price shortly after the news.\nD. The stock price of VSAT fell dramatically after the earnings call, suggesting that investors responded negatively to the reported financial results, which included record operating cash flow.",
+        "ground_truth": "C",
+        "predict": "C"
+    }
+]

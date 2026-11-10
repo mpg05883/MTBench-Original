@@ -1,0 +1,38 @@
+[
+    {
+        "filename": "0_pair.json",
+        "epoch": 1,
+        "mse": NaN,
+        "mae": NaN,
+        "rmse": NaN,
+        "mape": NaN,
+        "mean_mse": NaN,
+        "mean_mae": NaN,
+        "mean_rmse": NaN,
+        "mean_mape": NaN
+    },
+    {
+        "filename": "101_pair.json",
+        "epoch": 2,
+        "mse": NaN,
+        "mae": NaN,
+        "rmse": NaN,
+        "mape": NaN,
+        "mean_mse": NaN,
+        "mean_mae": NaN,
+        "mean_rmse": NaN,
+        "mean_mape": NaN
+    },
+    {
+        "filename": "105_pair.json",
+        "epoch": 3,
+        "mse": NaN,
+        "mae": NaN,
+        "rmse": NaN,
+        "mape": NaN,
+        "mean_mse": NaN,
+        "mean_mae": NaN,
+        "mean_rmse": NaN,
+        "mean_mape": NaN
+    }
+]

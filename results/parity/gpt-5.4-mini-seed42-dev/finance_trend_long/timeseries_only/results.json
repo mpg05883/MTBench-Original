@@ -1,0 +1,29 @@
+[
+    {
+        "cnt": 0,
+        "filename": "0_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.0
+    },
+    {
+        "cnt": 1,
+        "filename": "101_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.0
+    },
+    {
+        "cnt": 2,
+        "filename": "102_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.0
+    }
+]

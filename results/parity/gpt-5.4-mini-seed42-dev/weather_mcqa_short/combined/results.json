@@ -1,0 +1,23 @@
+[
+    {
+        "cnt": 0,
+        "filename": "USW00003017_24.json",
+        "question": "Given the reported hailstorm events on April 23, 2007, in Southeast Colorado, which of the following statements accurately correlates with the observed temperature changes in time series A leading up to the weather event, particularly in anticipating the subsequent weather on April 24, 2007?\n\nA) The significant drop in temperature peaking at 3.3\u00b0C around the time of the hail event is indicative of a growing cold front, which was not typical for late April in Colorado, conflicting with a prediction of continued mild weather.  \nB) The gradual decrease in temperature throughout time series A mirrors the pattern of severe thunderstorms, suggesting colder air had already begun advancing into the region prior to the storm system's arrival.  \nC) The temperature fluctuations in A show no correlation to the hailstorm report, implying the event could have occurred in isolation despite temperature trends leading to a more unstable environment.  \nD) The temperature remained consistently above 10\u00b0C prior to the storm, indicating that the necessary conditions for severe thunderstorms and hail were absent.",
+        "ground_truth": "B",
+        "predict": "B"
+    },
+    {
+        "cnt": 1,
+        "filename": "USW00003017_25.json",
+        "question": "Considering the temperature trends observed in time series A from June 13 to June 19, 2018, which of the following statements accurately reflects the weather phenomena reported and their potential impact on the temperature behavior observed the following day (June 20, 2018)? \n\nA) The flash flooding and hail reported likely led to an immediate increase in the surrounding temperatures on June 20 due to moisture lifting.\n\nB) The storm events caused by the severe weather likely led to a drop in temperatures on June 20, as the clouds prevented solar radiation.\n\nC) The cumulative weather events reported on June 19 would cause an abnormal temperature spike the following day due to residual heat from the storms.\n\nD) The heavy rainfall recorded caused by the thunderstorms would have minimally affected the temperature trend observed on June 20, leading to higher heat retention.",
+        "ground_truth": "B",
+        "predict": "B"
+    },
+    {
+        "cnt": 2,
+        "filename": "USW00003017_29.json",
+        "question": "Based on the reported weather events that caused significant flooding and property damage on 2018-07-24, what is the most likely impact on the temperature profile for the following day, 2018-07-25, especially considering the thermal recovery typically seen after such events? \n\nA) The temperature is expected to rise significantly by several degrees due to increased sunshine.  \nB) The temperature will remain stable due to the cooling effect of the floodwaters on the surrounding environment.  \nC) The temperature will drop significantly as a result of prolonged cloud cover and precipitation from the event.  \nD) The temperature will fluctuate dramatically throughout the day due to instability in the atmosphere following severe weather.",
+        "ground_truth": "B",
+        "predict": "C"
+    }
+]

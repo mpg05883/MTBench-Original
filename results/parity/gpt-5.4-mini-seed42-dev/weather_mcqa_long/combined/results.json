@@ -1,0 +1,23 @@
+[
+    {
+        "cnt": 0,
+        "filename": "USW00003017_10.json",
+        "question": "Based on the 14-day temperature time series A and the reported weather events, what can be inferred about the implications of a flash flood and tornado on the temperature trends occurring shortly after these events? Specifically, considering the temperature data for the next three days in time series B, which option correctly describes the expected temperature changes following the severe weather reports?\n\nA) The temperatures are expected to rise sharply above 30\u00b0C as a direct consequence of the heat from the aftermath of these severe events due to increased solar insolation after the storm.  \nB) The heavy rainfall and resulting flash flood are likely to lead to a cooling trend initially, with temperatures dropping below 15\u00b0C for at least the first 48 hours post-event due to cloud cover and water accumulation.  \nC) Following the tornado and flash flooding, temperatures typically stabilize around a consistent level of about 20\u00b0C or slightly above, driven by high humidity levels that persist in the area.  \nD) The temperature is expected to drop significantly immediately after the events, but then rebound to near pre-storm levels shortly afterward due to high pressure settling in.",
+        "ground_truth": "B",
+        "predict": "D"
+    },
+    {
+        "cnt": 1,
+        "filename": "USW00003017_14.json",
+        "question": "Considering the temperature trends from the 14-day time series A leading up to the reported weather events of June 7th, and the subsequent temperature increase in time series B, which of the following statements is most accurate regarding the relationship between the severe weather event and the temperature fluctuations?\n\nA) The severe thunderstorms and associated tornadoes could directly lead to a cooler climate in the following days due to the turbulence generated in the atmosphere.\n\nB) The property damage valued at over $160 million is a direct result of a temperature drop that preceded the hailstorm, as such drops typically intensify storm severity.\n\nC) The sharp rise in temperatures after the severe weather indicates a clear atmospheric instability, often leading to increased moisture and the possibility of further thunderstorms in the near future.\n\nD) The periods of low temperature during the 14-day time series A are unrelated to the severity of hail and wind reported, as such weather events can occur independently of temperature trends.",
+        "ground_truth": "C",
+        "predict": "C"
+    },
+    {
+        "cnt": 2,
+        "filename": "USW00003017_19.json",
+        "question": "Considering the temperature fluctuations in time series A leading up to the weather event report of hail and blizzard conditions on April 13, 2018, what is the expected correlation with the temperature in time series B over the subsequent three days? Analyze the potential impact of the blizzard conditions on the anticipated temperature trends for April 14-16, 2018, and determine which option accurately reflects this scenario.\n\nA) Following the blizzard, an immediate spike in temperatures to above 20\u00b0C will occur by April 14 due to the atmospheric instability caused by the storm.\n\nB) The persistent cold air masses brought by the blizzard will lead to a gradual decrease in temperatures, with a high likelihood of sub-zero temperatures persisting through April 16.\n\nC) The weather system will enhance warm air advection, resulting in temperatures steadily climbing above seasonal averages by April 16, despite previous cold snaps.\n\nD) Wind patterns resulting from the storm will bring a slight increase in temperatures, peaking at around 15\u00b0C by April 15, then stabilizing for the remainder of the time series.",
+        "ground_truth": "B",
+        "predict": "B"
+    }
+]

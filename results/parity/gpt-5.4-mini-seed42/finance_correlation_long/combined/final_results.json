@@ -1,0 +1,6 @@
+{
+    "exact_accuracy": "25.67%",
+    "brief_accuracy": "49.0%",
+    "total_samples": 300,
+    "model": "gpt-5.4-mini"
+}
