@@ -15,7 +15,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=8G
-#SBATCH --time=12:00:00
+#SBATCH --time=01:00:00
 #SBATCH --output=./logs/parity/%x/%A/out/%a.out
 #SBATCH --error=./logs/parity/%x/%A/err/%a.err
 #SBATCH --mail-user=mike.gee@yale.edu
