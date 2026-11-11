@@ -1,0 +1,10 @@
+{
+    "filename": "34_pair.json",
+    "response": "Predicted Prices: 31.21",
+    "ground_truth": [
+        31.07
+    ],
+    "predict": [
+        31.21
+    ]
+}
