@@ -1,0 +1,4502 @@
+[
+    {
+        "cnt": 0,
+        "filename": "USW00003017_17.json",
+        "ground_truth": {
+            "max": 25.6,
+            "min": 13.9,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 30.5,
+            "min": 18.0,
+            "diff": 12.5
+        },
+        "answer": "Highest temperature: 30.5, Lowest temperature: 18.0, Temperature difference: 12.5"
+    },
+    {
+        "cnt": 1,
+        "filename": "USW00003017_18.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 13.9,
+            "diff": 14.4
+        },
+        "predict": {
+            "max": 31.2,
+            "min": 15.4,
+            "diff": 15.8
+        },
+        "answer": "Highest temperature: 31.2, Lowest temperature: 15.4, Temperature difference: 15.8"
+    },
+    {
+        "cnt": 2,
+        "filename": "USW00003017_23.json",
+        "ground_truth": {
+            "max": 21.1,
+            "min": 10.0,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 20.5,
+            "min": 11.5,
+            "diff": 9.0
+        },
+        "answer": "Highest temperature: 20.5, Lowest temperature: 11.5, Temperature difference: 9.0"
+    },
+    {
+        "cnt": 3,
+        "filename": "USW00003017_26.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 13.3,
+            "diff": 15.0
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 15.0,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 15.0, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 4,
+        "filename": "USW00003017_27.json",
+        "ground_truth": {
+            "max": 28.166666666666664,
+            "min": 12.8,
+            "diff": 15.4
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 15.0,
+            "diff": 13.0
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 15.0, Temperature difference: 13.0"
+    },
+    {
+        "cnt": 5,
+        "filename": "USW00003017_31.json",
+        "ground_truth": {
+            "max": 17.8,
+            "min": 6.1,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 23.0,
+            "min": 8.0,
+            "diff": 15.0
+        },
+        "answer": "Highest temperature: 23.0, Lowest temperature: 8.0, Temperature difference: 15.0"
+    },
+    {
+        "cnt": 6,
+        "filename": "USW00003017_34.json",
+        "ground_truth": {
+            "max": 20.933333333333334,
+            "min": 17.2,
+            "diff": 3.7
+        },
+        "predict": {
+            "max": 35.0,
+            "min": 19.0,
+            "diff": 16.0
+        },
+        "answer": "Highest temperature: 35.0, Lowest temperature: 19.0, Temperature difference: 16.0"
+    },
+    {
+        "cnt": 7,
+        "filename": "USW00003017_6.json",
+        "ground_truth": {
+            "max": 31.1,
+            "min": 13.9,
+            "diff": 17.2
+        },
+        "predict": {
+            "max": 25.5,
+            "min": 13.5,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 25.5, Lowest temperature: 13.5, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 8,
+        "filename": "USW00003017_9.json",
+        "ground_truth": {
+            "max": 19.8,
+            "min": 6.7,
+            "diff": 13.1
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 12.0,
+            "diff": 17.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 12.0, Temperature difference: 17.0"
+    },
+    {
+        "cnt": 9,
+        "filename": "USW00003927_0.json",
+        "ground_truth": {
+            "max": 22.8,
+            "min": 15.0,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 27.8,
+            "min": 18.9,
+            "diff": 8.9
+        },
+        "answer": "Highest temperature: 27.8, Lowest temperature: 18.9, Temperature difference: 8.9"
+    },
+    {
+        "cnt": 10,
+        "filename": "USW00003927_1.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 18.3,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 31.8,
+            "min": 22.1,
+            "diff": 9.7
+        },
+        "answer": "Highest temperature: 31.8, Lowest temperature: 22.1, Temperature difference: 9.7"
+    },
+    {
+        "cnt": 11,
+        "filename": "USW00003927_11.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 15.0,
+            "diff": 12.2
+        },
+        "predict": {
+            "max": 31.7,
+            "min": 20.0,
+            "diff": 11.7
+        },
+        "answer": "Highest temperature: 31.7, Lowest temperature: 20.0, Temperature difference: 11.7"
+    },
+    {
+        "cnt": 12,
+        "filename": "USW00003927_12.json",
+        "ground_truth": {
+            "max": 15.6,
+            "min": 7.8,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 13.0,
+            "min": 8.0,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 13.0, Lowest temperature: 8.0, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 13,
+        "filename": "USW00003927_16.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 15.0,
+            "diff": 13.3
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 14.0,
+            "diff": 15.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 14.0, Temperature difference: 15.0"
+    },
+    {
+        "cnt": 14,
+        "filename": "USW00003927_23.json",
+        "ground_truth": {
+            "max": 33.3,
+            "min": 20.0,
+            "diff": 13.3
+        },
+        "predict": {
+            "max": 36.0,
+            "min": 25.0,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 36.0, Lowest temperature: 25.0, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 15,
+        "filename": "USW00003927_3.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 20.6,
+            "diff": 8.8
+        },
+        "predict": {
+            "max": 33.0,
+            "min": 24.5,
+            "diff": 8.5
+        },
+        "answer": "Highest temperature: 33.0, Lowest temperature: 24.5, Temperature difference: 8.5"
+    },
+    {
+        "cnt": 16,
+        "filename": "USW00003927_33.json",
+        "ground_truth": {
+            "max": 24.03333333333333,
+            "min": 19.4,
+            "diff": 4.6
+        },
+        "predict": {
+            "max": 34.5,
+            "min": 23.0,
+            "diff": 11.5
+        },
+        "answer": "Highest temperature: 34.5, Lowest temperature: 23.0, Temperature difference: 11.5"
+    },
+    {
+        "cnt": 17,
+        "filename": "USW00003927_9.json",
+        "ground_truth": {
+            "max": 33.3,
+            "min": 26.1,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 24.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 24.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 18,
+        "filename": "USW00003947_1.json",
+        "ground_truth": {
+            "max": 12.2,
+            "min": -2.2,
+            "diff": 14.4
+        },
+        "predict": {
+            "max": 9.2,
+            "min": -2.0,
+            "diff": 11.2
+        },
+        "answer": "Highest temperature: 9.2, Lowest temperature: -2.0, Temperature difference: 11.2"
+    },
+    {
+        "cnt": 19,
+        "filename": "USW00003947_11.json",
+        "ground_truth": {
+            "max": 21.7,
+            "min": 10.0,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 17.0,
+            "diff": 14.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 17.0, Temperature difference: 14.0"
+    },
+    {
+        "cnt": 20,
+        "filename": "USW00003947_22.json",
+        "ground_truth": {
+            "max": 31.7,
+            "min": 21.1,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 18.0,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 18.0, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 21,
+        "filename": "USW00003947_26.json",
+        "ground_truth": {
+            "max": 16.1,
+            "min": 0.0,
+            "diff": 16.1
+        },
+        "predict": {
+            "max": 23.6,
+            "min": 14.2,
+            "diff": 9.4
+        },
+        "answer": "Highest temperature: 23.6, Lowest temperature: 14.2, Temperature difference: 9.4"
+    },
+    {
+        "cnt": 22,
+        "filename": "USW00003947_3.json",
+        "ground_truth": {
+            "max": 25.0,
+            "min": 13.9,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 17.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 17.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 23,
+        "filename": "USW00003947_39.json",
+        "ground_truth": {
+            "max": 22.8,
+            "min": 17.8,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 20.5,
+            "diff": 6.5
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 20.5, Temperature difference: 6.5"
+    },
+    {
+        "cnt": 24,
+        "filename": "USW00003947_6.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 18.3,
+            "diff": 12.3
+        },
+        "predict": {
+            "max": 33.0,
+            "min": 24.0,
+            "diff": 9.0
+        },
+        "answer": "Highest temperature: 33.0, Lowest temperature: 24.0, Temperature difference: 9.0"
+    },
+    {
+        "cnt": 25,
+        "filename": "USW00012815_11.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 22.2,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 31.8,
+            "min": 22.0,
+            "diff": 9.8
+        },
+        "answer": "Highest temperature: 31.8, Lowest temperature: 22.0, Temperature difference: 9.8"
+    },
+    {
+        "cnt": 26,
+        "filename": "USW00012815_2.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 23.3,
+            "diff": 5.6
+        },
+        "predict": {
+            "max": 32.2,
+            "min": 22.7,
+            "diff": 9.5
+        },
+        "answer": "Highest temperature: 32.2, Lowest temperature: 22.7, Temperature difference: 9.5"
+    },
+    {
+        "cnt": 27,
+        "filename": "USW00012815_22.json",
+        "ground_truth": {
+            "max": 21.1,
+            "min": 13.9,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 25.8,
+            "min": 15.8,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 25.8, Lowest temperature: 15.8, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 28,
+        "filename": "USW00012815_26.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 16.1,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 16.5,
+            "diff": 11.5
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 16.5, Temperature difference: 11.5"
+    },
+    {
+        "cnt": 29,
+        "filename": "USW00012815_3.json",
+        "ground_truth": {
+            "max": 27.166666666666664,
+            "min": 25.0,
+            "diff": 2.2
+        },
+        "predict": {
+            "max": 31.8,
+            "min": 23.1,
+            "diff": 8.7
+        },
+        "answer": "Highest temperature: 31.8, Lowest temperature: 23.1, Temperature difference: 8.7"
+    },
+    {
+        "cnt": 30,
+        "filename": "USW00012815_38.json",
+        "ground_truth": {
+            "max": 32.2,
+            "min": 23.3,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 33.2,
+            "min": 23.8,
+            "diff": 9.4
+        },
+        "answer": "Highest temperature: 33.2, Lowest temperature: 23.8, Temperature difference: 9.4"
+    },
+    {
+        "cnt": 31,
+        "filename": "USW00012815_8.json",
+        "ground_truth": {
+            "max": 33.3,
+            "min": 21.1,
+            "diff": 12.2
+        },
+        "predict": {
+            "max": 34.8,
+            "min": 21.0,
+            "diff": 13.8
+        },
+        "answer": "Highest temperature: 34.8, Lowest temperature: 21.0, Temperature difference: 13.8"
+    },
+    {
+        "cnt": 32,
+        "filename": "USW00012839_13.json",
+        "ground_truth": {
+            "max": 22.8,
+            "min": 11.1,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 24.6,
+            "min": 15.8,
+            "diff": 8.8
+        },
+        "answer": "Highest temperature: 24.6, Lowest temperature: 15.8, Temperature difference: 8.8"
+    },
+    {
+        "cnt": 33,
+        "filename": "USW00012839_16.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 24.4,
+            "diff": 4.5
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 23.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 23.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 34,
+        "filename": "USW00012839_2.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 25.0,
+            "diff": 2.8
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 25.5,
+            "diff": 5.5
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 25.5, Temperature difference: 5.5"
+    },
+    {
+        "cnt": 35,
+        "filename": "USW00012839_3.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 26.7,
+            "diff": 3.3
+        },
+        "predict": {
+            "max": 31.2,
+            "min": 23.4,
+            "diff": 7.8
+        },
+        "answer": "Highest temperature: 31.2, Lowest temperature: 23.4, Temperature difference: 7.8"
+    },
+    {
+        "cnt": 36,
+        "filename": "USW00012839_35.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 23.3,
+            "diff": 7.3
+        },
+        "predict": {
+            "max": 31.8,
+            "min": 24.8,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 31.8, Lowest temperature: 24.8, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 37,
+        "filename": "USW00012839_39.json",
+        "ground_truth": {
+            "max": 33.3,
+            "min": 24.46666666666667,
+            "diff": 8.8
+        },
+        "predict": {
+            "max": 32.6,
+            "min": 27.3,
+            "diff": 5.3
+        },
+        "answer": "Highest temperature: 32.6, Lowest temperature: 27.3, Temperature difference: 5.3"
+    },
+    {
+        "cnt": 38,
+        "filename": "USW00012842_0.json",
+        "ground_truth": {
+            "max": 33.9,
+            "min": 23.9,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 30.0,
+            "min": 30.0,
+            "diff": 0.0
+        },
+        "answer": "Highest temperature: 30.0, Lowest temperature: 30.0, Temperature difference: 0.0"
+    },
+    {
+        "cnt": 39,
+        "filename": "USW00012842_1.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 25.0,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 30.0,
+            "min": 24.0,
+            "diff": 6.0
+        },
+        "answer": "Highest temperature: 30.0, Lowest temperature: 24.0, Temperature difference: 6.0"
+    },
+    {
+        "cnt": 40,
+        "filename": "USW00012842_10.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 15.0,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 23.3,
+            "min": 17.2,
+            "diff": 6.1
+        },
+        "answer": "Highest temperature: 23.3, Lowest temperature: 17.2, Temperature difference: 6.1"
+    },
+    {
+        "cnt": 41,
+        "filename": "USW00012842_15.json",
+        "ground_truth": {
+            "max": 19.0,
+            "min": 14.833333333333334,
+            "diff": 4.2
+        },
+        "predict": {
+            "max": 20.2,
+            "min": 16.6,
+            "diff": 3.6
+        },
+        "answer": "Highest temperature: 20.2, Lowest temperature: 16.6, Temperature difference: 3.6"
+    },
+    {
+        "cnt": 42,
+        "filename": "USW00012842_33.json",
+        "ground_truth": {
+            "max": 31.7,
+            "min": 25.0,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 24.4,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 24.4, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 43,
+        "filename": "USW00012842_38.json",
+        "ground_truth": {
+            "max": 22.8,
+            "min": 18.3,
+            "diff": 4.5
+        },
+        "predict": {
+            "max": 26.2,
+            "min": 25.6,
+            "diff": 0.6
+        },
+        "answer": "Highest temperature: 26.2, Lowest temperature: 25.6, Temperature difference: 0.6"
+    },
+    {
+        "cnt": 44,
+        "filename": "USW00012844_13.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 23.9,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 30.1,
+            "min": 23.2,
+            "diff": 6.9
+        },
+        "answer": "Highest temperature: 30.1, Lowest temperature: 23.2, Temperature difference: 6.9"
+    },
+    {
+        "cnt": 45,
+        "filename": "USW00012844_31.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 24.0,
+            "diff": 6.0
+        },
+        "predict": {
+            "max": 30.0,
+            "min": 24.0,
+            "diff": 6.0
+        },
+        "answer": "Highest temperature: 30.0, Lowest temperature: 24.0, Temperature difference: 6.0"
+    },
+    {
+        "cnt": 46,
+        "filename": "USW00012844_32.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 22.2,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 32.4,
+            "min": 23.2,
+            "diff": 9.2
+        },
+        "answer": "Highest temperature: 32.4, Lowest temperature: 23.2, Temperature difference: 9.2"
+    },
+    {
+        "cnt": 47,
+        "filename": "USW00012844_34.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 21.1,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 27.6,
+            "min": 22.0,
+            "diff": 5.6
+        },
+        "answer": "Highest temperature: 27.6, Lowest temperature: 22.0, Temperature difference: 5.6"
+    },
+    {
+        "cnt": 48,
+        "filename": "USW00012844_35.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 18.9,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 29.6,
+            "min": 23.9,
+            "diff": 5.7
+        },
+        "answer": "Highest temperature: 29.6, Lowest temperature: 23.9, Temperature difference: 5.7"
+    },
+    {
+        "cnt": 49,
+        "filename": "USW00012844_5.json",
+        "ground_truth": {
+            "max": 23.3,
+            "min": 18.21666666666667,
+            "diff": 5.1
+        },
+        "predict": {
+            "max": 29.8,
+            "min": 23.4,
+            "diff": 6.4
+        },
+        "answer": "Highest temperature: 29.8, Lowest temperature: 23.4, Temperature difference: 6.4"
+    },
+    {
+        "cnt": 50,
+        "filename": "USW00012849_0.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 25.0,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 29.4,
+            "min": 25.0,
+            "diff": 4.4
+        },
+        "answer": "Highest temperature: 29.4, Lowest temperature: 25.0, Temperature difference: 4.4"
+    },
+    {
+        "cnt": 51,
+        "filename": "USW00012849_11.json",
+        "ground_truth": {
+            "max": 32.2,
+            "min": 24.4,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 25.0,
+            "diff": 6.1
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 25.0, Temperature difference: 6.1"
+    },
+    {
+        "cnt": 52,
+        "filename": "USW00012849_18.json",
+        "ground_truth": {
+            "max": 31.0,
+            "min": 22.8,
+            "diff": 8.2
+        },
+        "predict": {
+            "max": 33.0,
+            "min": 25.5,
+            "diff": 7.5
+        },
+        "answer": "Highest temperature: 33.0, Lowest temperature: 25.5, Temperature difference: 7.5"
+    },
+    {
+        "cnt": 53,
+        "filename": "USW00012849_26.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 13.3,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 27.2,
+            "min": 20.6,
+            "diff": 6.6
+        },
+        "answer": "Highest temperature: 27.2, Lowest temperature: 20.6, Temperature difference: 6.6"
+    },
+    {
+        "cnt": 54,
+        "filename": "USW00012849_32.json",
+        "ground_truth": {
+            "max": 32.8,
+            "min": 25.0,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 24.4,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 24.4, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 55,
+        "filename": "USW00012849_8.json",
+        "ground_truth": {
+            "max": 23.3,
+            "min": 16.7,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 28.3,
+            "min": 21.1,
+            "diff": 7.2
+        },
+        "answer": "Highest temperature: 28.3, Lowest temperature: 21.1, Temperature difference: 7.2"
+    },
+    {
+        "cnt": 56,
+        "filename": "USW00012894_14.json",
+        "ground_truth": {
+            "max": 31.1,
+            "min": 24.4,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 24.4,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 24.4, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 57,
+        "filename": "USW00012894_16.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 16.7,
+            "diff": 11.6
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 21.1,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 21.1, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 58,
+        "filename": "USW00012894_23.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 20.6,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 21.1,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 21.1, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 59,
+        "filename": "USW00012894_30.json",
+        "ground_truth": {
+            "max": 35.6,
+            "min": 26.7,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 34.4,
+            "min": 24.4,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 34.4, Lowest temperature: 24.4, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 60,
+        "filename": "USW00012894_35.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 17.2,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 31.7,
+            "min": 22.8,
+            "diff": 8.9
+        },
+        "answer": "Highest temperature: 31.7, Lowest temperature: 22.8, Temperature difference: 8.9"
+    },
+    {
+        "cnt": 61,
+        "filename": "USW00012894_5.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 20.6,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 30.0,
+            "min": 22.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 30.0, Lowest temperature: 22.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 62,
+        "filename": "USW00012916_11.json",
+        "ground_truth": {
+            "max": 18.9,
+            "min": 3.9,
+            "diff": 15.0
+        },
+        "predict": {
+            "max": 22.1,
+            "min": 12.2,
+            "diff": 9.9
+        },
+        "answer": "Highest temperature: 22.1, Lowest temperature: 12.2, Temperature difference: 9.9"
+    },
+    {
+        "cnt": 63,
+        "filename": "USW00012916_17.json",
+        "ground_truth": {
+            "max": 31.7,
+            "min": 22.8,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 32.0,
+            "min": 26.6,
+            "diff": 5.4
+        },
+        "answer": "Highest temperature: 32.0, Lowest temperature: 26.6, Temperature difference: 5.4"
+    },
+    {
+        "cnt": 64,
+        "filename": "USW00012916_29.json",
+        "ground_truth": {
+            "max": 18.15,
+            "min": 16.7,
+            "diff": 1.4
+        },
+        "predict": {
+            "max": 19.0,
+            "min": 11.5,
+            "diff": 7.5
+        },
+        "answer": "Highest temperature: 19.0, Lowest temperature: 11.5, Temperature difference: 7.5"
+    },
+    {
+        "cnt": 65,
+        "filename": "USW00012916_31.json",
+        "ground_truth": {
+            "max": 32.2,
+            "min": 26.1,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 30.8,
+            "min": 26.2,
+            "diff": 4.6
+        },
+        "answer": "Highest temperature: 30.8, Lowest temperature: 26.2, Temperature difference: 4.6"
+    },
+    {
+        "cnt": 66,
+        "filename": "USW00012916_35.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 20.6,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 28.6,
+            "min": 18.8,
+            "diff": 9.8
+        },
+        "answer": "Highest temperature: 28.6, Lowest temperature: 18.8, Temperature difference: 9.8"
+    },
+    {
+        "cnt": 67,
+        "filename": "USW00012916_6.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 28.0,
+            "diff": 1.4
+        },
+        "predict": {
+            "max": 30.2,
+            "min": 23.0,
+            "diff": 7.2
+        },
+        "answer": "Highest temperature: 30.2, Lowest temperature: 23.0, Temperature difference: 7.2"
+    },
+    {
+        "cnt": 68,
+        "filename": "USW00012918_11.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 18.9,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 24.4,
+            "min": 19.4,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 24.4, Lowest temperature: 19.4, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 69,
+        "filename": "USW00012918_12.json",
+        "ground_truth": {
+            "max": 27.0,
+            "min": 23.4,
+            "diff": 3.6
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 22.5,
+            "diff": 5.5
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 22.5, Temperature difference: 5.5"
+    },
+    {
+        "cnt": 70,
+        "filename": "USW00012918_27.json",
+        "ground_truth": {
+            "max": 24.0,
+            "min": 20.0,
+            "diff": 4.0
+        },
+        "predict": {
+            "max": 32.2,
+            "min": 22.2,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 32.2, Lowest temperature: 22.2, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 71,
+        "filename": "USW00012918_32.json",
+        "ground_truth": {
+            "max": 25.0,
+            "min": 13.9,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 27.2,
+            "min": 20.6,
+            "diff": 6.6
+        },
+        "answer": "Highest temperature: 27.2, Lowest temperature: 20.6, Temperature difference: 6.6"
+    },
+    {
+        "cnt": 72,
+        "filename": "USW00012918_33.json",
+        "ground_truth": {
+            "max": 22.8,
+            "min": 16.1,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 24.0,
+            "min": 20.0,
+            "diff": 4.0
+        },
+        "answer": "Highest temperature: 24.0, Lowest temperature: 20.0, Temperature difference: 4.0"
+    },
+    {
+        "cnt": 73,
+        "filename": "USW00012918_6.json",
+        "ground_truth": {
+            "max": 21.1,
+            "min": 19.4,
+            "diff": 1.7
+        },
+        "predict": {
+            "max": 26.7,
+            "min": 20.0,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 26.7, Lowest temperature: 20.0, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 74,
+        "filename": "USW00012921_17.json",
+        "ground_truth": {
+            "max": 28.333333333333332,
+            "min": 18.3,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 30.8,
+            "min": 20.4,
+            "diff": 10.4
+        },
+        "answer": "Highest temperature: 30.8, Lowest temperature: 20.4, Temperature difference: 10.4"
+    },
+    {
+        "cnt": 75,
+        "filename": "USW00012921_2.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 22.8,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 30.2,
+            "min": 21.0,
+            "diff": 9.2
+        },
+        "answer": "Highest temperature: 30.2, Lowest temperature: 21.0, Temperature difference: 9.2"
+    },
+    {
+        "cnt": 76,
+        "filename": "USW00012921_3.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 11.1,
+            "diff": 17.8
+        },
+        "predict": {
+            "max": 25.0,
+            "min": 15.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 25.0, Lowest temperature: 15.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 77,
+        "filename": "USW00012921_30.json",
+        "ground_truth": {
+            "max": 24.23333333333333,
+            "min": 11.7,
+            "diff": 12.5
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 20.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 20.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 78,
+        "filename": "USW00012921_5.json",
+        "ground_truth": {
+            "max": 32.2,
+            "min": 26.1,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 30.8,
+            "min": 22.8,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 30.8, Lowest temperature: 22.8, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 79,
+        "filename": "USW00012921_7.json",
+        "ground_truth": {
+            "max": 31.1,
+            "min": 22.2,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 33.0,
+            "min": 21.0,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 33.0, Lowest temperature: 21.0, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 80,
+        "filename": "USW00012960_27.json",
+        "ground_truth": {
+            "max": 29.133333333333333,
+            "min": 20.6,
+            "diff": 8.5
+        },
+        "predict": {
+            "max": 32.0,
+            "min": 24.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 32.0, Lowest temperature: 24.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 81,
+        "filename": "USW00012960_28.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 13.9,
+            "diff": 12.2
+        },
+        "predict": {
+            "max": 26.4,
+            "min": 18.5,
+            "diff": 7.9
+        },
+        "answer": "Highest temperature: 26.4, Lowest temperature: 18.5, Temperature difference: 7.9"
+    },
+    {
+        "cnt": 82,
+        "filename": "USW00012960_31.json",
+        "ground_truth": {
+            "max": 25.0,
+            "min": 16.1,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 25.8,
+            "min": 20.2,
+            "diff": 5.6
+        },
+        "answer": "Highest temperature: 25.8, Lowest temperature: 20.2, Temperature difference: 5.6"
+    },
+    {
+        "cnt": 83,
+        "filename": "USW00012960_34.json",
+        "ground_truth": {
+            "max": 24.4,
+            "min": 16.7,
+            "diff": 7.7
+        },
+        "predict": {
+            "max": 26.8,
+            "min": 19.8,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 26.8, Lowest temperature: 19.8, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 84,
+        "filename": "USW00012960_35.json",
+        "ground_truth": {
+            "max": 40.0,
+            "min": 23.9,
+            "diff": 16.1
+        },
+        "predict": {
+            "max": 35.2,
+            "min": 24.8,
+            "diff": 10.4
+        },
+        "answer": "Highest temperature: 35.2, Lowest temperature: 24.8, Temperature difference: 10.4"
+    },
+    {
+        "cnt": 85,
+        "filename": "USW00012960_6.json",
+        "ground_truth": {
+            "max": 26.316666666666666,
+            "min": 17.8,
+            "diff": 8.5
+        },
+        "predict": {
+            "max": 26.8,
+            "min": 20.4,
+            "diff": 6.4
+        },
+        "answer": "Highest temperature: 26.8, Lowest temperature: 20.4, Temperature difference: 6.4"
+    },
+    {
+        "cnt": 86,
+        "filename": "USW00013722_1.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 21.1,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 22.8,
+            "min": 17.8,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 22.8, Lowest temperature: 17.8, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 87,
+        "filename": "USW00013722_12.json",
+        "ground_truth": {
+            "max": 25.6,
+            "min": 18.9,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 31.2,
+            "min": 21.0,
+            "diff": 10.2
+        },
+        "answer": "Highest temperature: 31.2, Lowest temperature: 21.0, Temperature difference: 10.2"
+    },
+    {
+        "cnt": 88,
+        "filename": "USW00013722_18.json",
+        "ground_truth": {
+            "max": 23.9,
+            "min": 17.2,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 25.5,
+            "min": 14.0,
+            "diff": 11.5
+        },
+        "answer": "Highest temperature: 25.5, Lowest temperature: 14.0, Temperature difference: 11.5"
+    },
+    {
+        "cnt": 89,
+        "filename": "USW00013722_2.json",
+        "ground_truth": {
+            "max": 21.1,
+            "min": 12.8,
+            "diff": 8.3
+        },
+        "predict": {
+            "max": 25.8,
+            "min": 18.8,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 25.8, Lowest temperature: 18.8, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 90,
+        "filename": "USW00013722_31.json",
+        "ground_truth": {
+            "max": 36.1,
+            "min": 25.0,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 35.2,
+            "min": 25.4,
+            "diff": 9.8
+        },
+        "answer": "Highest temperature: 35.2, Lowest temperature: 25.4, Temperature difference: 9.8"
+    },
+    {
+        "cnt": 91,
+        "filename": "USW00013722_36.json",
+        "ground_truth": {
+            "max": 24.71666666666667,
+            "min": 16.7,
+            "diff": 8.0
+        },
+        "predict": {
+            "max": 30.4,
+            "min": 22.0,
+            "diff": 8.4
+        },
+        "answer": "Highest temperature: 30.4, Lowest temperature: 22.0, Temperature difference: 8.4"
+    },
+    {
+        "cnt": 92,
+        "filename": "USW00013739_0.json",
+        "ground_truth": {
+            "max": 10.0,
+            "min": 6.1,
+            "diff": 3.9
+        },
+        "predict": {
+            "max": 15.2,
+            "min": 9.0,
+            "diff": 6.2
+        },
+        "answer": "Highest temperature: 15.2, Lowest temperature: 9.0, Temperature difference: 6.2"
+    },
+    {
+        "cnt": 93,
+        "filename": "USW00013739_11.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 17.8,
+            "diff": 9.4
+        },
+        "predict": {
+            "max": 28.6,
+            "min": 20.1,
+            "diff": 8.5
+        },
+        "answer": "Highest temperature: 28.6, Lowest temperature: 20.1, Temperature difference: 8.5"
+    },
+    {
+        "cnt": 94,
+        "filename": "USW00013739_16.json",
+        "ground_truth": {
+            "max": 18.9,
+            "min": 12.2,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 23.8,
+            "min": 17.2,
+            "diff": 6.6
+        },
+        "answer": "Highest temperature: 23.8, Lowest temperature: 17.2, Temperature difference: 6.6"
+    },
+    {
+        "cnt": 95,
+        "filename": "USW00013739_38.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 18.9,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 31.8,
+            "min": 20.8,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 31.8, Lowest temperature: 20.8, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 96,
+        "filename": "USW00013739_6.json",
+        "ground_truth": {
+            "max": 10.0,
+            "min": 5.6,
+            "diff": 4.4
+        },
+        "predict": {
+            "max": 11.8,
+            "min": 4.2,
+            "diff": 7.6
+        },
+        "answer": "Highest temperature: 11.8, Lowest temperature: 4.2, Temperature difference: 7.6"
+    },
+    {
+        "cnt": 97,
+        "filename": "USW00013739_9.json",
+        "ground_truth": {
+            "max": 35.0,
+            "min": 24.4,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 35.8,
+            "min": 22.8,
+            "diff": 13.0
+        },
+        "answer": "Highest temperature: 35.8, Lowest temperature: 22.8, Temperature difference: 13.0"
+    },
+    {
+        "cnt": 98,
+        "filename": "USW00013743_16.json",
+        "ground_truth": {
+            "max": 31.1,
+            "min": 25.0,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 35.5,
+            "min": 24.5,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 35.5, Lowest temperature: 24.5, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 99,
+        "filename": "USW00013743_26.json",
+        "ground_truth": {
+            "max": 24.4,
+            "min": 24.4,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 35.8,
+            "min": 24.6,
+            "diff": 11.2
+        },
+        "answer": "Highest temperature: 35.8, Lowest temperature: 24.6, Temperature difference: 11.2"
+    },
+    {
+        "cnt": 100,
+        "filename": "USW00013743_29.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 21.7,
+            "diff": 7.7
+        },
+        "predict": {
+            "max": 31.5,
+            "min": 22.8,
+            "diff": 8.7
+        },
+        "answer": "Highest temperature: 31.5, Lowest temperature: 22.8, Temperature difference: 8.7"
+    },
+    {
+        "cnt": 101,
+        "filename": "USW00013743_38.json",
+        "ground_truth": {
+            "max": 35.0,
+            "min": 23.9,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 34.0,
+            "min": 21.0,
+            "diff": 13.0
+        },
+        "answer": "Highest temperature: 34.0, Lowest temperature: 21.0, Temperature difference: 13.0"
+    },
+    {
+        "cnt": 102,
+        "filename": "USW00013743_7.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 23.3,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 31.8,
+            "min": 23.2,
+            "diff": 8.6
+        },
+        "answer": "Highest temperature: 31.8, Lowest temperature: 23.2, Temperature difference: 8.6"
+    },
+    {
+        "cnt": 103,
+        "filename": "USW00013743_8.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 23.3,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 33.0,
+            "min": 23.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 33.0, Lowest temperature: 23.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 104,
+        "filename": "USW00013874_12.json",
+        "ground_truth": {
+            "max": 18.3,
+            "min": 9.4,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 18.8,
+            "min": 11.2,
+            "diff": 7.6
+        },
+        "answer": "Highest temperature: 18.8, Lowest temperature: 11.2, Temperature difference: 7.6"
+    },
+    {
+        "cnt": 105,
+        "filename": "USW00013874_19.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 17.8,
+            "diff": 11.6
+        },
+        "predict": {
+            "max": 33.1,
+            "min": 23.0,
+            "diff": 10.1
+        },
+        "answer": "Highest temperature: 33.1, Lowest temperature: 23.0, Temperature difference: 10.1"
+    },
+    {
+        "cnt": 106,
+        "filename": "USW00013874_30.json",
+        "ground_truth": {
+            "max": 16.1,
+            "min": 7.2,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 18.2,
+            "min": 11.0,
+            "diff": 7.2
+        },
+        "answer": "Highest temperature: 18.2, Lowest temperature: 11.0, Temperature difference: 7.2"
+    },
+    {
+        "cnt": 107,
+        "filename": "USW00013874_34.json",
+        "ground_truth": {
+            "max": 13.9,
+            "min": 8.9,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 24.2,
+            "min": 13.0,
+            "diff": 11.2
+        },
+        "answer": "Highest temperature: 24.2, Lowest temperature: 13.0, Temperature difference: 11.2"
+    },
+    {
+        "cnt": 108,
+        "filename": "USW00013874_36.json",
+        "ground_truth": {
+            "max": 21.6,
+            "min": 16.7,
+            "diff": 4.9
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 17.5,
+            "diff": 9.5
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 17.5, Temperature difference: 9.5"
+    },
+    {
+        "cnt": 109,
+        "filename": "USW00013874_7.json",
+        "ground_truth": {
+            "max": 20.6,
+            "min": 6.7,
+            "diff": 13.9
+        },
+        "predict": {
+            "max": 24.0,
+            "min": 13.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 24.0, Lowest temperature: 13.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 110,
+        "filename": "USW00013881_11.json",
+        "ground_truth": {
+            "max": 17.0,
+            "min": 15.0,
+            "diff": 2.0
+        },
+        "predict": {
+            "max": 18.2,
+            "min": 13.0,
+            "diff": 5.2
+        },
+        "answer": "Highest temperature: 18.2, Lowest temperature: 13.0, Temperature difference: 5.2"
+    },
+    {
+        "cnt": 111,
+        "filename": "USW00013881_2.json",
+        "ground_truth": {
+            "max": 16.1,
+            "min": 10.0,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 22.8,
+            "min": 15.0,
+            "diff": 7.8
+        },
+        "answer": "Highest temperature: 22.8, Lowest temperature: 15.0, Temperature difference: 7.8"
+    },
+    {
+        "cnt": 112,
+        "filename": "USW00013881_27.json",
+        "ground_truth": {
+            "max": 22.2,
+            "min": 5.6,
+            "diff": 16.6
+        },
+        "predict": {
+            "max": 26.8,
+            "min": 13.2,
+            "diff": 13.6
+        },
+        "answer": "Highest temperature: 26.8, Lowest temperature: 13.2, Temperature difference: 13.6"
+    },
+    {
+        "cnt": 113,
+        "filename": "USW00013881_29.json",
+        "ground_truth": {
+            "max": 18.3,
+            "min": 12.2,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 24.1,
+            "min": 15.2,
+            "diff": 8.9
+        },
+        "answer": "Highest temperature: 24.1, Lowest temperature: 15.2, Temperature difference: 8.9"
+    },
+    {
+        "cnt": 114,
+        "filename": "USW00013881_39.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 20.0,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 18.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 18.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 115,
+        "filename": "USW00013881_4.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 3.3,
+            "diff": 16.7
+        },
+        "predict": {
+            "max": 18.5,
+            "min": 12.0,
+            "diff": 6.5
+        },
+        "answer": "Highest temperature: 18.5, Lowest temperature: 12.0, Temperature difference: 6.5"
+    },
+    {
+        "cnt": 116,
+        "filename": "USW00013897_0.json",
+        "ground_truth": {
+            "max": 7.8,
+            "min": 0.6000000000000001,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 16.5,
+            "min": 12.5,
+            "diff": 4.0
+        },
+        "answer": "Highest temperature: 16.5, Lowest temperature: 12.5, Temperature difference: 4.0"
+    },
+    {
+        "cnt": 117,
+        "filename": "USW00013897_14.json",
+        "ground_truth": {
+            "max": 17.2,
+            "min": 7.2,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 19.5,
+            "min": 14.0,
+            "diff": 5.5
+        },
+        "answer": "Highest temperature: 19.5, Lowest temperature: 14.0, Temperature difference: 5.5"
+    },
+    {
+        "cnt": 118,
+        "filename": "USW00013897_19.json",
+        "ground_truth": {
+            "max": 19.4,
+            "min": 3.9,
+            "diff": 15.5
+        },
+        "predict": {
+            "max": 19.0,
+            "min": 8.0,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 19.0, Lowest temperature: 8.0, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 119,
+        "filename": "USW00013897_21.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 20.6,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 22.5,
+            "min": 20.4,
+            "diff": 2.1
+        },
+        "answer": "Highest temperature: 22.5, Lowest temperature: 20.4, Temperature difference: 2.1"
+    },
+    {
+        "cnt": 120,
+        "filename": "USW00013897_31.json",
+        "ground_truth": {
+            "max": 31.1,
+            "min": 18.9,
+            "diff": 12.2
+        },
+        "predict": {
+            "max": 31.5,
+            "min": 21.5,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 31.5, Lowest temperature: 21.5, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 121,
+        "filename": "USW00013897_38.json",
+        "ground_truth": {
+            "max": 31.1,
+            "min": 21.7,
+            "diff": 9.4
+        },
+        "predict": {
+            "max": 32.2,
+            "min": 22.4,
+            "diff": 9.8
+        },
+        "answer": "Highest temperature: 32.2, Lowest temperature: 22.4, Temperature difference: 9.8"
+    },
+    {
+        "cnt": 122,
+        "filename": "USW00013904_0.json",
+        "ground_truth": {
+            "max": 22.2,
+            "min": 10.6,
+            "diff": 11.6
+        },
+        "predict": {
+            "max": 28.3,
+            "min": 16.1,
+            "diff": 12.2
+        },
+        "answer": "Highest temperature: 28.3, Lowest temperature: 16.1, Temperature difference: 12.2"
+    },
+    {
+        "cnt": 123,
+        "filename": "USW00013904_12.json",
+        "ground_truth": {
+            "max": 12.0,
+            "min": 12.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 17.5,
+            "min": 11.5,
+            "diff": 6.0
+        },
+        "answer": "Highest temperature: 17.5, Lowest temperature: 11.5, Temperature difference: 6.0"
+    },
+    {
+        "cnt": 124,
+        "filename": "USW00013904_13.json",
+        "ground_truth": {
+            "max": 21.45762711864407,
+            "min": 20.6,
+            "diff": 0.9
+        },
+        "predict": {
+            "max": 29.4,
+            "min": 18.9,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 29.4, Lowest temperature: 18.9, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 125,
+        "filename": "USW00013904_17.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 9.4,
+            "diff": 17.3
+        },
+        "predict": {
+            "max": 24.4,
+            "min": 15.6,
+            "diff": 8.8
+        },
+        "answer": "Highest temperature: 24.4, Lowest temperature: 15.6, Temperature difference: 8.8"
+    },
+    {
+        "cnt": 126,
+        "filename": "USW00013904_3.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 8.3,
+            "diff": 21.1
+        },
+        "predict": {
+            "max": 24.4,
+            "min": 17.8,
+            "diff": 6.6
+        },
+        "answer": "Highest temperature: 24.4, Lowest temperature: 17.8, Temperature difference: 6.6"
+    },
+    {
+        "cnt": 127,
+        "filename": "USW00013904_5.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 15.6,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 26.0,
+            "min": 16.5,
+            "diff": 9.5
+        },
+        "answer": "Highest temperature: 26.0, Lowest temperature: 16.5, Temperature difference: 9.5"
+    },
+    {
+        "cnt": 128,
+        "filename": "USW00013960_12.json",
+        "ground_truth": {
+            "max": 22.2,
+            "min": 11.1,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 19.0,
+            "min": 16.0,
+            "diff": 3.0
+        },
+        "answer": "Highest temperature: 19.0, Lowest temperature: 16.0, Temperature difference: 3.0"
+    },
+    {
+        "cnt": 129,
+        "filename": "USW00013960_13.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 19.4,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 21.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 21.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 130,
+        "filename": "USW00013960_14.json",
+        "ground_truth": {
+            "max": 25.0,
+            "min": 25.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 39.0,
+            "min": 29.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 39.0, Lowest temperature: 29.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 131,
+        "filename": "USW00013960_17.json",
+        "ground_truth": {
+            "max": 35.6,
+            "min": 22.2,
+            "diff": 13.4
+        },
+        "predict": {
+            "max": 34.0,
+            "min": 22.0,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 34.0, Lowest temperature: 22.0, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 132,
+        "filename": "USW00013960_22.json",
+        "ground_truth": {
+            "max": 22.8,
+            "min": 11.7,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 15.0,
+            "min": 15.0,
+            "diff": 0.0
+        },
+        "answer": "Highest temperature: 15.0, Lowest temperature: 15.0, Temperature difference: 0.0"
+    },
+    {
+        "cnt": 133,
+        "filename": "USW00013960_9.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 18.3,
+            "diff": 12.3
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 19.4,
+            "diff": 11.7
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 19.4, Temperature difference: 11.7"
+    },
+    {
+        "cnt": 134,
+        "filename": "USW00013994_0.json",
+        "ground_truth": {
+            "max": 14.4,
+            "min": -2.8,
+            "diff": 17.2
+        },
+        "predict": {
+            "max": 14.8,
+            "min": -7.2,
+            "diff": 22.0
+        },
+        "answer": "Highest temperature: 14.8, Lowest temperature: -7.2, Temperature difference: 22.0"
+    },
+    {
+        "cnt": 135,
+        "filename": "USW00013994_10.json",
+        "ground_truth": {
+            "max": 17.0,
+            "min": 11.0,
+            "diff": 6.0
+        },
+        "predict": {
+            "max": 23.5,
+            "min": 11.0,
+            "diff": 12.5
+        },
+        "answer": "Highest temperature: 23.5, Lowest temperature: 11.0, Temperature difference: 12.5"
+    },
+    {
+        "cnt": 136,
+        "filename": "USW00013994_21.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 20.6,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 33.8,
+            "min": 24.2,
+            "diff": 9.6
+        },
+        "answer": "Highest temperature: 33.8, Lowest temperature: 24.2, Temperature difference: 9.6"
+    },
+    {
+        "cnt": 137,
+        "filename": "USW00013994_26.json",
+        "ground_truth": {
+            "max": 33.11666666666667,
+            "min": 22.8,
+            "diff": 10.3
+        },
+        "predict": {
+            "max": 30.8,
+            "min": 22.0,
+            "diff": 8.8
+        },
+        "answer": "Highest temperature: 30.8, Lowest temperature: 22.0, Temperature difference: 8.8"
+    },
+    {
+        "cnt": 138,
+        "filename": "USW00013994_28.json",
+        "ground_truth": {
+            "max": 3.3,
+            "min": -2.2,
+            "diff": 5.5
+        },
+        "predict": {
+            "max": 4.5,
+            "min": -5.5,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 4.5, Lowest temperature: -5.5, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 139,
+        "filename": "USW00013994_39.json",
+        "ground_truth": {
+            "max": 18.3,
+            "min": 7.2,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 18.2,
+            "min": 9.8,
+            "diff": 8.4
+        },
+        "answer": "Highest temperature: 18.2, Lowest temperature: 9.8, Temperature difference: 8.4"
+    },
+    {
+        "cnt": 140,
+        "filename": "USW00014732_18.json",
+        "ground_truth": {
+            "max": 10.0,
+            "min": 6.7,
+            "diff": 3.3
+        },
+        "predict": {
+            "max": 12.8,
+            "min": 8.4,
+            "diff": 4.4
+        },
+        "answer": "Highest temperature: 12.8, Lowest temperature: 8.4, Temperature difference: 4.4"
+    },
+    {
+        "cnt": 141,
+        "filename": "USW00014732_20.json",
+        "ground_truth": {
+            "max": 23.3,
+            "min": 8.3,
+            "diff": 15.0
+        },
+        "predict": {
+            "max": 18.8,
+            "min": 7.4,
+            "diff": 11.4
+        },
+        "answer": "Highest temperature: 18.8, Lowest temperature: 7.4, Temperature difference: 11.4"
+    },
+    {
+        "cnt": 142,
+        "filename": "USW00014732_21.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 20.0,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 26.2,
+            "min": 20.0,
+            "diff": 6.2
+        },
+        "answer": "Highest temperature: 26.2, Lowest temperature: 20.0, Temperature difference: 6.2"
+    },
+    {
+        "cnt": 143,
+        "filename": "USW00014732_26.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 14.233333333333334,
+            "diff": 5.8
+        },
+        "predict": {
+            "max": 31.5,
+            "min": 18.0,
+            "diff": 13.5
+        },
+        "answer": "Highest temperature: 31.5, Lowest temperature: 18.0, Temperature difference: 13.5"
+    },
+    {
+        "cnt": 144,
+        "filename": "USW00014732_7.json",
+        "ground_truth": {
+            "max": 18.9,
+            "min": 7.8,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 13.8,
+            "min": 6.0,
+            "diff": 7.8
+        },
+        "answer": "Highest temperature: 13.8, Lowest temperature: 6.0, Temperature difference: 7.8"
+    },
+    {
+        "cnt": 145,
+        "filename": "USW00014732_8.json",
+        "ground_truth": {
+            "max": 21.1,
+            "min": 10.0,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 13.8,
+            "min": 8.2,
+            "diff": 5.6
+        },
+        "answer": "Highest temperature: 13.8, Lowest temperature: 8.2, Temperature difference: 5.6"
+    },
+    {
+        "cnt": 146,
+        "filename": "USW00014734_0.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 21.7,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 27.8,
+            "min": 23.0,
+            "diff": 4.8
+        },
+        "answer": "Highest temperature: 27.8, Lowest temperature: 23.0, Temperature difference: 4.8"
+    },
+    {
+        "cnt": 147,
+        "filename": "USW00014734_11.json",
+        "ground_truth": {
+            "max": 7.2,
+            "min": 0.6000000000000001,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 15.4,
+            "min": 2.8,
+            "diff": 12.6
+        },
+        "answer": "Highest temperature: 15.4, Lowest temperature: 2.8, Temperature difference: 12.6"
+    },
+    {
+        "cnt": 148,
+        "filename": "USW00014734_12.json",
+        "ground_truth": {
+            "max": 12.2,
+            "min": 3.9,
+            "diff": 8.3
+        },
+        "predict": {
+            "max": 8.7,
+            "min": 1.0,
+            "diff": 7.7
+        },
+        "answer": "Highest temperature: 8.7, Lowest temperature: 1.0, Temperature difference: 7.7"
+    },
+    {
+        "cnt": 149,
+        "filename": "USW00014734_15.json",
+        "ground_truth": {
+            "max": 18.9,
+            "min": 5.6,
+            "diff": 13.3
+        },
+        "predict": {
+            "max": 7.0,
+            "min": -4.0,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 7.0, Lowest temperature: -4.0, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 150,
+        "filename": "USW00014734_16.json",
+        "ground_truth": {
+            "max": 16.0,
+            "min": 10.0,
+            "diff": 6.0
+        },
+        "predict": {
+            "max": 16.8,
+            "min": 13.6,
+            "diff": 3.2
+        },
+        "answer": "Highest temperature: 16.8, Lowest temperature: 13.6, Temperature difference: 3.2"
+    },
+    {
+        "cnt": 151,
+        "filename": "USW00014734_24.json",
+        "ground_truth": {
+            "max": 14.4,
+            "min": 3.3,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 13.2,
+            "min": 7.0,
+            "diff": 6.2
+        },
+        "answer": "Highest temperature: 13.2, Lowest temperature: 7.0, Temperature difference: 6.2"
+    },
+    {
+        "cnt": 152,
+        "filename": "USW00014739_2.json",
+        "ground_truth": {
+            "max": 12.8,
+            "min": 7.8,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 10.0,
+            "min": 4.0,
+            "diff": 6.0
+        },
+        "answer": "Highest temperature: 10.0, Lowest temperature: 4.0, Temperature difference: 6.0"
+    },
+    {
+        "cnt": 153,
+        "filename": "USW00014739_20.json",
+        "ground_truth": {
+            "max": 22.2,
+            "min": 13.3,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 19.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 19.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 154,
+        "filename": "USW00014739_23.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 26.7,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 35.8,
+            "min": 25.4,
+            "diff": 10.4
+        },
+        "answer": "Highest temperature: 35.8, Lowest temperature: 25.4, Temperature difference: 10.4"
+    },
+    {
+        "cnt": 155,
+        "filename": "USW00014739_25.json",
+        "ground_truth": {
+            "max": 25.6,
+            "min": 20.6,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 24.0,
+            "min": 17.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 24.0, Lowest temperature: 17.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 156,
+        "filename": "USW00014739_37.json",
+        "ground_truth": {
+            "max": 33.9,
+            "min": 21.1,
+            "diff": 12.8
+        },
+        "predict": {
+            "max": 33.0,
+            "min": 22.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 33.0, Lowest temperature: 22.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 157,
+        "filename": "USW00014739_4.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 19.266666666666666,
+            "diff": 6.8
+        },
+        "predict": {
+            "max": 29.8,
+            "min": 21.1,
+            "diff": 8.7
+        },
+        "answer": "Highest temperature: 29.8, Lowest temperature: 21.1, Temperature difference: 8.7"
+    },
+    {
+        "cnt": 158,
+        "filename": "USW00014819_11.json",
+        "ground_truth": {
+            "max": 23.0,
+            "min": 18.0,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 18.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 18.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 159,
+        "filename": "USW00014819_14.json",
+        "ground_truth": {
+            "max": 23.3,
+            "min": 17.2,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 24.4,
+            "min": 15.0,
+            "diff": 9.4
+        },
+        "answer": "Highest temperature: 24.4, Lowest temperature: 15.0, Temperature difference: 9.4"
+    },
+    {
+        "cnt": 160,
+        "filename": "USW00014819_16.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 21.1,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 31.7,
+            "min": 20.6,
+            "diff": 11.1
+        },
+        "answer": "Highest temperature: 31.7, Lowest temperature: 20.6, Temperature difference: 11.1"
+    },
+    {
+        "cnt": 161,
+        "filename": "USW00014819_19.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 22.8,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 31.7,
+            "min": 21.1,
+            "diff": 10.6
+        },
+        "answer": "Highest temperature: 31.7, Lowest temperature: 21.1, Temperature difference: 10.6"
+    },
+    {
+        "cnt": 162,
+        "filename": "USW00014819_20.json",
+        "ground_truth": {
+            "max": 23.3,
+            "min": 21.1,
+            "diff": 2.2
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 22.0,
+            "diff": 9.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 22.0, Temperature difference: 9.0"
+    },
+    {
+        "cnt": 163,
+        "filename": "USW00014819_8.json",
+        "ground_truth": {
+            "max": 14.0,
+            "min": 14.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 18.5,
+            "min": 8.5,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 18.5, Lowest temperature: 8.5, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 164,
+        "filename": "USW00014820_12.json",
+        "ground_truth": {
+            "max": 24.4,
+            "min": 18.9,
+            "diff": 5.5
+        },
+        "predict": {
+            "max": 29.4,
+            "min": 18.3,
+            "diff": 11.1
+        },
+        "answer": "Highest temperature: 29.4, Lowest temperature: 18.3, Temperature difference: 11.1"
+    },
+    {
+        "cnt": 165,
+        "filename": "USW00014820_13.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 20.6,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 20.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 20.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 166,
+        "filename": "USW00014820_25.json",
+        "ground_truth": {
+            "max": 23.9,
+            "min": 17.8,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 24.8,
+            "min": 17.0,
+            "diff": 7.8
+        },
+        "answer": "Highest temperature: 24.8, Lowest temperature: 17.0, Temperature difference: 7.8"
+    },
+    {
+        "cnt": 167,
+        "filename": "USW00014820_32.json",
+        "ground_truth": {
+            "max": 6.7,
+            "min": -3.3,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 12.5,
+            "min": 0.5,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 12.5, Lowest temperature: 0.5, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 168,
+        "filename": "USW00014820_35.json",
+        "ground_truth": {
+            "max": 20.6,
+            "min": 8.3,
+            "diff": 12.3
+        },
+        "predict": {
+            "max": 17.8,
+            "min": 8.6,
+            "diff": 9.2
+        },
+        "answer": "Highest temperature: 17.8, Lowest temperature: 8.6, Temperature difference: 9.2"
+    },
+    {
+        "cnt": 169,
+        "filename": "USW00014820_8.json",
+        "ground_truth": {
+            "max": 23.9,
+            "min": 17.2,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 24.5,
+            "min": 16.0,
+            "diff": 8.5
+        },
+        "answer": "Highest temperature: 24.5, Lowest temperature: 16.0, Temperature difference: 8.5"
+    },
+    {
+        "cnt": 170,
+        "filename": "USW00014821_12.json",
+        "ground_truth": {
+            "max": 14.4,
+            "min": 14.4,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 11.1,
+            "min": 4.4,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 11.1, Lowest temperature: 4.4, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 171,
+        "filename": "USW00014821_16.json",
+        "ground_truth": {
+            "max": 13.9,
+            "min": 3.3,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 22.8,
+            "min": 8.3,
+            "diff": 14.5
+        },
+        "answer": "Highest temperature: 22.8, Lowest temperature: 8.3, Temperature difference: 14.5"
+    },
+    {
+        "cnt": 172,
+        "filename": "USW00014821_21.json",
+        "ground_truth": {
+            "max": 2.0,
+            "min": 1.0,
+            "diff": 1.0
+        },
+        "predict": {
+            "max": 10.2,
+            "min": 9.8,
+            "diff": 0.4
+        },
+        "answer": "Highest temperature: 10.2, Lowest temperature: 9.8, Temperature difference: 0.4"
+    },
+    {
+        "cnt": 173,
+        "filename": "USW00014821_25.json",
+        "ground_truth": {
+            "max": 24.4,
+            "min": 20.6,
+            "diff": 3.8
+        },
+        "predict": {
+            "max": 31.1,
+            "min": 21.1,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 31.1, Lowest temperature: 21.1, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 174,
+        "filename": "USW00014821_32.json",
+        "ground_truth": {
+            "max": 19.4,
+            "min": 19.4,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 6.8,
+            "min": 6.7,
+            "diff": 0.1
+        },
+        "answer": "Highest temperature: 6.8, Lowest temperature: 6.7, Temperature difference: 0.1"
+    },
+    {
+        "cnt": 175,
+        "filename": "USW00014821_5.json",
+        "ground_truth": {
+            "max": 21.7,
+            "min": 15.0,
+            "diff": 6.7
+        },
+        "predict": {
+            "max": 28.3,
+            "min": 16.1,
+            "diff": 12.2
+        },
+        "answer": "Highest temperature: 28.3, Lowest temperature: 16.1, Temperature difference: 12.2"
+    },
+    {
+        "cnt": 176,
+        "filename": "USW00014922_15.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 17.8,
+            "diff": 8.3
+        },
+        "predict": {
+            "max": 24.8,
+            "min": 18.9,
+            "diff": 5.9
+        },
+        "answer": "Highest temperature: 24.8, Lowest temperature: 18.9, Temperature difference: 5.9"
+    },
+    {
+        "cnt": 177,
+        "filename": "USW00014922_24.json",
+        "ground_truth": {
+            "max": 25.6,
+            "min": 20.0,
+            "diff": 5.6
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 17.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 17.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 178,
+        "filename": "USW00014922_26.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 17.0,
+            "diff": 3.0
+        },
+        "predict": {
+            "max": 25.2,
+            "min": 17.4,
+            "diff": 7.8
+        },
+        "answer": "Highest temperature: 25.2, Lowest temperature: 17.4, Temperature difference: 7.8"
+    },
+    {
+        "cnt": 179,
+        "filename": "USW00014922_3.json",
+        "ground_truth": {
+            "max": 28.799999999999997,
+            "min": 22.2,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 29.8,
+            "min": 19.0,
+            "diff": 10.8
+        },
+        "answer": "Highest temperature: 29.8, Lowest temperature: 19.0, Temperature difference: 10.8"
+    },
+    {
+        "cnt": 180,
+        "filename": "USW00014922_5.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 16.1,
+            "diff": 13.9
+        },
+        "predict": {
+            "max": 26.5,
+            "min": 13.0,
+            "diff": 13.5
+        },
+        "answer": "Highest temperature: 26.5, Lowest temperature: 13.0, Temperature difference: 13.5"
+    },
+    {
+        "cnt": 181,
+        "filename": "USW00014922_6.json",
+        "ground_truth": {
+            "max": 16.7,
+            "min": -2.4333333333333336,
+            "diff": 19.1
+        },
+        "predict": {
+            "max": 8.5,
+            "min": 2.0,
+            "diff": 6.5
+        },
+        "answer": "Highest temperature: 8.5, Lowest temperature: 2.0, Temperature difference: 6.5"
+    },
+    {
+        "cnt": 182,
+        "filename": "USW00022521_2.json",
+        "ground_truth": {
+            "max": 25.133333333333333,
+            "min": 21.1,
+            "diff": 4.0
+        },
+        "predict": {
+            "max": 24.0,
+            "min": 18.0,
+            "diff": 6.0
+        },
+        "answer": "Highest temperature: 24.0, Lowest temperature: 18.0, Temperature difference: 6.0"
+    },
+    {
+        "cnt": 183,
+        "filename": "USW00022521_3.json",
+        "ground_truth": {
+            "max": 29.0,
+            "min": 24.6,
+            "diff": 4.4
+        },
+        "predict": {
+            "max": 30.5,
+            "min": 26.0,
+            "diff": 4.5
+        },
+        "answer": "Highest temperature: 30.5, Lowest temperature: 26.0, Temperature difference: 4.5"
+    },
+    {
+        "cnt": 184,
+        "filename": "USW00022521_32.json",
+        "ground_truth": {
+            "max": 26.233333333333334,
+            "min": 21.7,
+            "diff": 4.5
+        },
+        "predict": {
+            "max": 26.6,
+            "min": 21.0,
+            "diff": 5.6
+        },
+        "answer": "Highest temperature: 26.6, Lowest temperature: 21.0, Temperature difference: 5.6"
+    },
+    {
+        "cnt": 185,
+        "filename": "USW00022521_4.json",
+        "ground_truth": {
+            "max": 27.4,
+            "min": 22.0,
+            "diff": 5.4
+        },
+        "predict": {
+            "max": 29.1,
+            "min": 22.7,
+            "diff": 6.4
+        },
+        "answer": "Highest temperature: 29.1, Lowest temperature: 22.7, Temperature difference: 6.4"
+    },
+    {
+        "cnt": 186,
+        "filename": "USW00022521_6.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 22.8,
+            "diff": 3.3
+        },
+        "predict": {
+            "max": 25.2,
+            "min": 21.0,
+            "diff": 4.2
+        },
+        "answer": "Highest temperature: 25.2, Lowest temperature: 21.0, Temperature difference: 4.2"
+    },
+    {
+        "cnt": 187,
+        "filename": "USW00022521_9.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 25.6,
+            "diff": 3.8
+        },
+        "predict": {
+            "max": 31.6,
+            "min": 26.0,
+            "diff": 5.6
+        },
+        "answer": "Highest temperature: 31.6, Lowest temperature: 26.0, Temperature difference: 5.6"
+    },
+    {
+        "cnt": 188,
+        "filename": "USW00023169_0.json",
+        "ground_truth": {
+            "max": 39.4,
+            "min": 25.6,
+            "diff": 13.8
+        },
+        "predict": {
+            "max": 40.0,
+            "min": 28.0,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 40.0, Lowest temperature: 28.0, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 189,
+        "filename": "USW00023169_18.json",
+        "ground_truth": {
+            "max": 16.0,
+            "min": 16.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 22.8,
+            "min": 15.6,
+            "diff": 7.2
+        },
+        "answer": "Highest temperature: 22.8, Lowest temperature: 15.6, Temperature difference: 7.2"
+    },
+    {
+        "cnt": 190,
+        "filename": "USW00023169_3.json",
+        "ground_truth": {
+            "max": 36.1,
+            "min": 23.3,
+            "diff": 12.8
+        },
+        "predict": {
+            "max": 41.1,
+            "min": 28.3,
+            "diff": 12.8
+        },
+        "answer": "Highest temperature: 41.1, Lowest temperature: 28.3, Temperature difference: 12.8"
+    },
+    {
+        "cnt": 191,
+        "filename": "USW00023169_34.json",
+        "ground_truth": {
+            "max": 35.6,
+            "min": 23.9,
+            "diff": 11.7
+        },
+        "predict": {
+            "max": 41.1,
+            "min": 27.8,
+            "diff": 13.3
+        },
+        "answer": "Highest temperature: 41.1, Lowest temperature: 27.8, Temperature difference: 13.3"
+    },
+    {
+        "cnt": 192,
+        "filename": "USW00023169_38.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 15.0,
+            "diff": 13.9
+        },
+        "predict": {
+            "max": 33.3,
+            "min": 21.1,
+            "diff": 12.2
+        },
+        "answer": "Highest temperature: 33.3, Lowest temperature: 21.1, Temperature difference: 12.2"
+    },
+    {
+        "cnt": 193,
+        "filename": "USW00023169_6.json",
+        "ground_truth": {
+            "max": 38.9,
+            "min": 28.9,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 40.5,
+            "min": 30.5,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 40.5, Lowest temperature: 30.5, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 194,
+        "filename": "USW00023174_14.json",
+        "ground_truth": {
+            "max": 14.716666666666667,
+            "min": 9.4,
+            "diff": 5.3
+        },
+        "predict": {
+            "max": 15.3,
+            "min": 11.6,
+            "diff": 3.7
+        },
+        "answer": "Highest temperature: 15.3, Lowest temperature: 11.6, Temperature difference: 3.7"
+    },
+    {
+        "cnt": 195,
+        "filename": "USW00023174_20.json",
+        "ground_truth": {
+            "max": 19.633333333333333,
+            "min": 13.3,
+            "diff": 6.3
+        },
+        "predict": {
+            "max": 22.0,
+            "min": 16.8,
+            "diff": 5.2
+        },
+        "answer": "Highest temperature: 22.0, Lowest temperature: 16.8, Temperature difference: 5.2"
+    },
+    {
+        "cnt": 196,
+        "filename": "USW00023174_26.json",
+        "ground_truth": {
+            "max": 23.21666666666667,
+            "min": 20.0,
+            "diff": 3.2
+        },
+        "predict": {
+            "max": 25.7,
+            "min": 17.0,
+            "diff": 8.7
+        },
+        "answer": "Highest temperature: 25.7, Lowest temperature: 17.0, Temperature difference: 8.7"
+    },
+    {
+        "cnt": 197,
+        "filename": "USW00023174_3.json",
+        "ground_truth": {
+            "max": 14.033333333333333,
+            "min": 7.2,
+            "diff": 6.8
+        },
+        "predict": {
+            "max": 15.0,
+            "min": 11.0,
+            "diff": 4.0
+        },
+        "answer": "Highest temperature: 15.0, Lowest temperature: 11.0, Temperature difference: 4.0"
+    },
+    {
+        "cnt": 198,
+        "filename": "USW00023174_37.json",
+        "ground_truth": {
+            "max": 16.01666666666667,
+            "min": 11.1,
+            "diff": 4.9
+        },
+        "predict": {
+            "max": 18.2,
+            "min": 15.0,
+            "diff": 3.2
+        },
+        "answer": "Highest temperature: 18.2, Lowest temperature: 15.0, Temperature difference: 3.2"
+    },
+    {
+        "cnt": 199,
+        "filename": "USW00023183_15.json",
+        "ground_truth": {
+            "max": 29.133333333333333,
+            "min": 22.2,
+            "diff": 6.9
+        },
+        "predict": {
+            "max": 36.0,
+            "min": 24.5,
+            "diff": 11.5
+        },
+        "answer": "Highest temperature: 36.0, Lowest temperature: 24.5, Temperature difference: 11.5"
+    },
+    {
+        "cnt": 200,
+        "filename": "USW00023183_22.json",
+        "ground_truth": {
+            "max": 29.766666666666666,
+            "min": 21.7,
+            "diff": 8.1
+        },
+        "predict": {
+            "max": 34.8,
+            "min": 23.8,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 34.8, Lowest temperature: 23.8, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 201,
+        "filename": "USW00023183_23.json",
+        "ground_truth": {
+            "max": 29.133333333333333,
+            "min": 22.2,
+            "diff": 6.9
+        },
+        "predict": {
+            "max": 37.0,
+            "min": 26.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 37.0, Lowest temperature: 26.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 202,
+        "filename": "USW00023183_35.json",
+        "ground_truth": {
+            "max": 39.4,
+            "min": 27.8,
+            "diff": 11.6
+        },
+        "predict": {
+            "max": 39.0,
+            "min": 28.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 39.0, Lowest temperature: 28.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 203,
+        "filename": "USW00023183_4.json",
+        "ground_truth": {
+            "max": 40.0,
+            "min": 32.2,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 40.8,
+            "min": 28.8,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 40.8, Lowest temperature: 28.8, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 204,
+        "filename": "USW00023183_7.json",
+        "ground_truth": {
+            "max": 38.3,
+            "min": 27.2,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 44.0,
+            "min": 28.0,
+            "diff": 16.0
+        },
+        "answer": "Highest temperature: 44.0, Lowest temperature: 28.0, Temperature difference: 16.0"
+    },
+    {
+        "cnt": 205,
+        "filename": "USW00023188_0.json",
+        "ground_truth": {
+            "max": 15.0,
+            "min": 12.8,
+            "diff": 2.2
+        },
+        "predict": {
+            "max": 17.0,
+            "min": 13.2,
+            "diff": 3.8
+        },
+        "answer": "Highest temperature: 17.0, Lowest temperature: 13.2, Temperature difference: 3.8"
+    },
+    {
+        "cnt": 206,
+        "filename": "USW00023188_21.json",
+        "ground_truth": {
+            "max": 13.533333333333333,
+            "min": 8.3,
+            "diff": 5.2
+        },
+        "predict": {
+            "max": 14.8,
+            "min": 11.7,
+            "diff": 3.1
+        },
+        "answer": "Highest temperature: 14.8, Lowest temperature: 11.7, Temperature difference: 3.1"
+    },
+    {
+        "cnt": 207,
+        "filename": "USW00023188_34.json",
+        "ground_truth": {
+            "max": 21.6,
+            "min": 15.0,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 21.0,
+            "min": 16.5,
+            "diff": 4.5
+        },
+        "answer": "Highest temperature: 21.0, Lowest temperature: 16.5, Temperature difference: 4.5"
+    },
+    {
+        "cnt": 208,
+        "filename": "USW00023188_35.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 22.2,
+            "diff": 3.9
+        },
+        "predict": {
+            "max": 31.5,
+            "min": 23.0,
+            "diff": 8.5
+        },
+        "answer": "Highest temperature: 31.5, Lowest temperature: 23.0, Temperature difference: 8.5"
+    },
+    {
+        "cnt": 209,
+        "filename": "USW00023188_4.json",
+        "ground_truth": {
+            "max": 31.7,
+            "min": 24.4,
+            "diff": 7.3
+        },
+        "predict": {
+            "max": 31.2,
+            "min": 24.2,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 31.2, Lowest temperature: 24.2, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 210,
+        "filename": "USW00023234_13.json",
+        "ground_truth": {
+            "max": 12.75,
+            "min": 8.9,
+            "diff": 3.8
+        },
+        "predict": {
+            "max": 11.8,
+            "min": 8.4,
+            "diff": 3.4
+        },
+        "answer": "Highest temperature: 11.8, Lowest temperature: 8.4, Temperature difference: 3.4"
+    },
+    {
+        "cnt": 211,
+        "filename": "USW00023234_14.json",
+        "ground_truth": {
+            "max": 12.233333333333334,
+            "min": 5.6,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 14.0,
+            "min": 7.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 14.0, Lowest temperature: 7.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 212,
+        "filename": "USW00023234_25.json",
+        "ground_truth": {
+            "max": 15.916666666666668,
+            "min": 13.3,
+            "diff": 2.6
+        },
+        "predict": {
+            "max": 14.1,
+            "min": 12.4,
+            "diff": 1.7
+        },
+        "answer": "Highest temperature: 14.1, Lowest temperature: 12.4, Temperature difference: 1.7"
+    },
+    {
+        "cnt": 213,
+        "filename": "USW00023234_27.json",
+        "ground_truth": {
+            "max": 12.616666666666667,
+            "min": 9.4,
+            "diff": 3.2
+        },
+        "predict": {
+            "max": 15.8,
+            "min": 11.0,
+            "diff": 4.8
+        },
+        "answer": "Highest temperature: 15.8, Lowest temperature: 11.0, Temperature difference: 4.8"
+    },
+    {
+        "cnt": 214,
+        "filename": "USW00023234_29.json",
+        "ground_truth": {
+            "max": 13.216666666666667,
+            "min": 10.6,
+            "diff": 2.6
+        },
+        "predict": {
+            "max": 14.8,
+            "min": 11.7,
+            "diff": 3.1
+        },
+        "answer": "Highest temperature: 14.8, Lowest temperature: 11.7, Temperature difference: 3.1"
+    },
+    {
+        "cnt": 215,
+        "filename": "USW00023234_5.json",
+        "ground_truth": {
+            "max": 14.216666666666667,
+            "min": 11.1,
+            "diff": 3.1
+        },
+        "predict": {
+            "max": 16.6,
+            "min": 13.8,
+            "diff": 2.8
+        },
+        "answer": "Highest temperature: 16.6, Lowest temperature: 13.8, Temperature difference: 2.8"
+    },
+    {
+        "cnt": 216,
+        "filename": "USW00023293_13.json",
+        "ground_truth": {
+            "max": 13.9,
+            "min": 9.4,
+            "diff": 4.5
+        },
+        "predict": {
+            "max": 12.8,
+            "min": 6.7,
+            "diff": 6.1
+        },
+        "answer": "Highest temperature: 12.8, Lowest temperature: 6.7, Temperature difference: 6.1"
+    },
+    {
+        "cnt": 217,
+        "filename": "USW00023293_17.json",
+        "ground_truth": {
+            "max": 18.3,
+            "min": 11.1,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 18.3,
+            "min": 11.1,
+            "diff": 7.2
+        },
+        "answer": "Highest temperature: 18.3, Lowest temperature: 11.1, Temperature difference: 7.2"
+    },
+    {
+        "cnt": 218,
+        "filename": "USW00023293_20.json",
+        "ground_truth": {
+            "max": 10.6,
+            "min": 5.6,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 14.2,
+            "min": 7.8,
+            "diff": 6.4
+        },
+        "answer": "Highest temperature: 14.2, Lowest temperature: 7.8, Temperature difference: 6.4"
+    },
+    {
+        "cnt": 219,
+        "filename": "USW00023293_29.json",
+        "ground_truth": {
+            "max": 16.7,
+            "min": 13.9,
+            "diff": 2.8
+        },
+        "predict": {
+            "max": 16.7,
+            "min": 13.9,
+            "diff": 2.8
+        },
+        "answer": "Highest temperature: 16.7, Lowest temperature: 13.9, Temperature difference: 2.8"
+    },
+    {
+        "cnt": 220,
+        "filename": "USW00023293_5.json",
+        "ground_truth": {
+            "max": 35.0,
+            "min": 22.2,
+            "diff": 12.8
+        },
+        "predict": {
+            "max": 38.0,
+            "min": 25.0,
+            "diff": 13.0
+        },
+        "answer": "Highest temperature: 38.0, Lowest temperature: 25.0, Temperature difference: 13.0"
+    },
+    {
+        "cnt": 221,
+        "filename": "USW00023293_7.json",
+        "ground_truth": {
+            "max": 11.1,
+            "min": 6.1,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 13.6,
+            "min": 10.8,
+            "diff": 2.8
+        },
+        "answer": "Highest temperature: 13.6, Lowest temperature: 10.8, Temperature difference: 2.8"
+    },
+    {
+        "cnt": 222,
+        "filename": "USW00024127_1.json",
+        "ground_truth": {
+            "max": 33.9,
+            "min": 21.1,
+            "diff": 12.8
+        },
+        "predict": {
+            "max": 36.5,
+            "min": 23.0,
+            "diff": 13.5
+        },
+        "answer": "Highest temperature: 36.5, Lowest temperature: 23.0, Temperature difference: 13.5"
+    },
+    {
+        "cnt": 223,
+        "filename": "USW00024127_19.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 20.6,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 33.6,
+            "min": 20.4,
+            "diff": 13.2
+        },
+        "answer": "Highest temperature: 33.6, Lowest temperature: 20.4, Temperature difference: 13.2"
+    },
+    {
+        "cnt": 224,
+        "filename": "USW00024127_25.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 12.8,
+            "diff": 13.3
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 18.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 18.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 225,
+        "filename": "USW00024127_27.json",
+        "ground_truth": {
+            "max": 36.7,
+            "min": 24.4,
+            "diff": 12.3
+        },
+        "predict": {
+            "max": 35.2,
+            "min": 20.8,
+            "diff": 14.4
+        },
+        "answer": "Highest temperature: 35.2, Lowest temperature: 20.8, Temperature difference: 14.4"
+    },
+    {
+        "cnt": 226,
+        "filename": "USW00024127_28.json",
+        "ground_truth": {
+            "max": 18.9,
+            "min": 9.4,
+            "diff": 9.5
+        },
+        "predict": {
+            "max": 22.5,
+            "min": 11.5,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 22.5, Lowest temperature: 11.5, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 227,
+        "filename": "USW00024127_35.json",
+        "ground_truth": {
+            "max": 17.933333333333334,
+            "min": 12.8,
+            "diff": 5.1
+        },
+        "predict": {
+            "max": 28.0,
+            "min": 15.5,
+            "diff": 12.5
+        },
+        "answer": "Highest temperature: 28.0, Lowest temperature: 15.5, Temperature difference: 12.5"
+    },
+    {
+        "cnt": 228,
+        "filename": "USW00024229_0.json",
+        "ground_truth": {
+            "max": 6.283333333333334,
+            "min": -1.7000000000000002,
+            "diff": 8.0
+        },
+        "predict": {
+            "max": 12.2,
+            "min": 7.8,
+            "diff": 4.4
+        },
+        "answer": "Highest temperature: 12.2, Lowest temperature: 7.8, Temperature difference: 4.4"
+    },
+    {
+        "cnt": 229,
+        "filename": "USW00024229_12.json",
+        "ground_truth": {
+            "max": 25.6,
+            "min": 16.1,
+            "diff": 9.5
+        },
+        "predict": {
+            "max": 24.1,
+            "min": 15.8,
+            "diff": 8.3
+        },
+        "answer": "Highest temperature: 24.1, Lowest temperature: 15.8, Temperature difference: 8.3"
+    },
+    {
+        "cnt": 230,
+        "filename": "USW00024229_14.json",
+        "ground_truth": {
+            "max": 10.0,
+            "min": 7.2,
+            "diff": 2.8
+        },
+        "predict": {
+            "max": 13.8,
+            "min": 10.0,
+            "diff": 3.8
+        },
+        "answer": "Highest temperature: 13.8, Lowest temperature: 10.0, Temperature difference: 3.8"
+    },
+    {
+        "cnt": 231,
+        "filename": "USW00024229_16.json",
+        "ground_truth": {
+            "max": 18.666666666666664,
+            "min": 13.3,
+            "diff": 5.4
+        },
+        "predict": {
+            "max": 24.1,
+            "min": 13.0,
+            "diff": 11.1
+        },
+        "answer": "Highest temperature: 24.1, Lowest temperature: 13.0, Temperature difference: 11.1"
+    },
+    {
+        "cnt": 232,
+        "filename": "USW00024229_19.json",
+        "ground_truth": {
+            "max": 10.0,
+            "min": 6.0,
+            "diff": 4.0
+        },
+        "predict": {
+            "max": 8.5,
+            "min": 3.5,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 8.5, Lowest temperature: 3.5, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 233,
+        "filename": "USW00024229_38.json",
+        "ground_truth": {
+            "max": 25.0,
+            "min": 12.8,
+            "diff": 12.2
+        },
+        "predict": {
+            "max": 27.8,
+            "min": 15.8,
+            "diff": 12.0
+        },
+        "answer": "Highest temperature: 27.8, Lowest temperature: 15.8, Temperature difference: 12.0"
+    },
+    {
+        "cnt": 234,
+        "filename": "USW00024233_0.json",
+        "ground_truth": {
+            "max": 12.0,
+            "min": 5.0,
+            "diff": 7.0
+        },
+        "predict": {
+            "max": 11.2,
+            "min": 5.0,
+            "diff": 6.2
+        },
+        "answer": "Highest temperature: 11.2, Lowest temperature: 5.0, Temperature difference: 6.2"
+    },
+    {
+        "cnt": 235,
+        "filename": "USW00024233_13.json",
+        "ground_truth": {
+            "max": 8.9,
+            "min": 5.733333333333333,
+            "diff": 3.2
+        },
+        "predict": {
+            "max": 11.2,
+            "min": 7.8,
+            "diff": 3.4
+        },
+        "answer": "Highest temperature: 11.2, Lowest temperature: 7.8, Temperature difference: 3.4"
+    },
+    {
+        "cnt": 236,
+        "filename": "USW00024233_16.json",
+        "ground_truth": {
+            "max": 12.05,
+            "min": 6.7,
+            "diff": 5.4
+        },
+        "predict": {
+            "max": 12.0,
+            "min": 6.5,
+            "diff": 5.5
+        },
+        "answer": "Highest temperature: 12.0, Lowest temperature: 6.5, Temperature difference: 5.5"
+    },
+    {
+        "cnt": 237,
+        "filename": "USW00024233_20.json",
+        "ground_truth": {
+            "max": 9.633333333333333,
+            "min": 7.2,
+            "diff": 2.4
+        },
+        "predict": {
+            "max": 11.8,
+            "min": 9.6,
+            "diff": 2.2
+        },
+        "answer": "Highest temperature: 11.8, Lowest temperature: 9.6, Temperature difference: 2.2"
+    },
+    {
+        "cnt": 238,
+        "filename": "USW00024233_23.json",
+        "ground_truth": {
+            "max": 12.850000000000001,
+            "min": 9.4,
+            "diff": 3.5
+        },
+        "predict": {
+            "max": 15.6,
+            "min": 11.0,
+            "diff": 4.6
+        },
+        "answer": "Highest temperature: 15.6, Lowest temperature: 11.0, Temperature difference: 4.6"
+    },
+    {
+        "cnt": 239,
+        "filename": "USW00024233_33.json",
+        "ground_truth": {
+            "max": 20.033333333333335,
+            "min": 16.7,
+            "diff": 3.3
+        },
+        "predict": {
+            "max": 24.8,
+            "min": 16.7,
+            "diff": 8.1
+        },
+        "answer": "Highest temperature: 24.8, Lowest temperature: 16.7, Temperature difference: 8.1"
+    },
+    {
+        "cnt": 240,
+        "filename": "USW00093184_19.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 22.8,
+            "diff": 3.9
+        },
+        "predict": {
+            "max": 27.8,
+            "min": 21.1,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 27.8, Lowest temperature: 21.1, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 241,
+        "filename": "USW00093184_31.json",
+        "ground_truth": {
+            "max": 33.3,
+            "min": 26.7,
+            "diff": 6.6
+        },
+        "predict": {
+            "max": 35.0,
+            "min": 25.5,
+            "diff": 9.5
+        },
+        "answer": "Highest temperature: 35.0, Lowest temperature: 25.5, Temperature difference: 9.5"
+    },
+    {
+        "cnt": 242,
+        "filename": "USW00093184_32.json",
+        "ground_truth": {
+            "max": 16.1,
+            "min": 8.3,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 16.1,
+            "min": 12.8,
+            "diff": 3.3
+        },
+        "answer": "Highest temperature: 16.1, Lowest temperature: 12.8, Temperature difference: 3.3"
+    },
+    {
+        "cnt": 243,
+        "filename": "USW00093184_37.json",
+        "ground_truth": {
+            "max": 15.0,
+            "min": 12.2,
+            "diff": 2.8
+        },
+        "predict": {
+            "max": 17.2,
+            "min": 12.2,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 17.2, Lowest temperature: 12.2, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 244,
+        "filename": "USW00093184_5.json",
+        "ground_truth": {
+            "max": 36.7,
+            "min": 25.6,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 36.5,
+            "min": 25.5,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 36.5, Lowest temperature: 25.5, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 245,
+        "filename": "USW00093184_7.json",
+        "ground_truth": {
+            "max": 20.6,
+            "min": 11.1,
+            "diff": 9.5
+        },
+        "predict": {
+            "max": 17.2,
+            "min": 12.2,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 17.2, Lowest temperature: 12.2, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 246,
+        "filename": "USW00093225_12.json",
+        "ground_truth": {
+            "max": 15.6,
+            "min": 3.3,
+            "diff": 12.3
+        },
+        "predict": {
+            "max": 19.0,
+            "min": 10.0,
+            "diff": 9.0
+        },
+        "answer": "Highest temperature: 19.0, Lowest temperature: 10.0, Temperature difference: 9.0"
+    },
+    {
+        "cnt": 247,
+        "filename": "USW00093225_14.json",
+        "ground_truth": {
+            "max": 18.9,
+            "min": 13.9,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 17.2,
+            "min": 12.2,
+            "diff": 5.0
+        },
+        "answer": "Highest temperature: 17.2, Lowest temperature: 12.2, Temperature difference: 5.0"
+    },
+    {
+        "cnt": 248,
+        "filename": "USW00093225_24.json",
+        "ground_truth": {
+            "max": 16.0,
+            "min": 16.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 15.0,
+            "min": 5.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 15.0, Lowest temperature: 5.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 249,
+        "filename": "USW00093225_27.json",
+        "ground_truth": {
+            "max": 15.6,
+            "min": 5.0,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 16.7,
+            "min": 11.1,
+            "diff": 5.6
+        },
+        "answer": "Highest temperature: 16.7, Lowest temperature: 11.1, Temperature difference: 5.6"
+    },
+    {
+        "cnt": 250,
+        "filename": "USW00093225_4.json",
+        "ground_truth": {
+            "max": 10.6,
+            "min": 6.7,
+            "diff": 3.9
+        },
+        "predict": {
+            "max": 12.8,
+            "min": 6.1,
+            "diff": 6.7
+        },
+        "answer": "Highest temperature: 12.8, Lowest temperature: 6.1, Temperature difference: 6.7"
+    },
+    {
+        "cnt": 251,
+        "filename": "USW00093225_7.json",
+        "ground_truth": {
+            "max": 16.7,
+            "min": 11.1,
+            "diff": 5.6
+        },
+        "predict": {
+            "max": 29.4,
+            "min": 14.4,
+            "diff": 15.0
+        },
+        "answer": "Highest temperature: 29.4, Lowest temperature: 14.4, Temperature difference: 15.0"
+    },
+    {
+        "cnt": 252,
+        "filename": "USW00093721_12.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 19.4,
+            "diff": 7.3
+        },
+        "predict": {
+            "max": 30.8,
+            "min": 20.4,
+            "diff": 10.4
+        },
+        "answer": "Highest temperature: 30.8, Lowest temperature: 20.4, Temperature difference: 10.4"
+    },
+    {
+        "cnt": 253,
+        "filename": "USW00093721_29.json",
+        "ground_truth": {
+            "max": 17.2,
+            "min": 11.7,
+            "diff": 5.5
+        },
+        "predict": {
+            "max": 22.8,
+            "min": 12.2,
+            "diff": 10.6
+        },
+        "answer": "Highest temperature: 22.8, Lowest temperature: 12.2, Temperature difference: 10.6"
+    },
+    {
+        "cnt": 254,
+        "filename": "USW00093721_32.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 18.9,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 29.5,
+            "min": 21.0,
+            "diff": 8.5
+        },
+        "answer": "Highest temperature: 29.5, Lowest temperature: 21.0, Temperature difference: 8.5"
+    },
+    {
+        "cnt": 255,
+        "filename": "USW00093721_34.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 22.8,
+            "diff": 5.5
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 19.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 19.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 256,
+        "filename": "USW00093721_8.json",
+        "ground_truth": {
+            "max": 23.9,
+            "min": 20.0,
+            "diff": 3.9
+        },
+        "predict": {
+            "max": 26.0,
+            "min": 18.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 26.0, Lowest temperature: 18.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 257,
+        "filename": "USW00093721_9.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 22.8,
+            "diff": 5.5
+        },
+        "predict": {
+            "max": 35.2,
+            "min": 24.0,
+            "diff": 11.2
+        },
+        "answer": "Highest temperature: 35.2, Lowest temperature: 24.0, Temperature difference: 11.2"
+    },
+    {
+        "cnt": 258,
+        "filename": "USW00093738_11.json",
+        "ground_truth": {
+            "max": 27.2,
+            "min": 20.0,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 18.8,
+            "diff": 8.2
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 18.8, Temperature difference: 8.2"
+    },
+    {
+        "cnt": 259,
+        "filename": "USW00093738_12.json",
+        "ground_truth": {
+            "max": 23.9,
+            "min": 16.7,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 26.9,
+            "min": 18.0,
+            "diff": 8.9
+        },
+        "answer": "Highest temperature: 26.9, Lowest temperature: 18.0, Temperature difference: 8.9"
+    },
+    {
+        "cnt": 260,
+        "filename": "USW00093738_14.json",
+        "ground_truth": {
+            "max": 12.2,
+            "min": 4.4,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 5.8,
+            "min": -1.0,
+            "diff": 6.8
+        },
+        "answer": "Highest temperature: 5.8, Lowest temperature: -1.0, Temperature difference: 6.8"
+    },
+    {
+        "cnt": 261,
+        "filename": "USW00093738_16.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 17.8,
+            "diff": 8.3
+        },
+        "predict": {
+            "max": 28.6,
+            "min": 20.4,
+            "diff": 8.2
+        },
+        "answer": "Highest temperature: 28.6, Lowest temperature: 20.4, Temperature difference: 8.2"
+    },
+    {
+        "cnt": 262,
+        "filename": "USW00093738_28.json",
+        "ground_truth": {
+            "max": 30.6,
+            "min": 20.6,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 29.8,
+            "min": 20.1,
+            "diff": 9.7
+        },
+        "answer": "Highest temperature: 29.8, Lowest temperature: 20.1, Temperature difference: 9.7"
+    },
+    {
+        "cnt": 263,
+        "filename": "USW00093738_36.json",
+        "ground_truth": {
+            "max": -7.8,
+            "min": -13.9,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 5.2,
+            "min": -4.3,
+            "diff": 9.5
+        },
+        "answer": "Highest temperature: 5.2, Lowest temperature: -4.3, Temperature difference: 9.5"
+    },
+    {
+        "cnt": 264,
+        "filename": "USW00093814_12.json",
+        "ground_truth": {
+            "max": 23.0,
+            "min": 23.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 22.0,
+            "min": 22.0,
+            "diff": 0.0
+        },
+        "answer": "Highest temperature: 22.0, Lowest temperature: 22.0, Temperature difference: 0.0"
+    },
+    {
+        "cnt": 265,
+        "filename": "USW00093814_15.json",
+        "ground_truth": {
+            "max": 20.6,
+            "min": 14.4,
+            "diff": 6.2
+        },
+        "predict": {
+            "max": 21.0,
+            "min": 11.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 21.0, Lowest temperature: 11.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 266,
+        "filename": "USW00093814_16.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 21.7,
+            "diff": 8.3
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 20.0,
+            "diff": 9.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 20.0, Temperature difference: 9.0"
+    },
+    {
+        "cnt": 267,
+        "filename": "USW00093814_27.json",
+        "ground_truth": {
+            "max": 1.0,
+            "min": 1.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 11.0,
+            "min": 9.0,
+            "diff": 2.0
+        },
+        "answer": "Highest temperature: 11.0, Lowest temperature: 9.0, Temperature difference: 2.0"
+    },
+    {
+        "cnt": 268,
+        "filename": "USW00093814_30.json",
+        "ground_truth": {
+            "max": 34.4,
+            "min": 22.2,
+            "diff": 12.2
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 21.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 21.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 269,
+        "filename": "USW00093814_36.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 20.0,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 24.0,
+            "min": 13.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 24.0, Lowest temperature: 13.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 270,
+        "filename": "USW00093819_15.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 17.8,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": 31.2,
+            "min": 22.0,
+            "diff": 9.2
+        },
+        "answer": "Highest temperature: 31.2, Lowest temperature: 22.0, Temperature difference: 9.2"
+    },
+    {
+        "cnt": 271,
+        "filename": "USW00093819_18.json",
+        "ground_truth": {
+            "max": 19.4,
+            "min": 19.4,
+            "diff": 0.0
+        },
+        "predict": {
+            "max": 30.8,
+            "min": 19.2,
+            "diff": 11.6
+        },
+        "answer": "Highest temperature: 30.8, Lowest temperature: 19.2, Temperature difference: 11.6"
+    },
+    {
+        "cnt": 272,
+        "filename": "USW00093819_20.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 21.1,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 29.8,
+            "min": 19.2,
+            "diff": 10.6
+        },
+        "answer": "Highest temperature: 29.8, Lowest temperature: 19.2, Temperature difference: 10.6"
+    },
+    {
+        "cnt": 273,
+        "filename": "USW00093819_34.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 12.8,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 20.5,
+            "diff": 10.5
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 20.5, Temperature difference: 10.5"
+    },
+    {
+        "cnt": 274,
+        "filename": "USW00093819_7.json",
+        "ground_truth": {
+            "max": -7.4,
+            "min": -13.9,
+            "diff": 6.5
+        },
+        "predict": {
+            "max": 6.5,
+            "min": -11.2,
+            "diff": 17.7
+        },
+        "answer": "Highest temperature: 6.5, Lowest temperature: -11.2, Temperature difference: 17.7"
+    },
+    {
+        "cnt": 275,
+        "filename": "USW00093819_9.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 17.2,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 24.8,
+            "min": 15.2,
+            "diff": 9.6
+        },
+        "answer": "Highest temperature: 24.8, Lowest temperature: 15.2, Temperature difference: 9.6"
+    },
+    {
+        "cnt": 276,
+        "filename": "USW00094789_16.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 21.7,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 26.0,
+            "min": 20.5,
+            "diff": 5.5
+        },
+        "answer": "Highest temperature: 26.0, Lowest temperature: 20.5, Temperature difference: 5.5"
+    },
+    {
+        "cnt": 277,
+        "filename": "USW00094789_22.json",
+        "ground_truth": {
+            "max": 19.4,
+            "min": 12.2,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 21.5,
+            "min": 17.0,
+            "diff": 4.5
+        },
+        "answer": "Highest temperature: 21.5, Lowest temperature: 17.0, Temperature difference: 4.5"
+    },
+    {
+        "cnt": 278,
+        "filename": "USW00094789_25.json",
+        "ground_truth": {
+            "max": 28.9,
+            "min": 18.3,
+            "diff": 10.6
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 22.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 22.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 279,
+        "filename": "USW00094789_35.json",
+        "ground_truth": {
+            "max": 26.7,
+            "min": 23.3,
+            "diff": 3.4
+        },
+        "predict": {
+            "max": 27.8,
+            "min": 23.0,
+            "diff": 4.8
+        },
+        "answer": "Highest temperature: 27.8, Lowest temperature: 23.0, Temperature difference: 4.8"
+    },
+    {
+        "cnt": 280,
+        "filename": "USW00094789_36.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 24.4,
+            "diff": 5.0
+        },
+        "predict": {
+            "max": 33.8,
+            "min": 24.0,
+            "diff": 9.8
+        },
+        "answer": "Highest temperature: 33.8, Lowest temperature: 24.0, Temperature difference: 9.8"
+    },
+    {
+        "cnt": 281,
+        "filename": "USW00094789_7.json",
+        "ground_truth": {
+            "max": 23.9,
+            "min": 18.3,
+            "diff": 5.6
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 22.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 22.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 282,
+        "filename": "USW00094823_12.json",
+        "ground_truth": {
+            "max": -10.0,
+            "min": -18.9,
+            "diff": 8.9
+        },
+        "predict": {
+            "max": -3.0,
+            "min": -11.0,
+            "diff": 8.0
+        },
+        "answer": "Highest temperature: -3.0, Lowest temperature: -11.0, Temperature difference: 8.0"
+    },
+    {
+        "cnt": 283,
+        "filename": "USW00094823_26.json",
+        "ground_truth": {
+            "max": 6.7,
+            "min": 0.6000000000000001,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 7.0,
+            "min": 0.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 7.0, Lowest temperature: 0.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 284,
+        "filename": "USW00094823_28.json",
+        "ground_truth": {
+            "max": 5.6,
+            "min": 2.2,
+            "diff": 3.4
+        },
+        "predict": {
+            "max": 13.0,
+            "min": 4.5,
+            "diff": 8.5
+        },
+        "answer": "Highest temperature: 13.0, Lowest temperature: 4.5, Temperature difference: 8.5"
+    },
+    {
+        "cnt": 285,
+        "filename": "USW00094823_33.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 15.0,
+            "diff": 11.1
+        },
+        "predict": {
+            "max": 26.0,
+            "min": 19.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 26.0, Lowest temperature: 19.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 286,
+        "filename": "USW00094823_34.json",
+        "ground_truth": {
+            "max": 9.4,
+            "min": 0.0,
+            "diff": 9.4
+        },
+        "predict": {
+            "max": 11.0,
+            "min": 4.0,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 11.0, Lowest temperature: 4.0, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 287,
+        "filename": "USW00094823_6.json",
+        "ground_truth": {
+            "max": 20.0,
+            "min": 16.7,
+            "diff": 3.3
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 13.5,
+            "diff": 13.5
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 13.5, Temperature difference: 13.5"
+    },
+    {
+        "cnt": 288,
+        "filename": "USW00094846_0.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 20.0,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 29.8,
+            "min": 22.8,
+            "diff": 7.0
+        },
+        "answer": "Highest temperature: 29.8, Lowest temperature: 22.8, Temperature difference: 7.0"
+    },
+    {
+        "cnt": 289,
+        "filename": "USW00094846_17.json",
+        "ground_truth": {
+            "max": 26.1,
+            "min": 18.9,
+            "diff": 7.2
+        },
+        "predict": {
+            "max": 29.6,
+            "min": 22.2,
+            "diff": 7.4
+        },
+        "answer": "Highest temperature: 29.6, Lowest temperature: 22.2, Temperature difference: 7.4"
+    },
+    {
+        "cnt": 290,
+        "filename": "USW00094846_20.json",
+        "ground_truth": {
+            "max": 25.0,
+            "min": 18.9,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 31.5,
+            "min": 23.2,
+            "diff": 8.3
+        },
+        "answer": "Highest temperature: 31.5, Lowest temperature: 23.2, Temperature difference: 8.3"
+    },
+    {
+        "cnt": 291,
+        "filename": "USW00094846_37.json",
+        "ground_truth": {
+            "max": 16.7,
+            "min": 11.1,
+            "diff": 5.6
+        },
+        "predict": {
+            "max": 20.3,
+            "min": 13.2,
+            "diff": 7.1
+        },
+        "answer": "Highest temperature: 20.3, Lowest temperature: 13.2, Temperature difference: 7.1"
+    },
+    {
+        "cnt": 292,
+        "filename": "USW00094846_8.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 22.8,
+            "diff": 5.5
+        },
+        "predict": {
+            "max": 26.0,
+            "min": 16.5,
+            "diff": 9.5
+        },
+        "answer": "Highest temperature: 26.0, Lowest temperature: 16.5, Temperature difference: 9.5"
+    },
+    {
+        "cnt": 293,
+        "filename": "USW00094846_9.json",
+        "ground_truth": {
+            "max": 30.0,
+            "min": 23.9,
+            "diff": 6.1
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 21.0,
+            "diff": 10.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 21.0, Temperature difference: 10.0"
+    },
+    {
+        "cnt": 294,
+        "filename": "USW00094847_13.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 21.7,
+            "diff": 7.7
+        },
+        "predict": {
+            "max": 29.2,
+            "min": 21.0,
+            "diff": 8.2
+        },
+        "answer": "Highest temperature: 29.2, Lowest temperature: 21.0, Temperature difference: 8.2"
+    },
+    {
+        "cnt": 295,
+        "filename": "USW00094847_17.json",
+        "ground_truth": {
+            "max": 29.4,
+            "min": 19.4,
+            "diff": 10.0
+        },
+        "predict": {
+            "max": 31.0,
+            "min": 17.0,
+            "diff": 14.0
+        },
+        "answer": "Highest temperature: 31.0, Lowest temperature: 17.0, Temperature difference: 14.0"
+    },
+    {
+        "cnt": 296,
+        "filename": "USW00094847_31.json",
+        "ground_truth": {
+            "max": 28.3,
+            "min": 18.9,
+            "diff": 9.4
+        },
+        "predict": {
+            "max": 30.2,
+            "min": 23.8,
+            "diff": 6.4
+        },
+        "answer": "Highest temperature: 30.2, Lowest temperature: 23.8, Temperature difference: 6.4"
+    },
+    {
+        "cnt": 297,
+        "filename": "USW00094847_35.json",
+        "ground_truth": {
+            "max": 27.0,
+            "min": 18.0,
+            "diff": 9.0
+        },
+        "predict": {
+            "max": 29.0,
+            "min": 18.0,
+            "diff": 11.0
+        },
+        "answer": "Highest temperature: 29.0, Lowest temperature: 18.0, Temperature difference: 11.0"
+    },
+    {
+        "cnt": 298,
+        "filename": "USW00094847_36.json",
+        "ground_truth": {
+            "max": 27.8,
+            "min": 19.4,
+            "diff": 8.4
+        },
+        "predict": {
+            "max": 27.0,
+            "min": 18.0,
+            "diff": 9.0
+        },
+        "answer": "Highest temperature: 27.0, Lowest temperature: 18.0, Temperature difference: 9.0"
+    },
+    {
+        "cnt": 299,
+        "filename": "USW00094847_8.json",
+        "ground_truth": {
+            "max": 6.1,
+            "min": -1.7000000000000002,
+            "diff": 7.8
+        },
+        "predict": {
+            "max": 9.1,
+            "min": 2.0,
+            "diff": 7.1
+        },
+        "answer": "Highest temperature: 9.1, Lowest temperature: 2.0, Temperature difference: 7.1"
+    }
+]
