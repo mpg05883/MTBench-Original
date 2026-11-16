@@ -123,6 +123,8 @@ results_name="${api_name}-seed${AZURE_SEED}"
 if [[ "$repeat" == "true" ]]; then
     results_name="${results_name}-repeat"
 fi
+# Optional extra suffix (e.g. RESULTS_SUFFIX=-third) for a further run.
+results_name="${results_name}${RESULTS_SUFFIX:-}"
 limit_flags=()
 if [[ -n "$limit" ]]; then
     results_name="${results_name}-dev"

@@ -1,0 +1,29 @@
+[
+    {
+        "cnt": 0,
+        "filename": "0_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "The price series shows a clear weakening trend into the most recent observations: after peaking around the 12.7\u201312.9 area, the stock drifted down toward ~11.3, with lower highs and lower lows and only a mild late stabilization. That suggests downside momentum remains dominant, though the final few points show some consolidation rather than a sharp selloff.\n\nThe news is moderately positive: earnings estimate revisions are improving, the Zacks Rank is favorable, and the article explicitly says further upside may still be left. That provides a bullish offset, but it is not strong enough to fully reverse the bearish technical picture.\n\nCombining both:\n- Technicals: bearish short-term trend, but not an extreme breakdown\n- News: supportive, likely cushioning the decline\n- Net view: slight negative to mildly neutral return over the near term\n\n^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.0
+    },
+    {
+        "cnt": 1,
+        "filename": "100_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "The price series shows a broad range-bound pattern with a mild upward drift early on, but the most recent segment is relatively flat around the low 51s to 51.4s, with no strong momentum breakout. The last few values suggest consolidation rather than a decisive trend.\n\nThe news is mildly supportive but not strongly directional. Nasdaq\u2019s monthly volume update is generally neutral-to-positive operationally, but it is mostly a routine business report without a clear catalyst for a large move. So the news does not strongly reinforce either a sharp rise or fall.\n\nCombining both:\n- **Time series:** sideways to slightly bullish, but weak momentum\n- **News:** neutral, lightly supportive\n- **Expected move:** limited near-term change, likely staying within a small band\n\n^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5,
+        "accumulated_acc_3way": 0.5
+    },
+    {
+        "cnt": 2,
+        "filename": "101_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "The time-series shows a clear upward drift over the window: the stock moved from the mid-64s to the mid-66s, with only short pullbacks and a strong recovery into the latest readings. That suggests positive momentum and a mildly bullish short-term trend rather than exhaustion.\n\nThe news is also slightly supportive, but not strongly so. It highlights an upcoming earnings report with some uncertainty: expected earnings are down year-over-year, yet analyst estimates were revised higher and the company has a decent recent beat history. However, the article\u2019s overall tone is cautious rather than overtly bullish, so it supports momentum but doesn\u2019t imply a major breakout catalyst.\n\nCombining both, the technical trend looks constructive and the news does not contradict it. The most likely outcome is a modest further rise rather than a large move.\n\n^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.3333333333333333,
+        "accumulated_acc_3way": 0.3333333333333333
+    }
+]

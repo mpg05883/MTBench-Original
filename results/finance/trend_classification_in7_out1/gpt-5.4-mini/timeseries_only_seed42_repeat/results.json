@@ -1,0 +1,2702 @@
+[
+    {
+        "cnt": 0,
+        "filename": "0_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.0,
+        "accumulated_acc_3way": 0.0
+    },
+    {
+        "cnt": 1,
+        "filename": "100_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5,
+        "accumulated_acc_3way": 0.5
+    },
+    {
+        "cnt": 2,
+        "filename": "101_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6666666666666666,
+        "accumulated_acc_3way": 0.6666666666666666
+    },
+    {
+        "cnt": 3,
+        "filename": "102_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.75,
+        "accumulated_acc_3way": 0.75
+    },
+    {
+        "cnt": 4,
+        "filename": "106_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.8,
+        "accumulated_acc_3way": 0.8
+    },
+    {
+        "cnt": 5,
+        "filename": "107_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.8333333333333334,
+        "accumulated_acc_3way": 0.8333333333333334
+    },
+    {
+        "cnt": 6,
+        "filename": "108_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.7142857142857143,
+        "accumulated_acc_3way": 0.7142857142857143
+    },
+    {
+        "cnt": 7,
+        "filename": "113_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 8,
+        "filename": "117_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6666666666666666,
+        "accumulated_acc_3way": 0.6666666666666666
+    },
+    {
+        "cnt": 9,
+        "filename": "118_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6,
+        "accumulated_acc_3way": 0.6
+    },
+    {
+        "cnt": 10,
+        "filename": "119_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6363636363636364,
+        "accumulated_acc_3way": 0.6363636363636364
+    },
+    {
+        "cnt": 11,
+        "filename": "120_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6666666666666666,
+        "accumulated_acc_3way": 0.6666666666666666
+    },
+    {
+        "cnt": 12,
+        "filename": "121_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6923076923076923,
+        "accumulated_acc_3way": 0.6923076923076923
+    },
+    {
+        "cnt": 13,
+        "filename": "122_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.7142857142857143,
+        "accumulated_acc_3way": 0.7142857142857143
+    },
+    {
+        "cnt": 14,
+        "filename": "124_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.7333333333333333,
+        "accumulated_acc_3way": 0.7333333333333333
+    },
+    {
+        "cnt": 15,
+        "filename": "125_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6875,
+        "accumulated_acc_3way": 0.6875
+    },
+    {
+        "cnt": 16,
+        "filename": "134_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.7058823529411765,
+        "accumulated_acc_3way": 0.7058823529411765
+    },
+    {
+        "cnt": 17,
+        "filename": "13_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6666666666666666,
+        "accumulated_acc_3way": 0.6666666666666666
+    },
+    {
+        "cnt": 18,
+        "filename": "140_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6842105263157895,
+        "accumulated_acc_3way": 0.6842105263157895
+    },
+    {
+        "cnt": 19,
+        "filename": "142_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.7,
+        "accumulated_acc_3way": 0.7
+    },
+    {
+        "cnt": 20,
+        "filename": "143_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.7142857142857143,
+        "accumulated_acc_3way": 0.7142857142857143
+    },
+    {
+        "cnt": 21,
+        "filename": "145_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.7272727272727273,
+        "accumulated_acc_3way": 0.7272727272727273
+    },
+    {
+        "cnt": 22,
+        "filename": "149_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": ">+4%",
+        "answer": "^^^>+4%^^^",
+        "accumulated_acc_5way": 0.6956521739130435,
+        "accumulated_acc_3way": 0.6956521739130435
+    },
+    {
+        "cnt": 23,
+        "filename": "152_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6666666666666666,
+        "accumulated_acc_3way": 0.6666666666666666
+    },
+    {
+        "cnt": 24,
+        "filename": "155_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.68,
+        "accumulated_acc_3way": 0.68
+    },
+    {
+        "cnt": 25,
+        "filename": "160_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6538461538461539,
+        "accumulated_acc_3way": 0.6538461538461539
+    },
+    {
+        "cnt": 26,
+        "filename": "161_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6296296296296297,
+        "accumulated_acc_3way": 0.6296296296296297
+    },
+    {
+        "cnt": 27,
+        "filename": "163_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6428571428571429,
+        "accumulated_acc_3way": 0.6428571428571429
+    },
+    {
+        "cnt": 28,
+        "filename": "164_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6551724137931034,
+        "accumulated_acc_3way": 0.6551724137931034
+    },
+    {
+        "cnt": 29,
+        "filename": "166_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6333333333333333,
+        "accumulated_acc_3way": 0.6333333333333333
+    },
+    {
+        "cnt": 30,
+        "filename": "168_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6129032258064516,
+        "accumulated_acc_3way": 0.6129032258064516
+    },
+    {
+        "cnt": 31,
+        "filename": "16_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 32,
+        "filename": "170_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6060606060606061,
+        "accumulated_acc_3way": 0.6060606060606061
+    },
+    {
+        "cnt": 33,
+        "filename": "173_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": ">+4%",
+        "answer": "^^^>+4%^^^",
+        "accumulated_acc_5way": 0.5882352941176471,
+        "accumulated_acc_3way": 0.5882352941176471
+    },
+    {
+        "cnt": 34,
+        "filename": "174_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6,
+        "accumulated_acc_3way": 0.6
+    },
+    {
+        "cnt": 35,
+        "filename": "176_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5833333333333334,
+        "accumulated_acc_3way": 0.5833333333333334
+    },
+    {
+        "cnt": 36,
+        "filename": "177_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5945945945945946,
+        "accumulated_acc_3way": 0.5945945945945946
+    },
+    {
+        "cnt": 37,
+        "filename": "178_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6052631578947368,
+        "accumulated_acc_3way": 0.6052631578947368
+    },
+    {
+        "cnt": 38,
+        "filename": "17_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6153846153846154,
+        "accumulated_acc_3way": 0.6153846153846154
+    },
+    {
+        "cnt": 39,
+        "filename": "184_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6,
+        "accumulated_acc_3way": 0.6
+    },
+    {
+        "cnt": 40,
+        "filename": "186_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6097560975609756,
+        "accumulated_acc_3way": 0.6097560975609756
+    },
+    {
+        "cnt": 41,
+        "filename": "189_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6190476190476191,
+        "accumulated_acc_3way": 0.6190476190476191
+    },
+    {
+        "cnt": 42,
+        "filename": "18_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.627906976744186,
+        "accumulated_acc_3way": 0.627906976744186
+    },
+    {
+        "cnt": 43,
+        "filename": "191_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6363636363636364,
+        "accumulated_acc_3way": 0.6363636363636364
+    },
+    {
+        "cnt": 44,
+        "filename": "195_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6444444444444445,
+        "accumulated_acc_3way": 0.6444444444444445
+    },
+    {
+        "cnt": 45,
+        "filename": "196_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6521739130434783,
+        "accumulated_acc_3way": 0.6521739130434783
+    },
+    {
+        "cnt": 46,
+        "filename": "19_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6595744680851063,
+        "accumulated_acc_3way": 0.6595744680851063
+    },
+    {
+        "cnt": 47,
+        "filename": "203_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6458333333333334,
+        "accumulated_acc_3way": 0.6458333333333334
+    },
+    {
+        "cnt": 48,
+        "filename": "204_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6326530612244898,
+        "accumulated_acc_3way": 0.6326530612244898
+    },
+    {
+        "cnt": 49,
+        "filename": "205_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.62,
+        "accumulated_acc_3way": 0.62
+    },
+    {
+        "cnt": 50,
+        "filename": "207_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6078431372549019,
+        "accumulated_acc_3way": 0.6078431372549019
+    },
+    {
+        "cnt": 51,
+        "filename": "20_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5961538461538461,
+        "accumulated_acc_3way": 0.5961538461538461
+    },
+    {
+        "cnt": 52,
+        "filename": "211_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5849056603773585,
+        "accumulated_acc_3way": 0.5849056603773585
+    },
+    {
+        "cnt": 53,
+        "filename": "216_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5740740740740741,
+        "accumulated_acc_3way": 0.5740740740740741
+    },
+    {
+        "cnt": 54,
+        "filename": "218_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5818181818181818,
+        "accumulated_acc_3way": 0.5818181818181818
+    },
+    {
+        "cnt": 55,
+        "filename": "219_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5714285714285714,
+        "accumulated_acc_3way": 0.5714285714285714
+    },
+    {
+        "cnt": 56,
+        "filename": "224_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5789473684210527,
+        "accumulated_acc_3way": 0.5789473684210527
+    },
+    {
+        "cnt": 57,
+        "filename": "22_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5862068965517241,
+        "accumulated_acc_3way": 0.5862068965517241
+    },
+    {
+        "cnt": 58,
+        "filename": "230_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5932203389830508,
+        "accumulated_acc_3way": 0.5932203389830508
+    },
+    {
+        "cnt": 59,
+        "filename": "234_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5833333333333334,
+        "accumulated_acc_3way": 0.5833333333333334
+    },
+    {
+        "cnt": 60,
+        "filename": "236_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5901639344262295,
+        "accumulated_acc_3way": 0.5901639344262295
+    },
+    {
+        "cnt": 61,
+        "filename": "239_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5967741935483871,
+        "accumulated_acc_3way": 0.5967741935483871
+    },
+    {
+        "cnt": 62,
+        "filename": "23_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6031746031746031,
+        "accumulated_acc_3way": 0.6031746031746031
+    },
+    {
+        "cnt": 63,
+        "filename": "240_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.609375,
+        "accumulated_acc_3way": 0.609375
+    },
+    {
+        "cnt": 64,
+        "filename": "241_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6153846153846154,
+        "accumulated_acc_3way": 0.6153846153846154
+    },
+    {
+        "cnt": 65,
+        "filename": "245_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6212121212121212,
+        "accumulated_acc_3way": 0.6212121212121212
+    },
+    {
+        "cnt": 66,
+        "filename": "247_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6268656716417911,
+        "accumulated_acc_3way": 0.6268656716417911
+    },
+    {
+        "cnt": 67,
+        "filename": "248_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6176470588235294,
+        "accumulated_acc_3way": 0.6176470588235294
+    },
+    {
+        "cnt": 68,
+        "filename": "249_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6086956521739131,
+        "accumulated_acc_3way": 0.6086956521739131
+    },
+    {
+        "cnt": 69,
+        "filename": "252_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6142857142857143,
+        "accumulated_acc_3way": 0.6142857142857143
+    },
+    {
+        "cnt": 70,
+        "filename": "25_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6197183098591549,
+        "accumulated_acc_3way": 0.6197183098591549
+    },
+    {
+        "cnt": 71,
+        "filename": "261_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 72,
+        "filename": "263_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6164383561643836,
+        "accumulated_acc_3way": 0.6164383561643836
+    },
+    {
+        "cnt": 73,
+        "filename": "268_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6216216216216216,
+        "accumulated_acc_3way": 0.6216216216216216
+    },
+    {
+        "cnt": 74,
+        "filename": "269_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6133333333333333,
+        "accumulated_acc_3way": 0.6133333333333333
+    },
+    {
+        "cnt": 75,
+        "filename": "272_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.618421052631579,
+        "accumulated_acc_3way": 0.618421052631579
+    },
+    {
+        "cnt": 76,
+        "filename": "275_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6233766233766234,
+        "accumulated_acc_3way": 0.6233766233766234
+    },
+    {
+        "cnt": 77,
+        "filename": "276_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6282051282051282,
+        "accumulated_acc_3way": 0.6282051282051282
+    },
+    {
+        "cnt": 78,
+        "filename": "277_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6329113924050633,
+        "accumulated_acc_3way": 0.6329113924050633
+    },
+    {
+        "cnt": 79,
+        "filename": "279_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6375,
+        "accumulated_acc_3way": 0.6375
+    },
+    {
+        "cnt": 80,
+        "filename": "27_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6296296296296297,
+        "accumulated_acc_3way": 0.6296296296296297
+    },
+    {
+        "cnt": 81,
+        "filename": "287_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6341463414634146,
+        "accumulated_acc_3way": 0.6341463414634146
+    },
+    {
+        "cnt": 82,
+        "filename": "289_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6265060240963856,
+        "accumulated_acc_3way": 0.6265060240963856
+    },
+    {
+        "cnt": 83,
+        "filename": "290_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": ">+4%",
+        "answer": "^^^>+4%^^^",
+        "accumulated_acc_5way": 0.6190476190476191,
+        "accumulated_acc_3way": 0.6190476190476191
+    },
+    {
+        "cnt": 84,
+        "filename": "292_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6235294117647059,
+        "accumulated_acc_3way": 0.6235294117647059
+    },
+    {
+        "cnt": 85,
+        "filename": "294_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6162790697674418,
+        "accumulated_acc_3way": 0.6162790697674418
+    },
+    {
+        "cnt": 86,
+        "filename": "295_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6206896551724138,
+        "accumulated_acc_3way": 0.6206896551724138
+    },
+    {
+        "cnt": 87,
+        "filename": "302_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 88,
+        "filename": "305_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6292134831460674,
+        "accumulated_acc_3way": 0.6292134831460674
+    },
+    {
+        "cnt": 89,
+        "filename": "306_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6333333333333333,
+        "accumulated_acc_3way": 0.6333333333333333
+    },
+    {
+        "cnt": 90,
+        "filename": "309_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6263736263736264,
+        "accumulated_acc_3way": 0.6263736263736264
+    },
+    {
+        "cnt": 91,
+        "filename": "30_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6304347826086957,
+        "accumulated_acc_3way": 0.6304347826086957
+    },
+    {
+        "cnt": 92,
+        "filename": "310_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6344086021505376,
+        "accumulated_acc_3way": 0.6344086021505376
+    },
+    {
+        "cnt": 93,
+        "filename": "313_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6382978723404256,
+        "accumulated_acc_3way": 0.6382978723404256
+    },
+    {
+        "cnt": 94,
+        "filename": "315_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6421052631578947,
+        "accumulated_acc_3way": 0.6421052631578947
+    },
+    {
+        "cnt": 95,
+        "filename": "316_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6354166666666666,
+        "accumulated_acc_3way": 0.6354166666666666
+    },
+    {
+        "cnt": 96,
+        "filename": "317_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6391752577319587,
+        "accumulated_acc_3way": 0.6391752577319587
+    },
+    {
+        "cnt": 97,
+        "filename": "323_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6326530612244898,
+        "accumulated_acc_3way": 0.6326530612244898
+    },
+    {
+        "cnt": 98,
+        "filename": "326_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6262626262626263,
+        "accumulated_acc_3way": 0.6262626262626263
+    },
+    {
+        "cnt": 99,
+        "filename": "327_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.63,
+        "accumulated_acc_3way": 0.63
+    },
+    {
+        "cnt": 100,
+        "filename": "328_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6336633663366337,
+        "accumulated_acc_3way": 0.6336633663366337
+    },
+    {
+        "cnt": 101,
+        "filename": "330_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6274509803921569,
+        "accumulated_acc_3way": 0.6274509803921569
+    },
+    {
+        "cnt": 102,
+        "filename": "334_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6213592233009708,
+        "accumulated_acc_3way": 0.6213592233009708
+    },
+    {
+        "cnt": 103,
+        "filename": "335_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 104,
+        "filename": "336_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6285714285714286,
+        "accumulated_acc_3way": 0.6285714285714286
+    },
+    {
+        "cnt": 105,
+        "filename": "338_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6320754716981132,
+        "accumulated_acc_3way": 0.6320754716981132
+    },
+    {
+        "cnt": 106,
+        "filename": "339_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6355140186915887,
+        "accumulated_acc_3way": 0.6355140186915887
+    },
+    {
+        "cnt": 107,
+        "filename": "343_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6296296296296297,
+        "accumulated_acc_3way": 0.6296296296296297
+    },
+    {
+        "cnt": 108,
+        "filename": "345_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6238532110091743,
+        "accumulated_acc_3way": 0.6238532110091743
+    },
+    {
+        "cnt": 109,
+        "filename": "349_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6181818181818182,
+        "accumulated_acc_3way": 0.6181818181818182
+    },
+    {
+        "cnt": 110,
+        "filename": "34_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6216216216216216,
+        "accumulated_acc_3way": 0.6216216216216216
+    },
+    {
+        "cnt": 111,
+        "filename": "351_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 112,
+        "filename": "353_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6283185840707964,
+        "accumulated_acc_3way": 0.6283185840707964
+    },
+    {
+        "cnt": 113,
+        "filename": "355_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6228070175438597,
+        "accumulated_acc_3way": 0.6228070175438597
+    },
+    {
+        "cnt": 114,
+        "filename": "359_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6260869565217392,
+        "accumulated_acc_3way": 0.6260869565217392
+    },
+    {
+        "cnt": 115,
+        "filename": "361_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6206896551724138,
+        "accumulated_acc_3way": 0.6206896551724138
+    },
+    {
+        "cnt": 116,
+        "filename": "362_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6239316239316239,
+        "accumulated_acc_3way": 0.6239316239316239
+    },
+    {
+        "cnt": 117,
+        "filename": "363_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6271186440677966,
+        "accumulated_acc_3way": 0.6271186440677966
+    },
+    {
+        "cnt": 118,
+        "filename": "367_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6218487394957983,
+        "accumulated_acc_3way": 0.6218487394957983
+    },
+    {
+        "cnt": 119,
+        "filename": "368_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 120,
+        "filename": "369_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.628099173553719,
+        "accumulated_acc_3way": 0.628099173553719
+    },
+    {
+        "cnt": 121,
+        "filename": "371_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6311475409836066,
+        "accumulated_acc_3way": 0.6311475409836066
+    },
+    {
+        "cnt": 122,
+        "filename": "375_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6260162601626016,
+        "accumulated_acc_3way": 0.6260162601626016
+    },
+    {
+        "cnt": 123,
+        "filename": "377_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6290322580645161,
+        "accumulated_acc_3way": 0.6290322580645161
+    },
+    {
+        "cnt": 124,
+        "filename": "37_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.632,
+        "accumulated_acc_3way": 0.632
+    },
+    {
+        "cnt": 125,
+        "filename": "382_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "<-4%",
+        "answer": "^^^<-4%^^^",
+        "accumulated_acc_5way": 0.626984126984127,
+        "accumulated_acc_3way": 0.626984126984127
+    },
+    {
+        "cnt": 126,
+        "filename": "384_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6299212598425197,
+        "accumulated_acc_3way": 0.6299212598425197
+    },
+    {
+        "cnt": 127,
+        "filename": "385_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 128,
+        "filename": "387_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6201550387596899,
+        "accumulated_acc_3way": 0.6201550387596899
+    },
+    {
+        "cnt": 129,
+        "filename": "389_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6230769230769231,
+        "accumulated_acc_3way": 0.6230769230769231
+    },
+    {
+        "cnt": 130,
+        "filename": "391_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6259541984732825,
+        "accumulated_acc_3way": 0.6259541984732825
+    },
+    {
+        "cnt": 131,
+        "filename": "392_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6212121212121212,
+        "accumulated_acc_3way": 0.6212121212121212
+    },
+    {
+        "cnt": 132,
+        "filename": "397_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6240601503759399,
+        "accumulated_acc_3way": 0.6240601503759399
+    },
+    {
+        "cnt": 133,
+        "filename": "398_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6194029850746269,
+        "accumulated_acc_3way": 0.6194029850746269
+    },
+    {
+        "cnt": 134,
+        "filename": "399_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6148148148148148,
+        "accumulated_acc_3way": 0.6148148148148148
+    },
+    {
+        "cnt": 135,
+        "filename": "3_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6176470588235294,
+        "accumulated_acc_3way": 0.6176470588235294
+    },
+    {
+        "cnt": 136,
+        "filename": "400_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6204379562043796,
+        "accumulated_acc_3way": 0.6204379562043796
+    },
+    {
+        "cnt": 137,
+        "filename": "401_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6159420289855072,
+        "accumulated_acc_3way": 0.6159420289855072
+    },
+    {
+        "cnt": 138,
+        "filename": "403_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6187050359712231,
+        "accumulated_acc_3way": 0.6187050359712231
+    },
+    {
+        "cnt": 139,
+        "filename": "404_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6214285714285714,
+        "accumulated_acc_3way": 0.6214285714285714
+    },
+    {
+        "cnt": 140,
+        "filename": "405_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.624113475177305,
+        "accumulated_acc_3way": 0.624113475177305
+    },
+    {
+        "cnt": 141,
+        "filename": "406_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": ">+4%",
+        "answer": "^^^>+4%^^^",
+        "accumulated_acc_5way": 0.6197183098591549,
+        "accumulated_acc_3way": 0.6267605633802817
+    },
+    {
+        "cnt": 142,
+        "filename": "407_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6223776223776224,
+        "accumulated_acc_3way": 0.6293706293706294
+    },
+    {
+        "cnt": 143,
+        "filename": "408_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6180555555555556,
+        "accumulated_acc_3way": 0.625
+    },
+    {
+        "cnt": 144,
+        "filename": "410_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6206896551724138,
+        "accumulated_acc_3way": 0.6275862068965518
+    },
+    {
+        "cnt": 145,
+        "filename": "417_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6232876712328768,
+        "accumulated_acc_3way": 0.6301369863013698
+    },
+    {
+        "cnt": 146,
+        "filename": "418_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6258503401360545,
+        "accumulated_acc_3way": 0.6326530612244898
+    },
+    {
+        "cnt": 147,
+        "filename": "41_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6216216216216216,
+        "accumulated_acc_3way": 0.6283783783783784
+    },
+    {
+        "cnt": 148,
+        "filename": "420_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6241610738255033,
+        "accumulated_acc_3way": 0.6308724832214765
+    },
+    {
+        "cnt": 149,
+        "filename": "423_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6266666666666667,
+        "accumulated_acc_3way": 0.6333333333333333
+    },
+    {
+        "cnt": 150,
+        "filename": "430_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6291390728476821,
+        "accumulated_acc_3way": 0.6357615894039735
+    },
+    {
+        "cnt": 151,
+        "filename": "431_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.631578947368421,
+        "accumulated_acc_3way": 0.6381578947368421
+    },
+    {
+        "cnt": 152,
+        "filename": "432_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6274509803921569,
+        "accumulated_acc_3way": 0.6339869281045751
+    },
+    {
+        "cnt": 153,
+        "filename": "433_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6233766233766234,
+        "accumulated_acc_3way": 0.6298701298701299
+    },
+    {
+        "cnt": 154,
+        "filename": "435_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6258064516129033,
+        "accumulated_acc_3way": 0.632258064516129
+    },
+    {
+        "cnt": 155,
+        "filename": "436_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6217948717948718,
+        "accumulated_acc_3way": 0.6282051282051282
+    },
+    {
+        "cnt": 156,
+        "filename": "439_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6242038216560509,
+        "accumulated_acc_3way": 0.6305732484076433
+    },
+    {
+        "cnt": 157,
+        "filename": "442_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6265822784810127,
+        "accumulated_acc_3way": 0.6329113924050633
+    },
+    {
+        "cnt": 158,
+        "filename": "443_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6289308176100629,
+        "accumulated_acc_3way": 0.6352201257861635
+    },
+    {
+        "cnt": 159,
+        "filename": "450_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.63125,
+        "accumulated_acc_3way": 0.6375
+    },
+    {
+        "cnt": 160,
+        "filename": "457_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6335403726708074,
+        "accumulated_acc_3way": 0.639751552795031
+    },
+    {
+        "cnt": 161,
+        "filename": "458_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6358024691358025,
+        "accumulated_acc_3way": 0.6419753086419753
+    },
+    {
+        "cnt": 162,
+        "filename": "460_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6319018404907976,
+        "accumulated_acc_3way": 0.6380368098159509
+    },
+    {
+        "cnt": 163,
+        "filename": "461_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6341463414634146,
+        "accumulated_acc_3way": 0.6402439024390244
+    },
+    {
+        "cnt": 164,
+        "filename": "464_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6303030303030303,
+        "accumulated_acc_3way": 0.6363636363636364
+    },
+    {
+        "cnt": 165,
+        "filename": "466_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6325301204819277,
+        "accumulated_acc_3way": 0.6385542168674698
+    },
+    {
+        "cnt": 166,
+        "filename": "467_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6287425149700598,
+        "accumulated_acc_3way": 0.6407185628742516
+    },
+    {
+        "cnt": 167,
+        "filename": "469_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6309523809523809,
+        "accumulated_acc_3way": 0.6428571428571429
+    },
+    {
+        "cnt": 168,
+        "filename": "472_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6331360946745562,
+        "accumulated_acc_3way": 0.6449704142011834
+    },
+    {
+        "cnt": 169,
+        "filename": "475_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6294117647058823,
+        "accumulated_acc_3way": 0.6411764705882353
+    },
+    {
+        "cnt": 170,
+        "filename": "477_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6257309941520468,
+        "accumulated_acc_3way": 0.6374269005847953
+    },
+    {
+        "cnt": 171,
+        "filename": "478_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.627906976744186,
+        "accumulated_acc_3way": 0.6395348837209303
+    },
+    {
+        "cnt": 172,
+        "filename": "480_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6242774566473989,
+        "accumulated_acc_3way": 0.6358381502890174
+    },
+    {
+        "cnt": 173,
+        "filename": "484_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6264367816091954,
+        "accumulated_acc_3way": 0.6379310344827587
+    },
+    {
+        "cnt": 174,
+        "filename": "488_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6228571428571429,
+        "accumulated_acc_3way": 0.6342857142857142
+    },
+    {
+        "cnt": 175,
+        "filename": "489_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.625,
+        "accumulated_acc_3way": 0.6363636363636364
+    },
+    {
+        "cnt": 176,
+        "filename": "48_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6214689265536724,
+        "accumulated_acc_3way": 0.632768361581921
+    },
+    {
+        "cnt": 177,
+        "filename": "491_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.6179775280898876,
+        "accumulated_acc_3way": 0.6292134831460674
+    },
+    {
+        "cnt": 178,
+        "filename": "492_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6145251396648045,
+        "accumulated_acc_3way": 0.6256983240223464
+    },
+    {
+        "cnt": 179,
+        "filename": "493_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6166666666666667,
+        "accumulated_acc_3way": 0.6277777777777778
+    },
+    {
+        "cnt": 180,
+        "filename": "497_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6132596685082873,
+        "accumulated_acc_3way": 0.6243093922651933
+    },
+    {
+        "cnt": 181,
+        "filename": "500_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6098901098901099,
+        "accumulated_acc_3way": 0.6208791208791209
+    },
+    {
+        "cnt": 182,
+        "filename": "502_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6120218579234973,
+        "accumulated_acc_3way": 0.6229508196721312
+    },
+    {
+        "cnt": 183,
+        "filename": "504_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6086956521739131,
+        "accumulated_acc_3way": 0.6195652173913043
+    },
+    {
+        "cnt": 184,
+        "filename": "507_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6054054054054054,
+        "accumulated_acc_3way": 0.6162162162162163
+    },
+    {
+        "cnt": 185,
+        "filename": "510_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6075268817204301,
+        "accumulated_acc_3way": 0.6182795698924731
+    },
+    {
+        "cnt": 186,
+        "filename": "515_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6096256684491979,
+        "accumulated_acc_3way": 0.6203208556149733
+    },
+    {
+        "cnt": 187,
+        "filename": "516_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6063829787234043,
+        "accumulated_acc_3way": 0.6170212765957447
+    },
+    {
+        "cnt": 188,
+        "filename": "520_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6084656084656085,
+        "accumulated_acc_3way": 0.6190476190476191
+    },
+    {
+        "cnt": 189,
+        "filename": "522_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6052631578947368,
+        "accumulated_acc_3way": 0.6157894736842106
+    },
+    {
+        "cnt": 190,
+        "filename": "524_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.6020942408376964,
+        "accumulated_acc_3way": 0.612565445026178
+    },
+    {
+        "cnt": 191,
+        "filename": "525_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6041666666666666,
+        "accumulated_acc_3way": 0.6145833333333334
+    },
+    {
+        "cnt": 192,
+        "filename": "528_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6010362694300518,
+        "accumulated_acc_3way": 0.6113989637305699
+    },
+    {
+        "cnt": 193,
+        "filename": "529_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5979381443298969,
+        "accumulated_acc_3way": 0.6082474226804123
+    },
+    {
+        "cnt": 194,
+        "filename": "530_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6,
+        "accumulated_acc_3way": 0.6102564102564103
+    },
+    {
+        "cnt": 195,
+        "filename": "533_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5969387755102041,
+        "accumulated_acc_3way": 0.6071428571428571
+    },
+    {
+        "cnt": 196,
+        "filename": "536_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5939086294416244,
+        "accumulated_acc_3way": 0.6040609137055838
+    },
+    {
+        "cnt": 197,
+        "filename": "538_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5959595959595959,
+        "accumulated_acc_3way": 0.6060606060606061
+    },
+    {
+        "cnt": 198,
+        "filename": "542_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5979899497487438,
+        "accumulated_acc_3way": 0.6080402010050251
+    },
+    {
+        "cnt": 199,
+        "filename": "544_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.6,
+        "accumulated_acc_3way": 0.61
+    },
+    {
+        "cnt": 200,
+        "filename": "549_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5970149253731343,
+        "accumulated_acc_3way": 0.6069651741293532
+    },
+    {
+        "cnt": 201,
+        "filename": "54_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.599009900990099,
+        "accumulated_acc_3way": 0.6089108910891089
+    },
+    {
+        "cnt": 202,
+        "filename": "553_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5960591133004927,
+        "accumulated_acc_3way": 0.6059113300492611
+    },
+    {
+        "cnt": 203,
+        "filename": "554_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5931372549019608,
+        "accumulated_acc_3way": 0.6029411764705882
+    },
+    {
+        "cnt": 204,
+        "filename": "555_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5902439024390244,
+        "accumulated_acc_3way": 0.6
+    },
+    {
+        "cnt": 205,
+        "filename": "559_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5922330097087378,
+        "accumulated_acc_3way": 0.6019417475728155
+    },
+    {
+        "cnt": 206,
+        "filename": "560_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5893719806763285,
+        "accumulated_acc_3way": 0.5990338164251208
+    },
+    {
+        "cnt": 207,
+        "filename": "562_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5913461538461539,
+        "accumulated_acc_3way": 0.6009615384615384
+    },
+    {
+        "cnt": 208,
+        "filename": "575_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5933014354066986,
+        "accumulated_acc_3way": 0.6028708133971292
+    },
+    {
+        "cnt": 209,
+        "filename": "578_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5904761904761905,
+        "accumulated_acc_3way": 0.6
+    },
+    {
+        "cnt": 210,
+        "filename": "579_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5924170616113744,
+        "accumulated_acc_3way": 0.6018957345971564
+    },
+    {
+        "cnt": 211,
+        "filename": "580_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.589622641509434,
+        "accumulated_acc_3way": 0.5990566037735849
+    },
+    {
+        "cnt": 212,
+        "filename": "582_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5868544600938967,
+        "accumulated_acc_3way": 0.596244131455399
+    },
+    {
+        "cnt": 213,
+        "filename": "583_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5887850467289719,
+        "accumulated_acc_3way": 0.5981308411214953
+    },
+    {
+        "cnt": 214,
+        "filename": "586_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.586046511627907,
+        "accumulated_acc_3way": 0.6
+    },
+    {
+        "cnt": 215,
+        "filename": "587_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5879629629629629,
+        "accumulated_acc_3way": 0.6018518518518519
+    },
+    {
+        "cnt": 216,
+        "filename": "588_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5852534562211982,
+        "accumulated_acc_3way": 0.5990783410138248
+    },
+    {
+        "cnt": 217,
+        "filename": "589_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5871559633027523,
+        "accumulated_acc_3way": 0.6009174311926605
+    },
+    {
+        "cnt": 218,
+        "filename": "590_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.589041095890411,
+        "accumulated_acc_3way": 0.6027397260273972
+    },
+    {
+        "cnt": 219,
+        "filename": "591_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5909090909090909,
+        "accumulated_acc_3way": 0.6045454545454545
+    },
+    {
+        "cnt": 220,
+        "filename": "593_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5882352941176471,
+        "accumulated_acc_3way": 0.6018099547511312
+    },
+    {
+        "cnt": 221,
+        "filename": "595_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5855855855855856,
+        "accumulated_acc_3way": 0.5990990990990991
+    },
+    {
+        "cnt": 222,
+        "filename": "596_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5874439461883408,
+        "accumulated_acc_3way": 0.600896860986547
+    },
+    {
+        "cnt": 223,
+        "filename": "598_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5892857142857143,
+        "accumulated_acc_3way": 0.6026785714285714
+    },
+    {
+        "cnt": 224,
+        "filename": "599_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5911111111111111,
+        "accumulated_acc_3way": 0.6044444444444445
+    },
+    {
+        "cnt": 225,
+        "filename": "601_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.588495575221239,
+        "accumulated_acc_3way": 0.6017699115044248
+    },
+    {
+        "cnt": 226,
+        "filename": "602_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5859030837004405,
+        "accumulated_acc_3way": 0.5991189427312775
+    },
+    {
+        "cnt": 227,
+        "filename": "604_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5833333333333334,
+        "accumulated_acc_3way": 0.5964912280701754
+    },
+    {
+        "cnt": 228,
+        "filename": "605_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5807860262008734,
+        "accumulated_acc_3way": 0.5938864628820961
+    },
+    {
+        "cnt": 229,
+        "filename": "610_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5782608695652174,
+        "accumulated_acc_3way": 0.591304347826087
+    },
+    {
+        "cnt": 230,
+        "filename": "614_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5757575757575758,
+        "accumulated_acc_3way": 0.5887445887445888
+    },
+    {
+        "cnt": 231,
+        "filename": "624_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5775862068965517,
+        "accumulated_acc_3way": 0.5905172413793104
+    },
+    {
+        "cnt": 232,
+        "filename": "625_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5793991416309013,
+        "accumulated_acc_3way": 0.592274678111588
+    },
+    {
+        "cnt": 233,
+        "filename": "62_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5769230769230769,
+        "accumulated_acc_3way": 0.5897435897435898
+    },
+    {
+        "cnt": 234,
+        "filename": "631_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5787234042553191,
+        "accumulated_acc_3way": 0.5914893617021276
+    },
+    {
+        "cnt": 235,
+        "filename": "632_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.576271186440678,
+        "accumulated_acc_3way": 0.5889830508474576
+    },
+    {
+        "cnt": 236,
+        "filename": "633_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5780590717299579,
+        "accumulated_acc_3way": 0.5907172995780591
+    },
+    {
+        "cnt": 237,
+        "filename": "634_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5756302521008403,
+        "accumulated_acc_3way": 0.5882352941176471
+    },
+    {
+        "cnt": 238,
+        "filename": "636_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5774058577405857,
+        "accumulated_acc_3way": 0.5899581589958159
+    },
+    {
+        "cnt": 239,
+        "filename": "638_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5791666666666667,
+        "accumulated_acc_3way": 0.5916666666666667
+    },
+    {
+        "cnt": 240,
+        "filename": "639_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5809128630705395,
+        "accumulated_acc_3way": 0.5933609958506224
+    },
+    {
+        "cnt": 241,
+        "filename": "644_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5826446280991735,
+        "accumulated_acc_3way": 0.5950413223140496
+    },
+    {
+        "cnt": 242,
+        "filename": "645_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5802469135802469,
+        "accumulated_acc_3way": 0.5925925925925926
+    },
+    {
+        "cnt": 243,
+        "filename": "647_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5819672131147541,
+        "accumulated_acc_3way": 0.5942622950819673
+    },
+    {
+        "cnt": 244,
+        "filename": "648_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5795918367346938,
+        "accumulated_acc_3way": 0.5918367346938775
+    },
+    {
+        "cnt": 245,
+        "filename": "649_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5772357723577236,
+        "accumulated_acc_3way": 0.5894308943089431
+    },
+    {
+        "cnt": 246,
+        "filename": "64_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5789473684210527,
+        "accumulated_acc_3way": 0.5910931174089069
+    },
+    {
+        "cnt": 247,
+        "filename": "651_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5806451612903226,
+        "accumulated_acc_3way": 0.592741935483871
+    },
+    {
+        "cnt": 248,
+        "filename": "652_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5783132530120482,
+        "accumulated_acc_3way": 0.5903614457831325
+    },
+    {
+        "cnt": 249,
+        "filename": "654_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.576,
+        "accumulated_acc_3way": 0.588
+    },
+    {
+        "cnt": 250,
+        "filename": "658_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5737051792828686,
+        "accumulated_acc_3way": 0.5856573705179283
+    },
+    {
+        "cnt": 251,
+        "filename": "65_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5714285714285714,
+        "accumulated_acc_3way": 0.5873015873015873
+    },
+    {
+        "cnt": 252,
+        "filename": "660_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5731225296442688,
+        "accumulated_acc_3way": 0.5889328063241107
+    },
+    {
+        "cnt": 253,
+        "filename": "663_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5708661417322834,
+        "accumulated_acc_3way": 0.5866141732283464
+    },
+    {
+        "cnt": 254,
+        "filename": "665_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5686274509803921,
+        "accumulated_acc_3way": 0.5843137254901961
+    },
+    {
+        "cnt": 255,
+        "filename": "666_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.56640625,
+        "accumulated_acc_3way": 0.58203125
+    },
+    {
+        "cnt": 256,
+        "filename": "668_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5642023346303502,
+        "accumulated_acc_3way": 0.5797665369649806
+    },
+    {
+        "cnt": 257,
+        "filename": "669_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5658914728682171,
+        "accumulated_acc_3way": 0.5813953488372093
+    },
+    {
+        "cnt": 258,
+        "filename": "66_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5637065637065637,
+        "accumulated_acc_3way": 0.5791505791505791
+    },
+    {
+        "cnt": 259,
+        "filename": "670_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5615384615384615,
+        "accumulated_acc_3way": 0.5769230769230769
+    },
+    {
+        "cnt": 260,
+        "filename": "671_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5632183908045977,
+        "accumulated_acc_3way": 0.578544061302682
+    },
+    {
+        "cnt": 261,
+        "filename": "673_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5648854961832062,
+        "accumulated_acc_3way": 0.5801526717557252
+    },
+    {
+        "cnt": 262,
+        "filename": "675_pair.json",
+        "ground_truth": "<-4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5627376425855514,
+        "accumulated_acc_3way": 0.5817490494296578
+    },
+    {
+        "cnt": 263,
+        "filename": "676_pair.json",
+        "ground_truth": "-2% ~ -4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5643939393939394,
+        "accumulated_acc_3way": 0.5833333333333334
+    },
+    {
+        "cnt": 264,
+        "filename": "677_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5660377358490566,
+        "accumulated_acc_3way": 0.5849056603773585
+    },
+    {
+        "cnt": 265,
+        "filename": "678_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5676691729323309,
+        "accumulated_acc_3way": 0.5864661654135338
+    },
+    {
+        "cnt": 266,
+        "filename": "679_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5655430711610487,
+        "accumulated_acc_3way": 0.5842696629213483
+    },
+    {
+        "cnt": 267,
+        "filename": "681_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5634328358208955,
+        "accumulated_acc_3way": 0.582089552238806
+    },
+    {
+        "cnt": 268,
+        "filename": "682_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5613382899628253,
+        "accumulated_acc_3way": 0.5799256505576208
+    },
+    {
+        "cnt": 269,
+        "filename": "684_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.562962962962963,
+        "accumulated_acc_3way": 0.5814814814814815
+    },
+    {
+        "cnt": 270,
+        "filename": "685_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5608856088560885,
+        "accumulated_acc_3way": 0.5793357933579336
+    },
+    {
+        "cnt": 271,
+        "filename": "686_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5588235294117647,
+        "accumulated_acc_3way": 0.5772058823529411
+    },
+    {
+        "cnt": 272,
+        "filename": "689_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5604395604395604,
+        "accumulated_acc_3way": 0.5787545787545788
+    },
+    {
+        "cnt": 273,
+        "filename": "692_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5620437956204379,
+        "accumulated_acc_3way": 0.5802919708029197
+    },
+    {
+        "cnt": 274,
+        "filename": "693_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5636363636363636,
+        "accumulated_acc_3way": 0.5818181818181818
+    },
+    {
+        "cnt": 275,
+        "filename": "694_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5652173913043478,
+        "accumulated_acc_3way": 0.5833333333333334
+    },
+    {
+        "cnt": 276,
+        "filename": "698_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5667870036101083,
+        "accumulated_acc_3way": 0.5848375451263538
+    },
+    {
+        "cnt": 277,
+        "filename": "699_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.564748201438849,
+        "accumulated_acc_3way": 0.5827338129496403
+    },
+    {
+        "cnt": 278,
+        "filename": "6_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.5627240143369175,
+        "accumulated_acc_3way": 0.5806451612903226
+    },
+    {
+        "cnt": 279,
+        "filename": "700_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5642857142857143,
+        "accumulated_acc_3way": 0.5821428571428572
+    },
+    {
+        "cnt": 280,
+        "filename": "705_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5622775800711743,
+        "accumulated_acc_3way": 0.5800711743772242
+    },
+    {
+        "cnt": 281,
+        "filename": "716_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5638297872340425,
+        "accumulated_acc_3way": 0.5815602836879432
+    },
+    {
+        "cnt": 282,
+        "filename": "717_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": ">+4%",
+        "answer": "^^^>+4%^^^",
+        "accumulated_acc_5way": 0.5618374558303887,
+        "accumulated_acc_3way": 0.5795053003533569
+    },
+    {
+        "cnt": 283,
+        "filename": "718_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5633802816901409,
+        "accumulated_acc_3way": 0.5809859154929577
+    },
+    {
+        "cnt": 284,
+        "filename": "720_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5649122807017544,
+        "accumulated_acc_3way": 0.5824561403508772
+    },
+    {
+        "cnt": 285,
+        "filename": "726_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5629370629370629,
+        "accumulated_acc_3way": 0.5804195804195804
+    },
+    {
+        "cnt": 286,
+        "filename": "727_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5644599303135889,
+        "accumulated_acc_3way": 0.5818815331010453
+    },
+    {
+        "cnt": 287,
+        "filename": "731_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5659722222222222,
+        "accumulated_acc_3way": 0.5833333333333334
+    },
+    {
+        "cnt": 288,
+        "filename": "739_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5640138408304498,
+        "accumulated_acc_3way": 0.5813148788927336
+    },
+    {
+        "cnt": 289,
+        "filename": "742_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5655172413793104,
+        "accumulated_acc_3way": 0.5827586206896552
+    },
+    {
+        "cnt": 290,
+        "filename": "75_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ -4%",
+        "answer": "^^^-2% ~ -4%^^^",
+        "accumulated_acc_5way": 0.563573883161512,
+        "accumulated_acc_3way": 0.5807560137457045
+    },
+    {
+        "cnt": 291,
+        "filename": "81_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5616438356164384,
+        "accumulated_acc_3way": 0.5787671232876712
+    },
+    {
+        "cnt": 292,
+        "filename": "82_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5631399317406144,
+        "accumulated_acc_3way": 0.5802047781569966
+    },
+    {
+        "cnt": 293,
+        "filename": "89_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5612244897959183,
+        "accumulated_acc_3way": 0.5782312925170068
+    },
+    {
+        "cnt": 294,
+        "filename": "90_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.559322033898305,
+        "accumulated_acc_3way": 0.576271186440678
+    },
+    {
+        "cnt": 295,
+        "filename": "92_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5574324324324325,
+        "accumulated_acc_3way": 0.5743243243243243
+    },
+    {
+        "cnt": 296,
+        "filename": "95_pair.json",
+        "ground_truth": "+2% ~ +4%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5555555555555556,
+        "accumulated_acc_3way": 0.5723905723905723
+    },
+    {
+        "cnt": 297,
+        "filename": "98_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5570469798657718,
+        "accumulated_acc_3way": 0.5738255033557047
+    },
+    {
+        "cnt": 298,
+        "filename": "99_pair.json",
+        "ground_truth": "-2% ~ +2%",
+        "predict": "-2% ~ +2%",
+        "answer": "^^^-2% ~ +2%^^^",
+        "accumulated_acc_5way": 0.5585284280936454,
+        "accumulated_acc_3way": 0.5752508361204013
+    },
+    {
+        "cnt": 299,
+        "filename": "9_pair.json",
+        "ground_truth": ">+4%",
+        "predict": "+2% ~ +4%",
+        "answer": "^^^+2% ~ +4%^^^",
+        "accumulated_acc_5way": 0.5566666666666666,
+        "accumulated_acc_3way": 0.5766666666666667
+    }
+]
